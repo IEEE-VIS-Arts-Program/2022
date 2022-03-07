@@ -11,7 +11,7 @@ export default function Footer() {
 					<Col><h5>Sponsors</h5></Col>
 					<Col>
 						<h5>Previous editions</h5>
-						{previousEditions.map(d=><p>{d.label}</p>)}
+						{previousEditions.map(d=><p key={d.label}>{d.label}</p>)}
 					</Col>
 				</Row>
 				<Row>

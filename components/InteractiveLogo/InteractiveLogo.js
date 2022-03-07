@@ -7,7 +7,7 @@ export default function InteractiveLogo() {
 		<Container fluid>
 			<Row>
 				<Col className="text-center">
-					<img src={logoDraft.src} className="img-fluid" />
+					<Img src={logoDraft.src} className="img-fluid" alt="" />
 				</Col>
 			</Row>
 		</Container>
