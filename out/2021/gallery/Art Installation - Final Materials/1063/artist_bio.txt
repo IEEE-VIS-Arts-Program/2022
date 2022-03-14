@@ -1,0 +1,6 @@
+Bio:
+Emily Fuhrman is a data artist based in New York. She explores critical approaches to creating beauty and meaning through information visualization. Her work focuses on the contingencies of visualization constraints, the translatability between encoding systems, and the capacities of visual language to symbolize spatial information.
+She currently works at Two Sigma, and has taught data visualization and mapping at Columbia University. Her work has been acknowledged by WIRED, Scientific American, and the Columbia University Group for Experimental Methods in Humanistic Research.
+
+Website URL: 
+https://emilyfuhrman.co/

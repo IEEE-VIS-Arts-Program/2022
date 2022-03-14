@@ -1,0 +1,341 @@
+html {
+    font-size: medium;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+body#body-gallery{
+    width: 100%;
+    height: fit-content;
+    display: block;
+    padding: 25px;
+    text-align: center;
+}
+
+#gallery {
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#body-gallery h2{
+    margin-top: 0;
+    /*font-family: "JetBrains Mono", monospace;*/
+    /*text-transform: uppercase;*/
+}
+
+.gallery-content {
+    width: 100%;
+    min-width: 300px;
+    margin: 5%;
+    padding: 10px 10px 25px 10px;
+
+    border: 6px solid white;
+    background: white;
+    box-shadow: rgba(0,0,0,0.4) 4px 4px 6px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.gallery-content:hover {
+    border: 6px solid deepskyblue;
+    cursor: pointer;
+}
+
+.gallery-button {
+    border: none;
+    outline: none;
+    background: var(--blue);
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.gallery-button:hover {
+    background: var(--pink);
+}
+
+.exhibit-title {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: normal;
+}
+
+.exhibit-desc {
+    font-size: .8em;
+    line-height: normal;
+    margin-top: 25px;
+}
+
+.exhibit-preview img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#gallery-logo {
+    width: 100%;
+}
+
+#gallery-title {
+    width: 50%;
+}
+
+#exhibit-panel {
+    background: rgba(0,0,0,1);
+    color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+
+    padding: 25px 30px 25px 20px;
+    text-align: left;
+
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+
+    transition: opacity 1s;
+}
+
+#exhibit-panel-content {
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    width: auto;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+#exhibit-image-gallery {
+    width: 100%;
+    height: 60vh;
+    min-height: 400px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+#exhibit-image-gallery img {
+    height: 90%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#exhibit-panel h1 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: x-large;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#exhibit-panel h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: x-large;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+#exhibit-authors {
+    font-size: x-large;
+}
+
+.artist-bio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.artist-bio-img {
+    width: 250px;
+    /*height: 250px;*/
+    margin-top: 5px;
+    /*border-radius: 50%;*/
+}
+
+.artist-bio-desc {
+    padding: 0 0px 0 20px;
+    text-align: left;
+}
+
+.artist-bio-name {
+    margin-top: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: x-large;
+    text-transform: capitalize;
+}
+
+#exhibit-desc {
+    margin: 25px 0 0 0;
+}
+
+#exit-exhibit-button {
+    background: rgba(255,255,255,0.6);
+    border: 3px solid white;
+    outline: none;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding: 0;
+}
+
+#exit-exhibit-button:hover {
+    background: var(--pink);
+}
+
+#exit-exhibit-button img {
+    width: 100%;
+    height: 100%;
+}
+
+#exhibit-video {
+    width: 100%;
+    text-align: center;
+
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+#exhibit-video iframe, #exhibit-video object, #exhibit-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 1024px) and (min-height: 650px) {
+    #body-gallery {
+        padding: 5px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        justify-content: space-evenly;
+        align-items: stretch;
+        text-align: left;
+    }
+
+    #gallery-logo {
+        width: 82%;
+    }
+
+    #gallery-title {
+        width: 40%;
+    }
+
+    .gallery-content {
+        width: 30%;
+        max-width: 400px;
+        margin: 10px;
+        padding: 25px;
+        float: left;
+    }
+
+    .exhibit-title {
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 1.25em;
+        line-height: normal;
+    }
+
+    #exhibit-panel {
+        padding: 50px 15%;
+    }
+
+    #exhibit-panel h1 {
+        font-size: xxx-large;
+    }
+
+    #exhibit-authors {
+        font-size: x-large;
+    }
+
+    .artist-bio {
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 50px 0;
+    }
+
+    #exit-exhibit-button {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+
+/********************************************************************************
+ * Scrollbar
+ ********************************************************************************/
+/* Custom Scroll Bar */
+.scrollable::-webkit-scrollbar {
+    width: 		12px;
+    height:     12px;
+    float: 		left;
+    position: 	absolute;
+}
+
+/* Track */
+.scrollable::-webkit-scrollbar-track {
+    -webkit-box-shadow: 	inset 0 0 6px rgba(0,0,0,0);
+    -webkit-border-radius: 	8px;
+    border-radius:			8px;
+}
+
+/* Handle */
+.scrollable::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 	8px;
+    border-radius:			8px;
+    background: 			var(--blue);
+    -webkit-box-shadow: 	inset 0 0 6px rgba(0,0,0,0);
+}
+
+.scrollable::-webkit-scrollbar-thumb:window-inactive {
+    background: 			rgba(200, 200, 200,1);
+}
