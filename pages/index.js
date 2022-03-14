@@ -1,12 +1,12 @@
 import styles from "../styles/Home.module.scss";
 import { Container, Col, Row } from "react-bootstrap";
-import visapLogo from "../images/logo-visap.png";
 import InteractiveLogo from "../components/InteractiveLogo";
-
 import classNames from "classnames";
 import GalleryHome from "../components/GalleryHome";
 import ResponsiveVideo from "../components/ResponsiveVideo";
 import PageTemplate from "../components/PageTemplate/PageTemplate";
+import Colophon from "../components/Colophon";
+import Dates from "../components/Dates";
 
 export default function Home() {
 	return (
@@ -14,21 +14,9 @@ export default function Home() {
 			<Container fluid>
 				<Row>
 					<Col md={2}>
-						<div>
-							<img className={classNames("img-fluid")} src={visapLogo.src} />
-							<h6>
-								The IEEE VIS 2022
-								<br />
-								Arts Program
-							</h6>
-							<p>
-								Hybrid (on-site and virtual)
-								<br />
-								October 16-21, 2022
-							</p>
-						</div>
+						<Colophon />
 					</Col>
-					<Col md={8}>
+					<Col md={{ span: 8, offset: 1 }}>
 						<InteractiveLogo />
 					</Col>
 				</Row>
@@ -65,10 +53,7 @@ export default function Home() {
 				<Row>
 					<Col md={{ span: 6, offset: 3 }}>
 						<h4>Important Dates</h4>
-						<p>Submissions open by early April 2022.</p>
-						<p>All submissions are due by June 2, 2022.</p>
-						<p>Notifications of acceptance will be made by July 14, 2022.</p>
-						<p>Final / Camera ready submissions are due by August 11, 2022.</p>
+						<Dates />
 					</Col>
 				</Row>
 				<Row className={""}>
