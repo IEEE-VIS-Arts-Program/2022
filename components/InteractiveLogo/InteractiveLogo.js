@@ -1,15 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./InteractiveLogo.module.scss";
-import logoDraft from "./design identity brief.pptx.png";
+import logoDraft from "../../images/lettering.png";
 
 export default function InteractiveLogo() {
 	return (
-		<Container fluid>
-			<Row>
-				<Col className="text-center">
-					<img src={logoDraft.src} className="img-fluid" alt="" />
-				</Col>
-			</Row>
-		</Container>
+		<img src={logoDraft.src} className="img-fluid" alt="" />
 	);
 }

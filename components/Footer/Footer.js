@@ -22,7 +22,7 @@ export default function Footer() {
 						<img src={logoTwitter.src} style={{ width: "2rem" }} />
 					</Col>
 					<Col>
-						<h5>Sponsors</h5>
+						{/* <h5>Sponsors</h5> */}
 					</Col>
 					<Col>
 						<h5>Previous editions</h5>
