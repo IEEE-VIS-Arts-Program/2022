@@ -1,6 +1,7 @@
 import styles from "./Header.module.scss";
 import classNames from "classnames";
 import visapLogo from "../../images/logo-visap.png";
+import Link from "next/link";
 export default function Header() {
 	return (
 		<header className={classNames("py-3", styles.header)}>
@@ -19,10 +20,19 @@ export default function Header() {
 			</div>
 			<nav>navigation</nav>
 			<div>Sponsors</div> */}
-			<div className={classNames(styles.navLink, styles.pos1)}>Home</div>
-			<div className={classNames(styles.navLink, styles.pos2)}>Call for Entries</div>
-			<div className={classNames(styles.navLink, styles.pos3)}>Submission</div>
-			<div className={classNames(styles.navLink, styles.pos4)}>Organizers</div>
+			<div className={classNames(styles.navLink, styles.pos1)}>
+				<Link href="/">Home</Link>
+			</div>
+			<div className={classNames(styles.navLink, styles.pos2)}>
+				<Link href="/call-for-entries">Call for Entries</Link>
+			</div>
+
+			<div className={classNames(styles.navLink, styles.pos4)}>
+				<Link href="/submission">Submission</Link>
+			</div>
+			<div className={classNames(styles.navLink, styles.pos3)}>
+				<Link href="/organizers">Organizers</Link>
+			</div>
 		</header>
 	);
 }

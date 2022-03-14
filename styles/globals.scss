@@ -1,1 +1,11 @@
 @import "./custom.bootstrap.scss";
+
+:root {
+  --header-thickness: 2.5rem;
+	--header-thickness-half: calc(var(--header-thickness) / 2);
+	--header-gradient: linear-gradient(
+		45deg,
+		rgba(251, 160, 191, 1) 10%,
+		rgba(0, 173, 239, 1) 94%
+	);
+}

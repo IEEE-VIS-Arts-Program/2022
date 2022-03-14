@@ -1,11 +1,30 @@
+import classNames from "classnames";
 import { Col } from "react-bootstrap";
 import styles from "./GalleryHome.module.scss";
 
 export default function GalleryHome() {
+	const images = [];
+
+	function importAll(r) {
+		r.keys().forEach((key) => {
+			images.push(r(key).default);
+		});
+	}
+
+	importAll(
+		require.context(
+			"../../images/home-gallery",
+			true,
+			/\.(png|gif|ico|jpg|jpeg)$/
+		)
+	);
+
+	console.log(images);
 	return (
-		<div>
-			<h4>Pictures</h4>
-			<div style={{display:"block", height: 300, width: 300, backgroundColor: "#111"}}></div>
+		<div className={classNames(styles.container)}>
+			{images.map((d, i) => (
+				<div key={i} className={classNames(styles.image, "mb-3")} style={{backgroundImage:`url('${d.src}')`}} />
+			))}
 		</div>
 	);
 }

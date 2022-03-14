@@ -1,11 +1,4 @@
 .header {
-	--header-thickness: 2rem;
-	--header-thickness-half: 1rem;
-	--header-gradient: linear-gradient(
-		45deg,
-		rgba(251, 160, 191, 1) 10%,
-		rgba(0, 173, 239, 1) 94%
-	);
 	background-color: var(--header-gradient);
 	border-width: var(--header-thickness);
 	border-style: solid;
@@ -33,7 +26,7 @@
 		position: absolute;
 		top: 0;
 		left: 50%;
-    transform: translateX(-50%) translateY(-100%);
+    transform: translateX(-50%) translateY(calc(-50% - var(--header-thickness-half)));
 	}
 	.pos2 {
 		position: absolute;
@@ -43,14 +36,14 @@
 	}
 	.pos3 {
 		position: absolute;
-		top: 50%;
-    right: 0px;
-    transform: translateX(calc(50% + var(--header-thickness-half))) translateY(-50%) rotate(90deg);
+		bottom: 0;
+		left: 50%;
+    transform: translateX(-50%)  translateY(calc(50% + var(--header-thickness-half)));
 	}
 	.pos4 {
 		position: absolute;
-		bottom: 0;
-		left: 50%;
-    transform: translateX(-50%) translateY(100%);
+		top: 50%;
+    right: 0px;
+    transform: translateX(calc(50% + var(--header-thickness-half))) translateY(-50%) rotate(90deg);
 	}
 }

@@ -63,7 +63,10 @@ export default function Home() {
 						</Col>
 					</Row>
 					<Row className={styles.homeGallery}>
-						<Col md={{ span: 9, offset: 3 }}>
+						<Col
+							md={{ span: 9, offset: 3 }}
+							className={classNames("pt-4", "pb-2")}
+						>
 							<GalleryHome />
 						</Col>
 					</Row>
@@ -78,9 +81,17 @@ export default function Home() {
 							</p>
 						</Col>
 					</Row>
-					<Row className={styles.homeGallery}>
+					<Row className={""}>
 						<Col md={{ span: 9, offset: 3 }}>
-							<h4>Video Reel</h4>
+							<iframe
+								width="100%"
+								height="56.25%"
+								src="https://www.youtube.com/embed/Tv1Anrwf8z4"
+								title="YouTube video player"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen
+							></iframe>
 						</Col>
 					</Row>
 				</Container>
