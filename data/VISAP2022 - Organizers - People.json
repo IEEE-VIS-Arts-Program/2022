@@ -1,0 +1,56 @@
+[
+  {
+    "Role": "General Chairs",
+    "Name": "Charles Perin",
+    "Affiliation": "University of Victoria",
+    "Website": "http://charlesperin.net/"
+  },
+  {
+    "Role": "General Chairs",
+    "Name": "Uta Hinrichs",
+    "Affiliation": "University of Edinburgh",
+    "Website": "http://www.utahinrichs.de"
+  },
+  {
+    "Role": "Exhibition chairs",
+    "Name": "Rebecca Ruige Xu",
+    "Affiliation": "Syracuse University",
+    "Website": "http://rebeccaxu.com"
+  },
+  {
+    "Role": "Exhibition chairs",
+    "Name": "Peter Froslie",
+    "Affiliation": "University of Oklahoma",
+    "Website": "https://froslie.net/"
+  },
+  {
+    "Role": "Design Chairs",
+    "Name": "Bon Adriel Aseniero",
+    "Affiliation": "Autodesk",
+    "Website": "http://bonadriel.com"
+  },
+  {
+    "Role": "Design Chairs",
+    "Name": "Tommaso Elli",
+    "Affiliation": "DensityDesign, Politecnico di Milano",
+    "Website": "https://densitydesign.org/person/tommaso-elli/ "
+  },
+  {
+    "Role": "Steering committee",
+    "Name": "Till Nagel",
+    "Affiliation": "Mannheim University of Applied Sciences",
+    "Website": "http://tillnagel.com "
+  },
+  {
+    "Role": "Steering committee",
+    "Name": "Maria Lantin",
+    "Affiliation": "Emily Carr University Art + Design",
+    "Website": "http://marialantin.com "
+  },
+  {
+    "Role": "Steering committee",
+    "Name": "Yoon Chung Han",
+    "Affiliation": "San Jose State University",
+    "Website": "http://yoonchunghan.com"
+  }
+]

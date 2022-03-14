@@ -19,11 +19,14 @@ export default function GalleryHome() {
 		)
 	);
 
-	console.log(images);
 	return (
 		<div className={classNames(styles.container)}>
 			{images.map((d, i) => (
-				<div key={i} className={classNames(styles.image, "mb-3")} style={{backgroundImage:`url('${d.src}')`}} />
+				<div
+					key={i}
+					className={classNames(styles.image, "mb-3")}
+					style={{ backgroundImage: `url('${d.src}')` }}
+				/>
 			))}
 		</div>
 	);
