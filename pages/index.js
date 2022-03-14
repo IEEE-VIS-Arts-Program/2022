@@ -7,6 +7,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import classNames from "classnames";
 import GalleryHome from "../components/GalleryHome";
+import ReactPlayer from "react-player";
+import ResponsiveVideo from "../components/ResponsiveVideo/ResponsiveVideo";
 
 export default function Home() {
 	return (
@@ -82,16 +84,8 @@ export default function Home() {
 						</Col>
 					</Row>
 					<Row className={""}>
-						<Col md={{ span: 9, offset: 3 }}>
-							<iframe
-								width="100%"
-								height="56.25%"
-								src="https://www.youtube.com/embed/Tv1Anrwf8z4"
-								title="YouTube video player"
-								frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen
-							></iframe>
+						<Col md={{ span: 6, offset: 3 }} className={classNames("py-4")}>
+							<ResponsiveVideo url="https://www.youtube.com/watch?v=Tv1Anrwf8z4"/>
 						</Col>
 					</Row>
 				</Container>
