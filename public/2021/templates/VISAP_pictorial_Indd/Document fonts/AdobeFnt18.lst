@@ -1,0 +1,137 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Neuton-Bold
+FamilyName:Neuton
+StyleName:Bold
+MenuName:Neuton
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Neuton Bold
+WritingScript:Roman
+OutlineFileName:\Neuton-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:60344
+FileModTime:1297206000
+NameArray:0,Mac,4,Neuton Bold
+NameArray:0,Win,1,Neuton
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Neuton-ExtraLight
+FamilyName:Neuton
+StyleName:ExtraLight
+MenuName:Neuton ExtraLight
+StyleBits:0
+WeightClass:275
+WidthClass:5
+AngleClass:0
+FullName:Neuton ExtraLight
+WritingScript:Roman
+OutlineFileName:\Neuton-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:53996
+FileModTime:1297206000
+NameArray:0,Mac,4,Neuton ExtraLight
+NameArray:0,Win,1,Neuton ExtraLight
+NameArray:0,Win,16,Neuton
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Neuton-Light
+FamilyName:Neuton
+StyleName:Light
+MenuName:Neuton Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Neuton Light
+WritingScript:Roman
+OutlineFileName:\Neuton-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:54056
+FileModTime:1297206000
+NameArray:0,Mac,4,Neuton Light
+NameArray:0,Win,1,Neuton Light
+NameArray:0,Win,16,Neuton
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Neuton-Regular
+FamilyName:Neuton
+StyleName:Regular
+MenuName:Neuton
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Neuton Regular
+WritingScript:Roman
+OutlineFileName:\Neuton-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:64628
+FileModTime:1297206000
+NameArray:0,Mac,4,Neuton Regular
+NameArray:0,Win,1,Neuton
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Verdana-Bold
+FamilyName:Verdana
+StyleName:Bold
+MenuName:Verdana
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Verdana Bold
+WritingScript:Roman
+OutlineFileName:\Verdana Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:156340
+FileModTime:1276245808
+NameArray:0,Mac,4,Verdana Bold
+NameArray:0,Win,1,Verdana
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Verdana
+FamilyName:Verdana
+StyleName:Regular
+MenuName:Verdana
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Verdana
+WritingScript:Roman
+OutlineFileName:\Verdana.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:189144
+FileModTime:1276245808
+NameArray:0,Mac,4,Verdana
+NameArray:0,Win,1,Verdana
+%EndFont
+
