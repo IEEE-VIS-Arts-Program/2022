@@ -13,7 +13,7 @@ export default function Footer() {
 		<Container className={classNames(styles.footer, "py-4")} fluid>
 			<Container>
 				<Row>
-					<Col>
+					<Col md={3}>
 						<img src={logoVisap.src} className={classNames("mb-3")} />
 						<p>The IEEEVIS 2022 Art Program</p>
 						<p>Dates October 2022</p>
@@ -21,21 +21,29 @@ export default function Footer() {
 						<img src={logoVis.src} style={{ width: "2rem" }} />
 						<img src={logoTwitter.src} style={{ width: "2rem" }} />
 					</Col>
-					<Col>
-						{/* <h5>Sponsors</h5> */}
+					<Col md={6}>
+						<h4 className={classNames("mb-3", "text-gradient")}>Sponsors</h4>
+						<p>TBA</p>
 					</Col>
-					<Col>
-						<h5>Previous editions</h5>
-						{previousEditions.map((d) => (
-							<a key={d.label} href={d.url}>
-								<p>{d.label}</p>
-							</a>
-						))}
+					<Col md={3}>
+						<h4 className={classNames("mb-3", "text-gradient")}>
+							Previous editions
+						</h4>
+						<p>
+							{previousEditions.map((d, i) => (
+								<>
+									<a key={d.label} href={d.url} className={classNames("")}>
+										{d.label}
+									</a>
+									{i < previousEditions.length - 1 && <>, </>}
+								</>
+							))}
+						</p>
 					</Col>
 				</Row>
-				<Row>
+				{/* <Row>
 					<Col className="text-center">IEEE VIS – VISAP2022</Col>
-				</Row>
+				</Row> */}
 			</Container>
 		</Container>
 	);

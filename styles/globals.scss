@@ -1,11 +1,76 @@
 @import "./custom.bootstrap.scss";
 
 :root {
-  --header-thickness: 2.5rem;
+	--header-thickness: 2.5rem;
 	--header-thickness-half: calc(var(--header-thickness) / 2);
 	--header-gradient: linear-gradient(
 		135deg,
 		rgba(251, 160, 191, 1) 10%,
 		rgba(0, 173, 239, 1) 94%
 	);
+	--text-gradient: linear-gradient(
+		-6deg,
+		rgba(251, 160, 191, 1) 18%,
+		rgba(0, 173, 239, 1) 100%
+	);
+}
+
+body {
+	font-family: "EB Garamond", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+	display: inline-block;
+	margin-bottom: 0.5rem;
+}
+
+h1 {
+	font-size: 3.5rem;
+}
+
+h6 {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	margin-bottom: 0rem;
+}
+
+.text-gradient {
+	background: var(--text-gradient);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+}
+
+a {
+	color: #00adef;
+	text-decoration: none;
+	font-family: "Inter", sans-serif;
+	font-size: 1.065rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 0.2px;
+	&:hover {
+		background: var(--text-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
+
+p {
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
+}
+
+ul {
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
 }

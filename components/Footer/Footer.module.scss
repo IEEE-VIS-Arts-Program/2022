@@ -1,4 +1,12 @@
 .footer {
 	background-color: var(--bs-dark);
 	color: var(--bs-light);
+
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+
+	:global a {
+		color: var(--bs-light);
+		// font-style: italic;
+	}
 }

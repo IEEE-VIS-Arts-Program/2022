@@ -1,3 +1,11 @@
 .windowFrame {
 	margin: var(--header-thickness);
 }
+
+.pageTitle {
+	// height: 21.5vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+}

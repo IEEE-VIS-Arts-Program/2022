@@ -2,6 +2,9 @@ import Head from "next/head";
 import Header from "../Header";
 import Footer from "../Footer";
 import styles from "./PageTemplate.module.scss";
+import { Container, Row, Col } from "react-bootstrap";
+import Colophon from "../Colophon";
+import classNames from "classnames";
 
 export default function PageTemplate({ metaTitle, metaContent, children }) {
 	return (
@@ -13,6 +16,21 @@ export default function PageTemplate({ metaTitle, metaContent, children }) {
 			</Head>
 			<Header />
 			<div className={styles.windowFrame}>
+				<Container fluid>
+					<Row>
+						<Col md={3}>
+							<Colophon />
+						</Col>
+						<Col
+							md={{ span: 6, offset: 0 }}
+							className={classNames(styles.pageTitle)}
+						>
+							{metaTitle && (
+								<h1 className={classNames("text-gradient")}>{metaTitle}</h1>
+							)}
+						</Col>
+					</Row>
+				</Container>
 				{children}
 				<Footer />
 			</div>
@@ -21,6 +39,5 @@ export default function PageTemplate({ metaTitle, metaContent, children }) {
 }
 
 PageTemplate.defaultProps = {
-	metaTitle: "VISAP22",
 	metaContent: "The IEEE VIS Art Program forum.",
 };

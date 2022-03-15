@@ -10,13 +10,13 @@ import Dates from "../components/Dates";
 
 export default function Home() {
 	return (
-		<PageTemplate>
+		<PageTemplate  metaTitle={false}>
 			<Container fluid>
 				<Row>
-					<Col md={2}>
+					<Col md={3}>
 						<Colophon />
 					</Col>
-					<Col md={{ span: 8, offset: 1 }}>
+					<Col md={{ span: 6, offset: 0 }}>
 						<InteractiveLogo />
 					</Col>
 				</Row>

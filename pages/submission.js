@@ -3,21 +3,15 @@ import { Col, Container, Row } from "react-bootstrap";
 import PageTemplate from "../components/PageTemplate/PageTemplate";
 import Colophon from "../components/Colophon";
 import Dates from "../components/Dates";
+import classNames from "classnames";
 
 export default function Submission() {
 	return (
-		<PageTemplate metaTitle="Submission Instructions | VISAP22">
+		<PageTemplate metaTitle="Submission">
 			<Container fluid>
 				<Row>
-					<Col md={2}>
-						<Colophon />
-					</Col>
-					<Col md={{ span: 6, offset: 1 }}>
-						<h1>Submission Instructions</h1>
-					</Col>
-				</Row>
-				<Row>
 					<Col md={{ span: 6, offset: 3 }}>
+						
 						<h3>Dates</h3>
 						<Dates />
 						<h3>Paper Submissions</h3>
@@ -32,8 +26,8 @@ export default function Submission() {
 							way to art or design and that would be of interest to the
 							communities participating in IEEE VIS 2022.
 						</p>
-						<h5>Example topics</h5>
-						<p>Topics may include, but are not limited to the following:</p>
+						<h6>Example topics</h6>
+						<p className={classNames("mb-2")}>Topics may include, but are not limited to the following:</p>
 						<ul>
 							<li>critical visualization</li>
 							<li>
@@ -60,7 +54,7 @@ export default function Submission() {
 							<li>aesthetics of experiment</li>
 							<li>aesthetics of interpretation</li>
 						</ul>
-						<h5>Paper Format</h5>
+						<h6>Paper Format</h6>
 						<p>
 							Authors are required to use the{" "}
 							<a href="https://tc.computer.org/vgtc/publications/conference/">
@@ -85,7 +79,7 @@ export default function Submission() {
 							Submitting supplementary material and/or links to external
 							material is encouraged to help reviewers evaluate the submission.
 						</p>
-						<h5>Acceptance</h5>
+						<h6>Acceptance</h6>
 						<p>
 							Accepted authors will present their work in one of the two VISAP
 							Papers sessions - virtually or in-person - during the conference.
@@ -93,7 +87,7 @@ export default function Submission() {
 							Arts Program proceedings, and indexed in the IEEE Xplore digital
 							library.
 						</p>
-						<h5>Previous VISAP Papers</h5>
+						<h6>Previous VISAP Papers</h6>
 						<p>
 							Please see the online proceedings from previous years (
 							<a href="https://ieeexplore.ieee.org/xpl/conhome/9622893/proceeding">
@@ -138,15 +132,15 @@ export default function Submission() {
 							communicate the visualization practices in rich, heavily visual
 							ways.
 						</p>
-						<h5>What to consider</h5>
-						<p>Elements that reviewers will look for include:</p>
+						<h6>What to consider</h6>
+						<p className={classNames("mb-2")}>Elements that reviewers will look for include:</p>
 						<ul>
 							<li>The appropriateness and richness of the visual style</li>
 							<li>The quality of presentation</li>
 							<li>The production value of images, photos and diagrams</li>
 						</ul>
-						<h5>Example Topics</h5>
-						<p>Projects could involve any of the following:</p>
+						<h6>Example Topics</h6>
+						<p className={classNames("mb-2")}>Projects could involve any of the following:</p>
 						<ul>
 							<li>visualization that emphasizes aesthetics</li>
 							<li>visualization that encourages creative interaction</li>
@@ -167,14 +161,14 @@ export default function Submission() {
 							<li>conversation theory</li>
 							<li>digital humanities visualization</li>
 						</ul>
-						<h5>What we mean by Pictorial and Annotated Portfolio</h5>
+						<h6>What we mean by Pictorial and Annotated Portfolio</h6>
 						<p>
 							A pictorial is a visual description and reflection of the design
 							process of a single visualization project. It is intended to
 							capture the situated and rich nature of design. See{" "}
 							<a href="https://dis.acm.org/2020/pictorials.html">
 								DIS Pictorials
-							</a>
+							</a>{" "}
 							for inspiration.
 						</p>
 						<p>
@@ -186,13 +180,13 @@ export default function Submission() {
 							features, discuss how ideas were developed, and reflect on
 							recurring topics through their series of works.
 						</p>
-						<h5>Format (pictorials)</h5>
+						<h6>Format (pictorials)</h6>
 						<p>
 							Artists and designers are required to use the VISAP Pictorials
 							format for pictorial and annotated portfolio submissions.{" "}
 							<a href="https://visap.net/templates/VISAP_pictorial_Indd.zip">
-								InDesign{" "}
-							</a>
+								InDesign
+							</a>{" "}
 							and{" "}
 							<a href="https://visap.net/templates/VISAP_pictorial_Word.zip">
 								Word
@@ -208,7 +202,7 @@ export default function Submission() {
 							Submitting supplementary material and/or links to external
 							material is encouraged to help reviewers evaluate the submission.
 						</p>
-						<h5>Previous accepted work</h5>
+						<h6>Previous accepted work</h6>
 						<p>
 							Please see the five pictorials (
 							<a href="http://visap.net/2018/media/Cruz-VISAP18-AP.pdf">1</a>,{" "}
@@ -225,7 +219,7 @@ export default function Submission() {
 							three pictorials (
 							<a href="https://visap.net/media/Offenhuber-VISAP19.pdf">1</a>,{" "}
 							<a href="https://visap.net/media/Richardson-VISAP19.pdf">2</a>,{" "}
-							<a href="https://visap.net/media/Samsel-VISAP19.pdf">3</a>) in the
+							<a href="https://visap.net/media/Samsel-VISAP19.pdf">3</a>) in the{" "}
 							<a href="https://visap.net/2019/index.html">2019 program</a>, the
 							two pictorials (
 							<a href="https://visap.net/media/vis20m-sub1033-cam-i7.pdf">1</a>{" "}
@@ -242,7 +236,7 @@ export default function Submission() {
 							the <a href="https://visap.net/2021/program.html">2021 program</a>
 							.
 						</p>
-						<h5>Acceptance</h5>
+						<h6>Acceptance</h6>
 						<p>
 							All accepted Pictorials will be published online in the IEEE VIS
 							2022 Arts Program proceedings, and indexed in the IEEE Xplore
@@ -262,7 +256,7 @@ export default function Submission() {
 							physicalizations, video game art, digital prints, screen-based
 							art, fixed audio-visual pieces, etc.
 						</p>
-						<h5>What to include in the proposal</h5>
+						<h6>What to include in the proposal</h6>
 						<p>
 							While the proposal is free-form, the following information must be
 							included (consider structuring your proposal based on these
@@ -298,7 +292,7 @@ export default function Submission() {
 								help give the reviewers a clear sense of your work
 							</li>
 						</ol>
-						<h5>Example topics</h5>
+						<h6>Example topics</h6>
 						<p>Artworks could involve any of the following:</p>
 						<ol>
 							<li>
@@ -326,7 +320,7 @@ export default function Submission() {
 							<li>digital humanities visualization</li>
 							<li>physical visualization and sculptural design</li>
 						</ol>
-						<h5>Format (exhibition)</h5>
+						<h6>Format (exhibition)</h6>
 						<p>
 							Artists and designers are required to submit a 2 page .pdf file
 							describing the work they wish to exhibit. No specific format is
@@ -337,7 +331,7 @@ export default function Submission() {
 							supplementary material is strongly encouraged to help reviewers
 							evaluate the submission.
 						</p>
-						<h5>Previous accepted work</h5>
+						<h6>Previous accepted work</h6>
 						<p>
 							Please see the{" "}
 							<a href="https://visap.net/media/VISAP21-Catalogue.pdf">
@@ -380,7 +374,7 @@ export default function Submission() {
 							to contact the chairs if you have questions about whether or not
 							your work is an appropriate submission to VISAP.
 						</p>
-						<h5>Acceptance</h5>
+						<h6>Acceptance</h6>
 						<p>
 							All accepted work will be included in the online proceedings of
 							VISAP on the visap.net website, as well as in a catalog that will

@@ -5,16 +5,8 @@ import Colophon from "../components/Colophon";
 
 export default function Submission() {
 	return (
-		<PageTemplate metaTitle="Call for Entries | VISAP22">
+		<PageTemplate metaTitle="Call for Entries">
 			<Container fluid>
-				<Row>
-					<Col md={2}>
-						<Colophon />
-					</Col>
-					<Col md={{ span: 6, offset: 1 }}>
-						<h1>Call for Entries</h1>
-					</Col>
-				</Row>
 				<Row>
 					<Col md={{ span: 6, offset: 3 }}>
 						<h3>The program</h3>

@@ -21,29 +21,42 @@
 		justify-content: center;
 		align-items: center;
 		pointer-events: all;
+		transition: all 0.35s ease;
+		background: none;
+		-webkit-background-clip: initial;
+		-webkit-text-fill-color: initial;
+		&:hover {
+			color: var(--bs-light);
+
+			letter-spacing: 4px;
+		}
 	}
 	.pos1 {
 		position: absolute;
 		top: 0;
 		left: 50%;
-    transform: translateX(-50%) translateY(calc(-50% - var(--header-thickness-half)));
+		transform: translateX(-50%)
+			translateY(calc(-50% - var(--header-thickness-half)));
 	}
 	.pos2 {
 		position: absolute;
 		top: 50%;
-    left: 0px;
-    transform: translateX(calc(-50% - var(--header-thickness-half))) translateY(-50%) rotate(-90deg);
+		left: 0px;
+		transform: translateX(calc(-50% - var(--header-thickness-half)))
+			translateY(-50%) rotate(-90deg);
 	}
 	.pos3 {
 		position: absolute;
 		bottom: 0;
 		left: 50%;
-    transform: translateX(-50%)  translateY(calc(50% + var(--header-thickness-half)));
+		transform: translateX(-50%)
+			translateY(calc(50% + var(--header-thickness-half)));
 	}
 	.pos4 {
 		position: absolute;
 		top: 50%;
-    right: 0px;
-    transform: translateX(calc(50% + var(--header-thickness-half))) translateY(-50%) rotate(90deg);
+		right: 0px;
+		transform: translateX(calc(50% + var(--header-thickness-half)))
+			translateY(-50%) rotate(90deg);
 	}
 }

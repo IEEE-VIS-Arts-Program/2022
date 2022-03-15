@@ -4,13 +4,13 @@ import visapLogo from "../../images/logo-visap.png";
 
 export default function Colophon() {
 	return (
-		<div>
-			<img className={classNames("img-fluid")} src={visapLogo.src} />
-			<h6>
+		<div className={classNames(styles.colophon, "mt-4", "ms-3")}>
+			<img className={classNames(styles.logo)} src={visapLogo.src} />
+			<p>
 				The IEEE VIS 2022
 				<br />
 				Arts Program
-			</h6>
+			</p>
 			<p>
 				Hybrid (on-site and virtual)
 				<br />

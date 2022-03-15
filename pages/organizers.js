@@ -12,16 +12,8 @@ export default function Organizers() {
 		setOrganizers(organizedOrganizers);
 	}, []);
 	return (
-		<PageTemplate metaTitle="Organizers | VISAP22">
+		<PageTemplate metaTitle="Organizers">
 			<Container fluid>
-				<Row>
-					<Col md={2}>
-						<Colophon />
-					</Col>
-					<Col md={{ span: 6, offset: 1 }}>
-						<h1>Organizers</h1>
-					</Col>
-				</Row>
 				<Row>
 					<Col md={{ span: 6, offset: 3 }}>
 						{organizers.map((role, i) => (
