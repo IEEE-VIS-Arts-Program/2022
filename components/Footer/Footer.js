@@ -14,12 +14,12 @@ export default function Footer() {
 			<Container>
 				<Row>
 					<Col md={3}>
-						<img src={logoVisap.src} className={classNames("mb-3")} />
+						<img src={logoVisap.src} className={classNames("mb-3")} alt="VISAP22 logo" />
 						<p>The IEEEVIS 2022 Art Program</p>
 						<p>Dates October 2022</p>
 						<p>Hybrid format</p>
-						<img src={logoVis.src} style={{ width: "2rem" }} />
-						<img src={logoTwitter.src} style={{ width: "2rem" }} />
+						<img src={logoVis.src} style={{ width: "2rem" }} alt="IEEE VIS logo" />
+						<img src={logoTwitter.src} style={{ width: "2rem" }} alt="Twitter logo" />
 					</Col>
 					<Col md={6}>
 						<h4 className={classNames("mb-3", "text-gradient")}>Sponsors</h4>
