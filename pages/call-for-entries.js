@@ -6,34 +6,6 @@ export default function Submission() {
 	return (
 		<PageTemplate metaTitle="Call for Entries">
 			<h1 className={classNames("text-gradient")}>Call for Entries</h1>
-			<h3>The program</h3>
-			<p>
-				The VIS Arts Program (VISAP) is a mini-conference and exhibition where
-				visualization researchers, designers, and artists come together to
-				showcase and discuss works at the intersection of data visualization,
-				art and design. It is the biggest associated event in the{" "}
-				<a href="http://ieeevis.org/year/2022/welcome">IEEE VIS conference</a>,
-				and its main goal is to foster new thinking, discussion, and
-				collaboration across and between fields of research and practice.
-			</p>
-			<p>
-				VISAP welcomes a wide range of submissions, including interactive
-				artworks, design projects, novel visualization tools and applications,
-				art-science or artist-in-lab projects, critical interpretations and
-				evaluations of data visualizations, and philosophical meditations on the
-				intersections between art and research. These can either be submitted to
-				a paper track, or to an exhibition track (see details below).
-			</p>
-			<p>
-				VISAP will take place in hybrid form this year. Accepted works to the
-				paper and exhibition track can be presented either virtually or
-				in-person.
-			</p>
-			<p>
-				Accepted works will be published on the official VISAP website and in a
-				dedicated exhibition catalogue. Papers and pictorials will be indexed in
-				the IEEE Xplore digital library.
-			</p>
 			<h3>The Theme</h3>
 			<p>
 				The theme for VISAP’22 is “mingling spaces”. For 10 years the VIS Arts
@@ -73,7 +45,7 @@ export default function Submission() {
 				spaces bridge physical, disciplinary, conceptual and ideological
 				boundaries?
 			</p>
-			<h3>Submission details</h3>
+			<h3>Submission Details</h3>
 			<p className={classNames("mb-2")}>Submissions can either be made to:</p>
 			<ol>
 				<li>
@@ -98,9 +70,10 @@ export default function Submission() {
 				<a href="https://new.precisionconference.com/vgtc">
 					Precision Conference System (PCS)
 				</a>
-				. Read the <Link href="/submission">Submission Instructions</Link> for
-				details.
+				.
 			</p>
+			<p>Go the <Link href="/submission">Submission Instructions</Link> for
+				further details.</p>
 			<p>
 				Note: VISAP aims to foster discussions of the relationships between the
 				design process and the final artifact. We encourage all artists and

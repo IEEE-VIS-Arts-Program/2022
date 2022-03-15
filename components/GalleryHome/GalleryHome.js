@@ -32,7 +32,7 @@ export default function GalleryHome({ classNameProp }) {
 				className={classNames(styles.image)}
 				style={{ position: "relative" }}
 			>
-				<div style={{ position: "absolute" }}>
+				<div className={classNames(styles.creditsBox)}>
 					<p className={classNames(styles.credits, "mb-0")}>
 						[1] FaceType: Expressing Our Spoken Expression (Kevin Maher, Fan
 						Xiang, Liang Zhi)

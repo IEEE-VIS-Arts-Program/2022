@@ -98,7 +98,7 @@ export default function Submission() {
 				accepted submissions. (Selected VISAP papers have also been featured in
 				IEEE Computer Graphics and Applications and Leonardo).
 			</p>
-			<h3>Pictorials instructions</h3>
+			<h3>Pictorials Instructions</h3>
 			<p>
 				We invite artists and designers to submit pictorials and annotated
 				portfolios related to the theme <i>Mingling Spaces</i>.
@@ -225,7 +225,7 @@ export default function Submission() {
 				present their work - virtual or in-person - in one of the VISAP Papers
 				sessions during the conference.
 			</p>
-			<h3>Exhibition instructions</h3>
+			<h3>Exhibition Instructions</h3>
 			<p>
 				We invite artists and designers to submit data-driven artworks related
 				to the theme <i>Mingling Spaces</i>. We welcome submissions in any

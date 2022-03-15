@@ -27,6 +27,8 @@ export default function Organizers() {
 					))}
 				</div>
 			))}
+			<h5>Program Committee</h5>
+			<p>TBA</p>
 		</PageTemplate>
 	);
 }
