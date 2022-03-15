@@ -24,11 +24,12 @@ export default function PageTemplate({ metaTitle, metaContent, children }) {
 							md={{ span: 10, offset: 1 }}
 							lg={{ span: 3, offset: 0 }}
 							xl={{ span: 3, offset: 0 }}
-							className={classNames("Xd-none", "Xd-lg-block")}
+							className={classNames("")}
 						>
 							<div
-								className={classNames("Xpt-4", "Xps-3", "sticky-top")}
+								className={classNames("sticky-top")}
 								style={{ top: "calc(var(--header-thickness) + 1rem)" }}
+								id="colophon-container"
 							>
 								<Colophon />
 							</div>
