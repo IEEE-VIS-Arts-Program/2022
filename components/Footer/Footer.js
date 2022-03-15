@@ -31,12 +31,12 @@ export default function Footer() {
 						</h4>
 						<p>
 							{previousEditions.map((d, i) => (
-								<>
-									<a key={d.label} href={d.url} className={classNames("")}>
+								<span key={d.label}>
+									<a href={d.url} className={classNames("")}>
 										{d.label}
 									</a>
 									{i < previousEditions.length - 1 && <>, </>}
-								</>
+								</span>
 							))}
 						</p>
 					</Col>
