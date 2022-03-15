@@ -27,10 +27,13 @@ export default function Home() {
 				with this experiment, we invite submissions that explore, re-interpret,
 				speculate and reflect on the idea of mingling spaces.
 			</p>
-			<GalleryHome />
-			<h4>Important Dates</h4>
+			<h4 className={classNames("mt-5")}>Important Dates</h4>
 			<Dates />
-			<ResponsiveVideo classNameProp="" url="https://www.youtube.com/watch?v=Tv1Anrwf8z4" />
+			<h4 className={classNames("mt-5")}>From VISAP'21</h4>
+			<h6 className={classNames("mt-5")}>Exhibition</h6>
+			<GalleryHome classNameProp="mt-3" />
+			<h6 className={classNames("mt-5")}>Fast Forwards</h6>
+			<ResponsiveVideo classNameProp="mt-3" url="https://www.youtube.com/watch?v=Tv1Anrwf8z4" />
 		</PageTemplate>
 	);
 }

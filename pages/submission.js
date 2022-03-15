@@ -93,7 +93,7 @@ export default function Submission() {
 				<a href="http://visap.uic.edu/2017/papers.html">2017</a>,{" "}
 				<a href="http://visap.uic.edu/2016/papers.html">2016</a>,{" "}
 				<a href="http://visap.uic.edu/2015/papers.html">2015</a>,{" "}
-				<a href="http://visap.uic.edu/2014/program.html#papers">2014</a>,
+				<a href="http://visap.uic.edu/2014/program.html#papers">2014</a>,{" "}
 				<a href="http://visap.uic.edu/2013/#program">2013</a>) for examples of
 				accepted submissions. (Selected VISAP papers have also been featured in
 				IEEE Computer Graphics and Applications and Leonardo).
@@ -134,22 +134,22 @@ export default function Submission() {
 				Projects could involve any of the following:
 			</p>
 			<ul>
-				<li>visualization that emphasizes aesthetics</li>
-				<li>visualization that encourages creative interaction</li>
-				<li>speculative visualizations</li>
-				<li>visualization as tactical media</li>
-				<li>new data paradigms</li>
-				<li>live coding and streaming data</li>
-				<li>complex systems</li>
-				<li>exploratory data semantics</li>
+				<li>Visualization that emphasizes aesthetics</li>
+				<li>Visualization that encourages creative interaction</li>
+				<li>Speculative visualizations</li>
+				<li>Visualization as tactical media</li>
+				<li>New data paradigms</li>
+				<li>Live coding and streaming data</li>
+				<li>Complex systems</li>
+				<li>Exploratory data semantics</li>
 				<li>3D visualization, VR environments, and immersive analytics</li>
-				<li>computational photography</li>
-				<li>ambient information displays</li>
-				<li>visualization as storytelling</li>
-				<li>design studies</li>
-				<li>data sonification</li>
-				<li>conversation theory</li>
-				<li>digital humanities visualization</li>
+				<li>Computational photography</li>
+				<li>Ambient information displays</li>
+				<li>Visualization as storytelling</li>
+				<li>Design studies</li>
+				<li>Data sonification</li>
+				<li>Conversation theory</li>
+				<li>Digital humanities visualization</li>
 			</ul>
 			<h6>What we mean by Pictorial and Annotated Portfolio</h6>
 			<p>
@@ -271,29 +271,29 @@ export default function Submission() {
 			<p className={classNames("mb-2")}>Artworks could involve any of the following:</p>
 			<ol>
 				<li>
-					visualization that emphasizes visual and performative aesthetics
+					Visualization that emphasizes visual and performative aesthetics
 				</li>
 				<li>
-					visualization that encourages creative and/or collaborative
+					Visualization that encourages creative and/or collaborative
 					interactions
 				</li>
-				<li>speculative visualizations</li>
-				<li>visualization as tactical media</li>
-				<li>new data paradigms</li>
-				<li>live coding and streaming data</li>
-				<li>complex systems</li>
-				<li>exploratory data semantics</li>
+				<li>Speculative visualizations</li>
+				<li>Visualization as tactical media</li>
+				<li>New data paradigms</li>
+				<li>Live coding and streaming data</li>
+				<li>Complex systems</li>
+				<li>Exploratory data semantics</li>
 				<li>
 					3D visualization, VR/AR/XR environments, and immersive analytics
 				</li>
-				<li>computational photography</li>
-				<li>ambient information displays</li>
-				<li>visualization as storytelling</li>
-				<li>design studies</li>
-				<li>data sonification</li>
-				<li>conversation theory</li>
-				<li>digital humanities visualization</li>
-				<li>physical visualization and sculptural design</li>
+				<li>Computational photography</li>
+				<li>Ambient information displays</li>
+				<li>Visualization as storytelling</li>
+				<li>Design studies</li>
+				<li>Data sonification</li>
+				<li>Conversation theory</li>
+				<li>Digital humanities visualization</li>
+				<li>Physical visualization and sculptural design</li>
 			</ol>
 			<h6>Format (exhibition)</h6>
 			<p>
@@ -375,9 +375,9 @@ export default function Submission() {
 				will find the VISAP’22 Papers and Exhibition submissions by:
 			</p>
 			<ol>
-				<li>clicking on the “Submissions” tab</li>
-				<li>selecting the VIS 2022 conference, and</li>
-				<li>selecting “VIS 2022 VISAP”, and finally clicking on “Go”</li>
+				<li>Clicking on the “Submissions” tab</li>
+				<li>Selecting the VIS 2022 conference, and</li>
+				<li>Selecting “VIS 2022 VISAP”, and finally clicking on “Go”</li>
 			</ol>
 			<p>The submission system opens in April.</p>
 			<p>

@@ -13,3 +13,10 @@
 	background-size: cover;
 	background-position: center;
 }
+
+.credits {
+	font-size: 0.75rem;
+	:global a {
+		font-size: 0.75rem;
+	}
+}

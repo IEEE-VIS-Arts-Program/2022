@@ -1,12 +1,20 @@
 .footer {
 	background-color: var(--bs-dark);
 	color: var(--bs-light);
-
 	font-family: "Inter", sans-serif;
 	font-weight: 400;
-
+	:global p {
+		font-size: 0.9rem;
+	}
 	:global a {
 		color: var(--bs-light);
-		// font-style: italic;
+		font-size: 0.9rem;
+	}
+	.logo {
+		width: 200px;
+		margin-bottom: 1rem;
+	}
+	.colophon {
+		color: red;
 	}
 }

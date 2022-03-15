@@ -19,7 +19,9 @@ export default function PageTemplate({ metaTitle, metaContent, children }) {
 				<Container fluid>
 					<Row>
 						<Col md={3}>
-							<Colophon />
+							<div className={classNames("pt-4", "ps-3", "sticky-top")} style={{top:'3.5rem'}}>
+								<Colophon />
+							</div>
 						</Col>
 						<Col
 							md={{ span: 6, offset: 0 }}

@@ -1,11 +1,13 @@
 import styles from "./Colophon.module.scss";
 import classNames from "classnames";
 import visapLogo from "../../images/logo-visap.png";
+import visapLogoLight from "../../images/logo-white.svg";
 
-export default function Colophon() {
+export default function Colophon({lightVariant}) {
 	return (
-		<div className={classNames(styles.colophon, "pt-4", "ps-3", "sticky-top")} style={{top:"var(--header-thickness)"}}>
-			<img className={classNames(styles.logo)} src={visapLogo.src} alt="VISAP22 logo" />
+		<div className={classNames(styles.colophon)}>
+			{!lightVariant && <img className={classNames(styles.logo)} src={visapLogo.src} alt="VISAP22 logo" />}
+			{lightVariant && <img className={classNames(styles.logo)} src={visapLogoLight.src} alt="VISAP22 logo" />}
 			<p>
 				The IEEE VIS 2022
 				<br />
