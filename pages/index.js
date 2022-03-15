@@ -13,15 +13,13 @@ export default function Home() {
 		<PageTemplate metaTitle={false}>
 			<InteractiveLogo />
 			<h4>
-				The theme for VISAP’22
-				<br />
-				is “mingling spaces.”
+				The theme for VISAP’22 is “<span className={classNames("text-gradient")}>mingling spaces</span>”.
 			</h4>
 			<p>
 				For 10 years the VIS Arts Program, and before this the VIS Arts Show,
 				have represented a mingling space, a space “to bring or mix together or
 				with something else, usually without fundamental loss of identity”
-				[Merriam-Webster]. VISAP’22 will take place in a hybrid format, and we
+				[Merriam-Webster].<br/>VISAP’22 will take place in a hybrid format, and we
 				will therefore experiment with different forms of mingling, attempting
 				to bridge and mix not only disciplines, methodologies and techniques but
 				also the virtual and the physical, the immaterial and the material;
@@ -32,7 +30,7 @@ export default function Home() {
 			<GalleryHome />
 			<h4>Important Dates</h4>
 			<Dates />
-			<ResponsiveVideo classNameProp="mb-5" url="https://www.youtube.com/watch?v=Tv1Anrwf8z4" />
+			<ResponsiveVideo classNameProp="" url="https://www.youtube.com/watch?v=Tv1Anrwf8z4" />
 		</PageTemplate>
 	);
 }

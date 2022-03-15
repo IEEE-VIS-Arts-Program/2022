@@ -234,7 +234,7 @@ export default function Submission() {
 				prints, screen-based art, fixed audio-visual pieces, etc.
 			</p>
 			<h6>What to include in the proposal</h6>
-			<p>
+			<p className={classNames("mb-2")}>
 				While the proposal is free-form, the following information must be
 				included (consider structuring your proposal based on these headings):
 			</p>
@@ -268,7 +268,7 @@ export default function Submission() {
 				</li>
 			</ol>
 			<h6>Example topics</h6>
-			<p>Artworks could involve any of the following:</p>
+			<p className={classNames("mb-2")}>Artworks could involve any of the following:</p>
 			<ol>
 				<li>
 					visualization that emphasizes visual and performative aesthetics
@@ -369,7 +369,7 @@ export default function Submission() {
 				22 exhibition catalog, which will be available online.
 			</p>
 			<h3>Submission Procedure (for all tracks)</h3>
-			<p>
+			<p className={classNames("mb-2")}>
 				All submissions must be made using the IEEE VGTC Electronic Conference
 				System (on PCS). After creating an account or signing in, submitters
 				will find the VISAP’22 Papers and Exhibition submissions by:

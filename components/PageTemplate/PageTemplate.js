@@ -23,7 +23,7 @@ export default function PageTemplate({ metaTitle, metaContent, children }) {
 						</Col>
 						<Col
 							md={{ span: 6, offset: 0 }}
-							className={classNames(styles.pageTitle)}
+							className={classNames(styles.pageTitle, "mb-5")}
 						>
 							{children}
 						</Col>

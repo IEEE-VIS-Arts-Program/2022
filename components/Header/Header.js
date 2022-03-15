@@ -6,10 +6,10 @@ export default function Header() {
 	return (
 		<header className={classNames("py-3", styles.header)}>
 			<Link href="/">
-				<a className={classNames(styles.navLink, styles.pos1)}>Home</a>
+				<a className={classNames(styles.navLink, styles.pos2)}>Home</a>
 			</Link>
 			<Link href="/call-for-entries">
-				<a className={classNames(styles.navLink, styles.pos2)}>
+				<a className={classNames(styles.navLink, styles.pos1)}>
 					Call for Entries
 				</a>
 			</Link>

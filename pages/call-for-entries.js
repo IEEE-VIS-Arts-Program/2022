@@ -74,7 +74,7 @@ export default function Submission() {
 				boundaries?
 			</p>
 			<h3>Submission details</h3>
-			<p>Submissions can either be made to:</p>
+			<p className={classNames("mb-2")}>Submissions can either be made to:</p>
 			<ol>
 				<li>
 					<strong>A paper track</strong>: Extended abstract with a 10 page
@@ -117,7 +117,7 @@ export default function Submission() {
 				VISAP sessions.
 			</p>
 			<p>We look forward to your participation!</p>
-			<p>
+			<p className={classNames("fst-italic", "text-gradient")} style={{fontWeight: 500}}>
 				Uta Hinrichs and Charles Perin
 				<br />
 				VISAP’22 General Chairs

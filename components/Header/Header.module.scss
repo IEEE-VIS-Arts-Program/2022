@@ -21,13 +21,13 @@
 		justify-content: center;
 		align-items: center;
 		pointer-events: all;
-		transition: all 0.35s ease;
+		transition: letter-spacing 0.35s ease;
 		background: none;
+		letter-spacing: 0.5px;
 		-webkit-background-clip: initial;
 		-webkit-text-fill-color: initial;
 		&:hover {
 			color: var(--bs-light);
-
 			letter-spacing: 4px;
 		}
 	}
