@@ -3,6 +3,8 @@
 :root {
 	--header-thickness: 2rem;
 	--header-thickness-half: calc(var(--header-thickness) / 2);
+	--pink: rgba(251, 160, 191, 1);
+	--azure: rgba(0, 173, 239, 1);
 	--header-gradient: linear-gradient(
 		135deg,
 		rgba(251, 160, 191, 1) 10%,

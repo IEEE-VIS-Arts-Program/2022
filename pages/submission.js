@@ -1,25 +1,24 @@
 import PageTemplate from "../components/PageTemplate/PageTemplate";
 import Dates from "../components/Dates";
 import classNames from "classnames";
-import { useLayoutEffect } from "react";
+import { useEffect, useState } from "react";
+import Separator from "../components/Separator/Separator";
 
 export default function Submission() {
-	useLayoutEffect(() => {
-		let sections = Array.from(document.querySelectorAll("h3"));
-		sections = sections.filter((d) => d.hasAttribute("id"));
-		console.log(sections);
-		let container = Array.from(
-			document.querySelectorAll("#colophon-container")
+	const [sections, setSections] = useState();
+	useEffect(() => {
+		let _sections = Array.from(document.querySelectorAll("h3")).filter((d) =>
+			d.hasAttribute("id")
 		);
-		console.log(container);
-		const submenu = <div>submenu</div>
-		container.innerHTML = submenu
-	});
+		// console.log(_sections)
+		setSections(_sections.map(d=>({innerText:d.innerText, id: d.attributes.id.nodeValue})));
+	}, []);
 	return (
-		<PageTemplate metaTitle="Submission">
+		<PageTemplate metaTitle="Submission" submenu={sections}>
 			<h1 className={classNames("text-gradient")}>Submission</h1>
 			<h3>Dates</h3>
 			<Dates />
+			<Separator />
 			<h3 id="submission-paper">Paper Submissions</h3>
 			<p>
 				We invite researchers, scholars, and creative practitioners to submit
@@ -110,6 +109,7 @@ export default function Submission() {
 				accepted submissions. (Selected VISAP papers have also been featured in
 				IEEE Computer Graphics and Applications and Leonardo).
 			</p>
+			<Separator />
 			<h3 id="submission-pictorial">Pictorials Instructions</h3>
 			<p>
 				We invite artists and designers to submit pictorials and annotated
@@ -237,6 +237,7 @@ export default function Submission() {
 				present their work - virtual or in-person - in one of the VISAP Papers
 				sessions during the conference.
 			</p>
+			<Separator />
 			<h3 id="submission-exhibition">Exhibition Instructions</h3>
 			<p>
 				We invite artists and designers to submit data-driven artworks related
@@ -382,6 +383,7 @@ export default function Submission() {
 				acceptance. All accepted artworks will be documented in the IEEE VISAP’
 				22 exhibition catalog, which will be available online.
 			</p>
+			<Separator />
 			<h3 id="submission-procedure">Submission Procedure (for all tracks)</h3>
 			<p className={classNames("mb-2")}>
 				All submissions must be made using the IEEE VGTC Electronic Conference
