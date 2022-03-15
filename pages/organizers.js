@@ -1,9 +1,8 @@
 import PageTemplate from "../components/PageTemplate/PageTemplate";
-import { Col, Container, Row } from "react-bootstrap";
-import Colophon from "../components/Colophon";
-import { tsvParse, groups } from "d3";
+import { groups } from "d3";
 import { useEffect, useState } from "react";
 import organizersJson from "../data/VISAP2022 - Organizers - People.json";
+import classNames from "classnames";
 
 export default function Organizers() {
 	const [organizers, setOrganizers] = useState([]);
@@ -13,23 +12,22 @@ export default function Organizers() {
 	}, []);
 	return (
 		<PageTemplate metaTitle="Organizers">
-			<Container fluid>
-				<Row>
-					<Col md={{ span: 6, offset: 3 }}>
-						{organizers.map((role, i) => (
-							<div key={i}>
-								<h5>{role[0]}</h5>
-								{role[1].map((person, i) => (
-									<div key={i}>
-                    <p>{person["Name"]}, <i>{person["Affiliation"]}</i></p>
-                    <p><a href={person["Website"]}>{person["Website"]}</a></p>
-                  </div>
-								))}
-							</div>
-						))}
-					</Col>
-				</Row>
-			</Container>
+			<h1 className={classNames("text-gradient")}>Organizers</h1>
+			{organizers.map((role, i) => (
+				<div key={i}>
+					<h5>{role[0]}</h5>
+					{role[1].map((person, i) => (
+						<div key={i}>
+							<p>
+								{person["Name"]}, <i>{person["Affiliation"]}</i>
+							</p>
+							<p>
+								<a href={person["Website"]}>{person["Website"]}</a>
+							</p>
+						</div>
+					))}
+				</div>
+			))}
 		</PageTemplate>
 	);
 }

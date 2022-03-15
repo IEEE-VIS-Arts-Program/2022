@@ -25,13 +25,10 @@ export default function PageTemplate({ metaTitle, metaContent, children }) {
 							md={{ span: 6, offset: 0 }}
 							className={classNames(styles.pageTitle)}
 						>
-							{metaTitle && (
-								<h1 className={classNames("text-gradient")}>{metaTitle}</h1>
-							)}
+							{children}
 						</Col>
 					</Row>
 				</Container>
-				{children}
 				<Footer />
 			</div>
 		</>
