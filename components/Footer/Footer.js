@@ -14,7 +14,7 @@ export default function Footer() {
 			<Row>
 				<Col xs={6} md={4} lg={3} xl={3} className={classNames("mb-4")}>
 					<div className={classNames("")}>
-						<img className={classNames(styles.logo)} src={logoVisap.src} />
+						<img className={classNames(styles.logo)} src={logoVisap.src} alt="VISAP2022 logo" />
 						<div className={classNames(styles.navigation)}>
 							<Link href="/">Home</Link>
 							<Link href="/call-for-entries">Call for Entries</Link>
