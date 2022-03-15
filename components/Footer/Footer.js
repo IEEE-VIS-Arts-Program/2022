@@ -1,22 +1,27 @@
 import styles from "./Footer.module.scss";
 import { Container, Col, Row } from "react-bootstrap";
 import previousEditions from "./previous-editions.json";
-import Colophon from "../Colophon";
-
 import logoVisap from "../../images/logo-white.svg";
 import logoVis from "../../images/logo-vis.svg";
 import logoTwitter from "../../images/logo-twitter.png";
 
 import classNames from "classnames";
+import Link from "next/link";
 
 export default function Footer() {
 	return (
-		<Container className={classNames(styles.footer, "pt-4", "py-4")} fluid>
+		<Container className={classNames(styles.footer, "pt-4")} fluid>
 			<Row>
-				<Col md={{ span: 3 }}>
-					<div className={classNames("ps-3")} style={{ top: "3.5rem" }}>
-						<Colophon lightVariant={true} />
-						<div className={classNames("pt-2")}>
+				<Col xs={6} md={4} lg={3} xl={3} className={classNames("mb-4")}>
+					<div className={classNames("")}>
+						<img className={classNames(styles.logo)} src={logoVisap.src} />
+						<div className={classNames(styles.navigation)}>
+							<Link href="/">Home</Link>
+							<Link href="/call-for-entries">Call for Entries</Link>
+							<Link href="/submission">Submission</Link>
+							<Link href="/organizers">Organizers</Link>
+						</div>
+						<div className={classNames("mt-4")}>
 							<a href="http://ieeevis.org/year/2022/welcome">
 								<img
 									src={logoVis.src}
@@ -35,14 +40,14 @@ export default function Footer() {
 						</div>
 					</div>
 				</Col>
-				{/* <Col md={6}>
-					<h4 className={classNames("mb-3", "text-gradient")}>Sponsors</h4>
+				<Col xs={6} md={4} lg={4} xl={6} className={classNames("mb-4")}>
+					<h6 className={classNames("mb-3", "text-gradient")}>Sponsors</h6>
 					<p>TBA</p>
-				</Col> */}
-				<Col md={6}>
-					<h5 className={classNames("mb-3", "text-gradient")}>
+				</Col>
+				<Col xs={12} md={4} lg={4} xl={3} className={classNames("mb-4")}>
+					<h6 className={classNames("mb-3", "text-gradient")}>
 						Previous editions
-					</h5>
+					</h6>
 					<p>
 						{previousEditions.map((d, i) => (
 							<span key={d.label}>

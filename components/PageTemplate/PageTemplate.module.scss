@@ -1,5 +1,6 @@
 .windowFrame {
-	margin: var(--header-thickness);
+	margin: 0;
+	padding: 1rem 0 0 0;
 }
 
 .pageTitle {
@@ -8,4 +9,11 @@
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+	.windowFrame {
+		margin: var(--header-thickness);
+		padding: 1rem 0.5rem 0 0.5rem;
+	}
 }

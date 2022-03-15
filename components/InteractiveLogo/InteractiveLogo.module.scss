@@ -1,6 +1,12 @@
 .container {
-	height: 50vh;
+	height: 35vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+@media screen and (min-width: 764px) {
+	.container {
+		height: 50vh;
+	}
 }

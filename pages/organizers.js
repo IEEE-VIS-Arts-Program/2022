@@ -21,7 +21,7 @@ export default function Organizers() {
 							<p className={classNames("mb-2")}>
 								{person["Name"]} – <i>{person["Affiliation"]}</i>
 								<br />
-								<a href={person["Website"]} style={{textTransform:"initial"}}>Personal website</a>
+								<a href={person["Website"]} style={{textTransform:"initial"}}>{person["Website"].replace("https://", "").replace("http://", "").replace("www.", "")}</a>
 							</p>
 						</div>
 					))}

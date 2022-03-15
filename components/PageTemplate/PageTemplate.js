@@ -18,13 +18,27 @@ export default function PageTemplate({ metaTitle, metaContent, children }) {
 			<div className={styles.windowFrame}>
 				<Container fluid>
 					<Row>
-						<Col md={3}>
-							<div className={classNames("pt-4", "ps-3", "sticky-top")} style={{top:'3.5rem'}}>
+						<Col
+							xs={{ span: 12, offset: 0 }}
+							sm={{ span: 12, offset: 0 }}
+							md={{ span: 10, offset: 1 }}
+							lg={{ span: 3, offset: 0 }}
+							xl={{ span: 3, offset: 0 }}
+							className={classNames("Xd-none", "Xd-lg-block")}
+						>
+							<div
+								className={classNames("Xpt-4", "Xps-3", "sticky-top")}
+								style={{ top: "calc(var(--header-thickness) + 1rem)" }}
+							>
 								<Colophon />
 							</div>
 						</Col>
 						<Col
-							md={{ span: 6, offset: 0 }}
+							// xs={}
+							sm={{ span: 12, offset: 0 }}
+							md={{ span: 10, offset: 1 }}
+							lg={{ span: 8, offset: 0 }}
+							xl={{ span: 7, offset: 0 }}
 							className={classNames(styles.pageTitle, "mb-5")}
 						>
 							{children}

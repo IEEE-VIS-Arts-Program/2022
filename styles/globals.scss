@@ -1,7 +1,7 @@
 @import "./custom.bootstrap.scss";
 
 :root {
-	--header-thickness: 2.5rem;
+	--header-thickness: 2rem;
 	--header-thickness-half: calc(var(--header-thickness) / 2);
 	--header-gradient: linear-gradient(
 		135deg,
@@ -13,6 +13,7 @@
 		rgba(251, 160, 191, 1) 18%,
 		rgba(0, 173, 239, 1) 100%
 	);
+	font-size: 21px;
 }
 
 body {
@@ -29,13 +30,18 @@ h6 {
 	font-weight: 600;
 	letter-spacing: -0.5px;
 	display: inline-block;
-	margin-bottom: 0.5rem;
 }
 
 h1 {
 	font-size: 3.5rem;
-	margin-top: calc(33px + 2.5rem);
+	margin-top: 3rem;
 	margin-bottom: 3rem;
+}
+h3 {
+	margin-bottom: 0;
+	&:not(:first-of-type) {
+		margin-top: 0.75rem;
+	}
 }
 
 h6 {
@@ -43,6 +49,7 @@ h6 {
 	font-weight: 600;
 	letter-spacing: 0.5px;
 	margin-bottom: 0rem;
+	font-size: 0.8rem;
 }
 
 .text-gradient {
@@ -56,7 +63,7 @@ a {
 	color: #00adef;
 	text-decoration: none;
 	font-family: "Inter", sans-serif;
-	font-size: 1.065rem;
+	font-size: 0.86rem;
 	text-transform: uppercase;
 	font-weight: 500;
 	letter-spacing: 0.2px;
@@ -65,14 +72,18 @@ a {
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
+	.reset-link {
+		background: none;
+		-webkit-background-clip: initial;
+		-webkit-text-fill-color: initial;
+	}
 }
 
 p {
-	font-size: 1.3rem;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
-ul, ol {
-	font-size: 1.3rem;
-	margin-bottom: 2rem;
+ul,
+ol {
+	margin-bottom: 1rem;
 }

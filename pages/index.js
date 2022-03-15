@@ -10,11 +10,11 @@ import Dates from "../components/Dates";
 
 export default function Home() {
 	return (
-		<PageTemplate metaTitle={false}>
+		<PageTemplate metaTitle="VISAP'22">
 			<InteractiveLogo />
-			<h4>
-				The theme for VISAP’22 is “<span className={classNames("text-gradient")}>mingling spaces</span>”.
-			</h4>
+			<h5>
+				The theme for VISAP’22 is <span className={classNames("text-gradient")}>Mingling Spaces</span>
+			</h5>
 			<p>
 				For 10 years the VIS Arts Program, and before this the VIS Arts Show,
 				have represented a mingling space, a space “to bring or mix together or
@@ -27,10 +27,10 @@ export default function Home() {
 				with this experiment, we invite submissions that explore, re-interpret,
 				speculate and reflect on the idea of mingling spaces.
 			</p>
-			<h4 className={classNames("mt-5")}>Important Dates</h4>
+			<h5 className={classNames("mt-5")}>Important Dates</h5>
 			<Dates />
-			<h4 className={classNames("mt-5")}>From VISAP&apos;21</h4>
-			<h6 className={classNames("mt-5")}>Exhibition</h6>
+			<h5 className={classNames("mt-5")}>From VISAP&apos;21</h5>
+			<h6 className={classNames("mt-3")}>Exhibition</h6>
 			<GalleryHome classNameProp="mt-3" />
 			<h6 className={classNames("mt-5")}>Fast Forwards</h6>
 			<ResponsiveVideo classNameProp="mt-3" url="https://www.youtube.com/watch?v=Tv1Anrwf8z4" />

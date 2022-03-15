@@ -8,7 +8,7 @@ export default function Colophon({lightVariant}) {
 	return (
 		<div className={classNames(styles.colophon)}>
 			<Link href="/">
-				<a>
+				<a className={classNames("d-none", "d-md-block")}>
 					{!lightVariant && <img className={classNames(styles.logo)} src={visapLogo.src} alt="VISAP22 logo" />}
 					{lightVariant && <img className={classNames(styles.logo)} src={visapLogoLight.src} alt="VISAP22 logo" />}
 				</a>
