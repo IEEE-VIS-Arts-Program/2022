@@ -29,7 +29,7 @@ export default function Home() {
 			</p>
 			<h4 className={classNames("mt-5")}>Important Dates</h4>
 			<Dates />
-			<h4 className={classNames("mt-5")}>From VISAP'21</h4>
+			<h4 className={classNames("mt-5")}>From VISAP&apos;21</h4>
 			<h6 className={classNames("mt-5")}>Exhibition</h6>
 			<GalleryHome classNameProp="mt-3" />
 			<h6 className={classNames("mt-5")}>Fast Forwards</h6>

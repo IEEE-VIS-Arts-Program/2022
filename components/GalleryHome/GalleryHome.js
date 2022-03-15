@@ -25,17 +25,37 @@ export default function GalleryHome({ classNameProp }) {
 				<div
 					key={i}
 					className={classNames(styles.image, "mb-3")}
-					style={{ backgroundImage: `url('${d.src}')` }}
+					style={{ backgroundImage: `url("${d.src}")` }}
 				/>
 			))}
-			<div className={classNames(styles.image)} style={{position:"relative"}}>
-				<div style={{position:"absolute"}}>
-					<p className={classNames(styles.credits, "mb-0")}>[1] FaceType: Expressing Our Spoken Expression (Kevin Maher, Fan Xiang, Liang Zhi)</p>
-					<p className={classNames(styles.credits, "mb-0")}>[2] Spectrographies: Decomposition of Music into Light (Baltazar Pérez, Ilana Levin, Glacier's Lament)</p>
-					<p className={classNames(styles.credits, "mb-0")}>[3] Jiabao Li Not Suitable for Breathing (Zhouyang Lu)</p>
-					<p className={classNames(styles.credits, "mb-0")}>[4] Not Suitable for Breathing (Zhouyang Lu)</p>
-					<p className={classNames(styles.credits, "mb-0")}>[5] Untitled Interspecies Umwelten (Joel Ong)</p>
-					<a className={classNames(styles.credits, "mb-0")} href="https://visap.net/2021/gallery/">See more projects</a>
+			<div
+				className={classNames(styles.image)}
+				style={{ position: "relative" }}
+			>
+				<div style={{ position: "absolute" }}>
+					<p className={classNames(styles.credits, "mb-0")}>
+						[1] FaceType: Expressing Our Spoken Expression (Kevin Maher, Fan
+						Xiang, Liang Zhi)
+					</p>
+					<p className={classNames(styles.credits, "mb-0")}>
+						[2] Spectrographies: Decomposition of Music into Light (Baltazar
+						Pérez, Ilana Levin, Glacier&apos;s Lament)
+					</p>
+					<p className={classNames(styles.credits, "mb-0")}>
+						[3] Jiabao Li Not Suitable for Breathing (Zhouyang Lu)
+					</p>
+					<p className={classNames(styles.credits, "mb-0")}>
+						[4] Not Suitable for Breathing (Zhouyang Lu)
+					</p>
+					<p className={classNames(styles.credits, "mb-0")}>
+						[5] Untitled Interspecies Umwelten (Joel Ong)
+					</p>
+					<a
+						className={classNames(styles.credits, "mb-0")}
+						href="https://visap.net/2021/gallery/"
+					>
+						See more projects
+					</a>
 				</div>
 			</div>
 		</div>
