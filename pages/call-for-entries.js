@@ -5,7 +5,7 @@ import classNames from "classnames";
 export default function Submission() {
 	return (
 		<PageTemplate metaTitle="Call for Entries">
-			<h1 className={classNames("text-gradient")}>Call for Entries</h1>
+			<h1 className={classNames("text-gradient", "page-title")}>Call for Entries</h1>
 			<h3>The Theme</h3>
 			<p>
 				The theme for VISAP’22 is “mingling spaces”. For 10 years the VIS Arts

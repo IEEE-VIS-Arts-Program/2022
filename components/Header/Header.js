@@ -3,33 +3,19 @@ import classNames from "classnames";
 import Link from "next/link";
 import visapLogoLight from "../../images/logo-white.svg";
 
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
+import DropdownItemLink from "../DropdownItemLink";
 
 export default function Header() {
 	return (
 		<>
-			<header className={classNames("py-3", styles.header)}>
-				<Link href="/">
-					<a className={classNames(styles.navLink, styles.pos3)}>Home</a>
-				</Link>
-				<Link href="/call-for-entries">
-					<a className={classNames(styles.navLink, styles.pos1)}>
-						Call for Entries
-					</a>
-				</Link>
-				<Link href="/submission">
-					<a className={classNames(styles.navLink, styles.pos2)}>Submission</a>
-				</Link>
-				<Link href="/organizers">
-					<a className={classNames(styles.navLink, styles.pos4)}>Organizers</a>
-				</Link>
-			</header>
 			<Navbar
 				bg="light"
 				expand="lg"
-				className={classNames(styles.headerMobile, "sticky-top")}
+				className={classNames(styles.headerBootstrap, "sticky-top")}
+				collapseOnSelect={true}
 			>
-				<Container fluid>
+				<Container>
 					<Navbar.Brand className="py-0" href="/">
 						<img
 							className={classNames(styles.logo)}
@@ -39,7 +25,7 @@ export default function Header() {
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
-						<Nav className="me-auto">
+						<Nav className="ms-auto">
 							<Link href="/">
 								<a className={classNames("nav-link", "reset-link")}>Home</a>
 							</Link>
@@ -48,11 +34,43 @@ export default function Header() {
 									Call for Entries
 								</a>
 							</Link>
-							<Link href="/submission">
-								<a className={classNames("nav-link", "reset-link")}>
-									Submission
-								</a>
-							</Link>
+							<NavDropdown title="Submission" id="collasible-nav-dropdown">
+								<NavDropdown.Item
+									href="/submission#important-dates"
+									as={DropdownItemLink}
+									className="dropdown-item"
+								>
+									Important Dates
+								</NavDropdown.Item>
+								<NavDropdown.Item
+									href="/submission#paper-submission"
+									as={DropdownItemLink}
+									className="dropdown-item"
+								>
+									Paper Submission
+								</NavDropdown.Item>
+								<NavDropdown.Item
+									href="/submission#pictorial-submission"
+									as={DropdownItemLink}
+									className="dropdown-item"
+								>
+									Pictorial Submission
+								</NavDropdown.Item>
+								<NavDropdown.Item
+									href="/submission#exhibition-submission"
+									as={DropdownItemLink}
+									className="dropdown-item"
+								>
+									Exhibition Instructions
+								</NavDropdown.Item>
+								<NavDropdown.Item
+									href="/submission#submission-procedure"
+									as={DropdownItemLink}
+									className="dropdown-item"
+								>
+									Submission Procedure
+								</NavDropdown.Item>
+							</NavDropdown>
 							<Link href="/organizers">
 								<a className={classNames("nav-link", "reset-link")}>
 									Organizers

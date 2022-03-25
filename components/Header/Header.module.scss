@@ -1,65 +1,4 @@
-.header {
-	// background-color: var(--header-gradient);
-	display: none;
-	border-width: var(--header-thickness);
-	border-style: solid;
-	border-image: var(--header-gradient) 1;
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	z-index: 2000;
-	pointer-events: none;
-
-	.navLink {
-		color: var(--bs-light);
-		width: fit-content;
-		height: 2rem;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		align-content: center;
-		justify-content: center;
-		align-items: center;
-		pointer-events: all;
-		transition: letter-spacing 0.35s ease;
-		background: none;
-		letter-spacing: 0.5px;
-		-webkit-background-clip: initial;
-		-webkit-text-fill-color: initial;
-		&:hover {
-			color: var(--bs-light);
-			letter-spacing: 4px;
-		}
-		position: absolute;
-	}
-	.pos1 {
-		top: 0;
-		left: 50%;
-		transform: translateX(-50%)
-			translateY(calc(-50% - var(--header-thickness-half)));
-	}
-	.pos2 {
-		top: 50%;
-		left: 0px;
-		transform: translateX(calc(-50% - var(--header-thickness-half)))
-			translateY(-50%) rotate(-90deg);
-	}
-	.pos3 {
-		bottom: 0;
-		left: 50%;
-		transform: translateX(-50%)
-			translateY(calc(50% + var(--header-thickness-half)));
-	}
-	.pos4 {
-		top: 50%;
-		right: 0px;
-		transform: translateX(calc(50% + var(--header-thickness-half)))
-			translateY(-50%) rotate(90deg);
-	}
-}
-
-.headerMobile {
+.headerBootstrap {
 	display: block;
 	background: var(--header-gradient);
 	z-index: 2000;
@@ -67,20 +6,37 @@
 		height: 25px;
 	}
 	:global .navbar-toggler {
-		font-size: 0.75rem;
+		// font-size: 0.75rem;
 	}
 	:global .navbar-nav {
 		:global .nav-link {
 			color: white;
+			&:hover {
+				background: initial;
+				-webkit-background-clip: initial;
+				-webkit-text-fill-color: initial;
+				color: #fff275;
+				color: #00509a;
+			}
 		}
 	}
 }
 
-@media screen and (min-width: 768px) {
-	.header {
-		display: block;
-	}
-	.headerMobile {
-		display: none;
+@media screen and (max-width: 768px) {
+	.headerBootstrap {
+		:global .dropdown {
+			div {
+				background-color: initial;
+				border: none;
+				:global .dropdown-item {
+					color: white;
+					&:hover {
+						background: initial;
+						-webkit-background-clip: initial;
+						-webkit-text-fill-color: initial;
+					}
+				}
+			}
+		}
 	}
 }

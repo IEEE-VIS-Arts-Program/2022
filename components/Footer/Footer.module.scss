@@ -2,15 +2,15 @@
 	background-color: var(--bs-dark);
 	color: var(--bs-light);
 	font-family: "Inter", sans-serif;
-	margin: 0;
-	width: calc(100% + 0rem);
+	// margin: 0;
+	// width: calc(100% + 0rem);
 	:global p {
-		font-size: 0.8rem;
+		// font-size: 0.8rem;
 		font-weight: 400;
 	}
 	:global a {
 		color: var(--bs-light);
-		font-size: 0.8rem;
+		// font-size: 0.8rem;
 		text-transform: none;
 		font-weight: 400;
 	}
@@ -31,8 +31,8 @@
 }
 
 @media screen and (min-width: 768px) {
-	.footer {
-		margin: 0 -0.5rem;
-		width: calc(100% + 1rem);
-	}
+	// .footer {
+	// 	margin: 0 -0.5rem;
+	// 	width: calc(100% + 1rem);
+	// }
 }
