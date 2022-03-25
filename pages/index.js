@@ -16,7 +16,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>VISAP'22</title>
+				<title>VISAP22</title>
 				<meta
 					name="description"
 					content={
