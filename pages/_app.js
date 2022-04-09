@@ -1,3 +1,4 @@
+import "../fonts/argentum/stylesheet.css";
 import '../styles/globals.scss'
 
 function MyApp({ Component, pageProps }) {
