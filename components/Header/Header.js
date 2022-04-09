@@ -61,7 +61,7 @@ export default function Header() {
 									as={DropdownItemLink}
 									className="dropdown-item"
 								>
-									Exhibition Instructions
+									Artwork Submission
 								</NavDropdown.Item>
 								<NavDropdown.Item
 									href="/submission#submission-procedure"
