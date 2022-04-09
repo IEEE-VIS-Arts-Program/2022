@@ -28,7 +28,7 @@ export default function Submission() {
 			</div>
 			<div id="paper-submission" className={classNames(styles.stickyTitleSection)}>
 				<h3 className={classNames("sticky-top")}>
-					Paper Submissions
+					Paper Submission
 				</h3>
 				<p>
 					We invite researchers, scholars, and creative practitioners to submit
@@ -125,7 +125,7 @@ export default function Submission() {
 			</div>
 			<div id="pictorial-submission" className={classNames(styles.stickyTitleSection)}>
 				<h3 className={classNames("sticky-top")}>
-					Pictorials Instructions
+					Pictorial Submission
 				</h3>
 				<p>
 					We invite artists and designers to submit pictorials and annotated
@@ -258,7 +258,7 @@ export default function Submission() {
 			</div>
 			<div id="exhibition-submission" className={classNames(styles.stickyTitleSection)}>
 				<h3 className={classNames("sticky-top")}>
-					Exhibition Instructions
+					Artwork Submission
 				</h3>
 				<p>
 					We invite artists and designers to submit data-driven artworks related
