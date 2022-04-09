@@ -1,6 +1,6 @@
 import classNames from "classnames";
-import { Col } from "react-bootstrap";
 import styles from "./GalleryHome.module.scss";
+import captions from "./captions.json";
 
 export default function GalleryHome({ classNameProp }) {
 	const images = [];
@@ -22,42 +22,14 @@ export default function GalleryHome({ classNameProp }) {
 	return (
 		<div className={classNames(styles.container, classNameProp)}>
 			{images.map((d, i) => (
-				<div
-					key={i}
-					className={classNames(styles.image, "mb-3")}
-					style={{ backgroundImage: `url("${d.src}")` }}
-				/>
-			))}
-			<div
-				className={classNames(styles.image)}
-				style={{ position: "relative" }}
-			>
-				<div className={classNames(styles.creditsBox)}>
-					<p className={classNames(styles.credits, "mb-0")}>
-						[1] FaceType: Expressing Our Spoken Expression (Kevin Maher, Fan
-						Xiang, Liang Zhi)
-					</p>
-					<p className={classNames(styles.credits, "mb-0")}>
-						[2] Spectrographies: Decomposition of Music into Light (Baltazar
-						Pérez, Ilana Levin, Glacier&apos;s Lament)
-					</p>
-					<p className={classNames(styles.credits, "mb-0")}>
-						[3] Jiabao Li Not Suitable for Breathing (Zhouyang Lu)
-					</p>
-					<p className={classNames(styles.credits, "mb-0")}>
-						[4] Not Suitable for Breathing (Zhouyang Lu)
-					</p>
-					<p className={classNames(styles.credits, "mb-0")}>
-						[5] Untitled Interspecies Umwelten (Joel Ong)
-					</p>
-					<a
-						className={classNames(styles.credits, "mb-0")}
-						href="https://visap.net/2021/gallery/"
-					>
-						See more projects
-					</a>
+				<div key={i} className={classNames(styles.item)}>
+					<div
+						className={classNames(styles.image, "mb-3")}
+						style={{ backgroundImage: `url("${d.src}")` }}
+					/>
+					<p className={classNames("small")}>[{i+1}] {captions[d.src]}</p>
 				</div>
-			</div>
+			))}
 		</div>
 	);
 }
