@@ -4,8 +4,7 @@
       "index": 0,
       "label": "M",
       "image": "l-00.png",
-      "_x": 0,
-      "_y": 0.5
+      "_x": 0
     },
     {
       "index": 1,
@@ -41,8 +40,7 @@
       "index": 7,
       "label": "G",
       "image": "l-07.png",
-      "_x": 1,
-      "_y":0.5
+      "_x": 1
     },
     {
       "index": 8,
