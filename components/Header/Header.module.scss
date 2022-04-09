@@ -1,9 +1,10 @@
 .headerBootstrap {
-	display: block;
+	// display: flex;
 	background: var(--header-gradient);
+	min-height: var(--navbar-height);
 	z-index: 2000;
 	.logo {
-		height: 25px;
+		height: 35px;
 	}
 	:global .navbar-toggler {
 		// font-size: 0.75rem;
@@ -11,6 +12,10 @@
 	:global .navbar-nav {
 		:global .nav-link {
 			color: white;
+			// padding-top: 0;
+			// padding-bottom: 0;
+			position: relative;
+			top: -2px;
 			&:hover {
 				background: initial;
 				-webkit-background-clip: initial;

@@ -18,7 +18,7 @@
 @media screen and (min-width: 1024px) {
 	.stickyTitleSection {
 		:global h3 {
-			top: calc(56px + 0rem);
+			top: calc(var(--navbar-height) - 3px);
 		}
 	}
 }

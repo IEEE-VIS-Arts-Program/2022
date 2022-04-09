@@ -1,8 +1,9 @@
 @import "./custom.bootstrap.scss";
 
 :root {
-	--header-thickness: 2rem;
-	--header-thickness-half: calc(var(--header-thickness) / 2);
+	// --header-thickness: 2rem;
+	// --header-thickness-half: calc(var(--header-thickness) / 2);
+	--navbar-height: 60px;
 	--pink: rgba(251, 160, 191, 1);
 	--azure: rgba(0, 173, 239, 1);
 	--header-gradient: linear-gradient(
@@ -37,6 +38,7 @@ h6 {
 	font-weight: 600;
 	letter-spacing: -0.25px;
 	display: block;
+	line-height: normal;
 }
 
 h1 {
