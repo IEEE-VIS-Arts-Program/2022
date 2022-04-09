@@ -6,7 +6,7 @@ let node,
 	svg,
 	width,
 	height,
-	r = 20,
+	r = 25,
 	l = 65,
 	d = 40;
 let simulation = d3.forceSimulation().on("tick", tick).stop();
@@ -64,7 +64,7 @@ function update(data) {
 		.transition()
 		.duration(750)
 		.delay((d, i) => i * 75)
-		.ease(d3.easeElasticOut.amplitude(0.5).period(0.5))
+		.ease(d3.easeElasticOut.amplitude(0.35).period(0.65))
 		.style("opacity", 1)
 		.attr("width", l)
 		.attr("height", l)
@@ -74,7 +74,7 @@ function update(data) {
 		.nodes(data.nodes)
 		.force("charge", d3.forceManyBody().strength(-120))
 		.force("link", d3.forceLink().links(data.links).distance(d))
-		// .force("collision", d3.forceCollide(r))
+		.force("collision", d3.forceCollide(r))
 		.force("center", d3.forceCenter(width / 2, height / 2))
 		// .force("x", d3.forceX((d) => {
 		// 	console.log(d)
@@ -83,10 +83,6 @@ function update(data) {
 		// .force("y", d3.forceY((d) => (d._y ? d._y * height : null)))
 		.alpha(1)
 		.restart();
-
-	// simulation.on("end", () => {
-	// 	console.log(data.nodes);
-	// });
 
 	// simulation
 	// 	.force("x")
