@@ -1,15 +1,7 @@
 import * as d3 from "d3";
 import data from "./data.json";
 
-let _container,
-	node,
-	link,
-	svg,
-	width,
-	height,
-	r = 25,
-	l = 65,
-	dist = 40;
+let _container, node, link, svg, width, height, r, l, dist;
 let simulation = d3.forceSimulation().on("tick", tick).stop();
 
 function initLogo(container) {
@@ -27,7 +19,7 @@ function update(data) {
 	width = bbox.width;
 	height = bbox.height;
 
-	l = d3.min([120, width / 9]);
+	l = d3.min([120, width / 12]);
 	r = l / 3;
 	dist = l * 0.6;
 	// console.log(width);
