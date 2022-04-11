@@ -1,7 +1,7 @@
 import * as d3 from "d3";
 import data from "./data.json";
 
-let _container, node, link, svg, width, height, r, l, dist;
+let _container, node, link, svg, width, height, r, l, dist, chargeStrenght;
 let simulation = d3.forceSimulation().on("tick", tick).stop();
 
 function initLogo(container) {
@@ -19,11 +19,22 @@ function update(data) {
 	width = bbox.width;
 	height = bbox.height;
 
-	l = d3.min([120, width / 12]);
+	const size = d3
+		.scaleLinear()
+		.domain([320, 1200])
+		.range([35, 120])
+		.clamp(true);
+
+	l = size(width);
 	r = l / 3;
-	dist = l * 0.6;
-	// console.log(width);
-	// console.log(l, r, dist);
+	dist = l * 0.5;
+
+	const chargeScale = d3
+		.scaleLinear()
+		.domain([320, 1200])
+		.range([-45, -1000])
+		.clamp(true);
+	chargeStrenght = chargeScale(width);
 
 	svg.attr("width", width).attr("height", height);
 
@@ -35,8 +46,8 @@ function update(data) {
 		d.x = d.xPercent * width;
 		d.y =
 			i < 8
-				? d3.randomUniform(height * 0.25, height * 0.65)()
-				: d3.randomUniform(height * 0.35, height * 0.75)();
+				? d3.randomUniform(height * 0.25, height * 0.5)()
+				: d3.randomUniform(height * 0.5, height * 0.75)();
 		return d.index;
 	});
 	node.exit().remove();
@@ -75,7 +86,7 @@ function update(data) {
 
 	simulation
 		.nodes(data.nodes)
-		.force("charge", d3.forceManyBody().strength(-width / 2))
+		.force("charge", d3.forceManyBody().strength(chargeStrenght))
 		.force("link", d3.forceLink().links(data.links).distance(dist))
 		// .force("collision", d3.forceCollide(r))
 		.force("center", d3.forceCenter(width / 2, height / 2))
