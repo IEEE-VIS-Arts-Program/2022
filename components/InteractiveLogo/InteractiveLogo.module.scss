@@ -1,5 +1,5 @@
 .container {
-	height: 35vh;
+	height: 25vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -10,6 +10,6 @@
 
 @media screen and (min-width: 764px) {
 	.container {
-		height: 50vh;
+		height: 65vh;
 	}
 }

@@ -1,47 +1,52 @@
 import * as d3 from "d3";
 import data from "./data.json";
 
-let node,
+let _container,
+	node,
 	link,
 	svg,
 	width,
 	height,
 	r = 25,
 	l = 65,
-	d = 40;
+	dist = 40;
 let simulation = d3.forceSimulation().on("tick", tick).stop();
 
 function initLogo(container) {
-	const bbox = container.getBoundingClientRect();
-	width = bbox.width;
-	height = bbox.height;
-
-	d3.select(container).selectAll("*").remove();
-
-	svg = d3
-		.select(container)
-		.append("svg")
-		.attr("width", width)
-		.attr("height", height);
-
+	_container = container;
+	d3.select(_container).selectAll("*").remove();
+	svg = d3.select(_container).append("svg");
 	node = svg.selectAll(".node");
 	link = svg.selectAll(".link");
-
 	update(data);
 }
 
 function update(data) {
+	const bbox = _container.getBoundingClientRect();
+
+	width = bbox.width;
+	height = bbox.height;
+
+	l = d3.min([120, width / 9]);
+	r = l / 3;
+	dist = l * 0.6;
+	// console.log(width);
+	// console.log(l, r, dist);
+
+	svg.attr("width", width).attr("height", height);
+
 	link = link.data(data.links, (d) => d.source + "-" + d.target);
 	link.exit().remove();
-	link = link
-		.enter()
-		.append("line")
-		.merge(link)
-		.attr("stroke", "#fafafa")
-		// .attr("stroke", "#333")
-		.attr("stroke", "transparent");
+	link = link.enter().append("line").merge(link).attr("stroke", "transparent");
 
-	node = node.data(data.nodes, (d) => d.index);
+	node = node.data(data.nodes, (d, i) => {
+		d.x = d.xPercent * width;
+		d.y =
+			i < 8
+				? d3.randomUniform(height * 0.25, height * 0.65)()
+				: d3.randomUniform(height * 0.35, height * 0.75)();
+		return d.index;
+	});
 	node.exit().remove();
 	node = node
 		.enter()
@@ -53,12 +58,18 @@ function update(data) {
 			const path = "/lettering/" + name + ".png";
 			return path;
 		})
-		.attr("width", l/10)
-		.attr("height", l/10)
-		.attr("transform", `translate(-${l/10 / 2},-${l/10 / 2})`)
+		.attr("width", l / 10)
+		.attr("height", l / 10)
+		.attr("x", (d) => d.x)
+		.attr("y", (d) => d.y)
+		.attr("transform", `translate(-${l / 10 / 2},-${l / 10 / 2})`)
 		.text((d) => d.label)
 		.style("opacity", 0)
-		.call(drag(simulation));
+		.style("cursor", "grab")
+		.call(drag(simulation))
+		.on("mouseover", function (d) {
+			d3.select(this).style("cursor", "grab");
+		});
 
 	node
 		.transition()
@@ -72,28 +83,12 @@ function update(data) {
 
 	simulation
 		.nodes(data.nodes)
-		.force("charge", d3.forceManyBody().strength(-120))
-		.force("link", d3.forceLink().links(data.links).distance(d))
-		.force("collision", d3.forceCollide(r))
+		.force("charge", d3.forceManyBody().strength(-width / 2))
+		.force("link", d3.forceLink().links(data.links).distance(dist))
+		// .force("collision", d3.forceCollide(r))
 		.force("center", d3.forceCenter(width / 2, height / 2))
-		// .force("x", d3.forceX((d) => {
-		// 	console.log(d)
-		// 	return (d._x ? d._x * width : null)
-		// }))
-		// .force("y", d3.forceY((d) => (d._y ? d._y * height : null)))
 		.alpha(1)
 		.restart();
-
-	// simulation
-	// 	.force("x")
-	// 	.x(d=>d._x)
-	// 	// .x((d) => (d._x ? d._x * width : null))
-	// 	// .strength((d) => (d._x ? 0.1 : 0));
-	// simulation
-	// 	.force("y")
-	// 	.y(d=>d._y)
-	// 	// .y((d) => (d._y ? d._y * height : null))
-	// 	// .strength((d) => (d._y ? 0.1 : 0));
 }
 
 function tick() {
@@ -116,7 +111,8 @@ function tick() {
 function drag(simulation) {
 	function dragstarted(event) {
 		if (!event.active) simulation.alpha(0.3).alphaTarget(0.3).restart();
-		link.attr("stroke", "#ddd");
+		link.attr("stroke", "#fafafa");
+		node.style("cursor", "grabbing");
 		event.subject.fx = event.subject.x;
 		event.subject.fy = event.subject.y;
 	}
