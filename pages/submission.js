@@ -345,15 +345,15 @@ export default function Submission() {
 				<h6>Previous accepted work</h6>
 				<p>
 					Please see the{" "}
-					<a href="https://visap.net/media/VISAP21-Catalogue.pdf">
+					<a href="https://visap.net/2021/media/VISAP21-Catalogue.pdf">
 						2021 catalog
 					</a>{" "}
 					(designed by Bon Adriel Aseniero), the{" "}
-					<a href="https://visap.net/media/IEEE_VISAP_20_Catalog_Final.pdf">
+					<a href="https://visap.net/2020/media/IEEE_VISAP_20_Catalog_Final.pdf">
 						2020 catalog
 					</a>{" "}
 					(designed by Christy Cheung), the{" "}
-					<a href="https://visap.net/media/VISAP19-Catalogue.pdf">
+					<a href="https://visap.net/2019/media/VISAP19-Catalogue.pdf">
 						2019 catalog
 					</a>{" "}
 					(designed by Damla Çay),{" "}
