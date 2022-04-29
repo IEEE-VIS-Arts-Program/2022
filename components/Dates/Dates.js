@@ -12,7 +12,7 @@ export default function Dates() {
 			// </> */}
 			<p className={classNames(styles.datesGrid)}>
 				<span>Call opening</span>
-				<span>Early April 2022</span>
+				<span>April 2022</span>
 				<span>Submissions deadline</span>
 				<span>June 2, 2022</span>
 				<span>Notifications of acceptance</span>
