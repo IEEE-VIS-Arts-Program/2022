@@ -1,29 +1,49 @@
 import styles from "./Dates.module.scss";
 import classNames from "classnames";
+import { Col, Container, Row } from "react-bootstrap";
 
 export default function Dates() {
 	return (
 		<>
-			{/* // <>
-			// 	<p>Submissions open by early April 2022.</p>
-			// 	<p>All submissions are due by June 2, 2022.</p>
-			// 	<p>Notifications of acceptance will be made by July 14, 2022.</p>
-			// 	<p>Final / Camera ready submissions are due by August 11, 2022.</p>
-			// </> */}
-			<p className={classNames(styles.datesGrid)}>
-				<span>Call opening</span>
-				<span>April 2022</span>
-				<span>Submissions deadline</span>
-				<span>June 2, 2022</span>
-				<span>Notifications of acceptance</span>
-				<span>July 14, 2022</span>
-				<span>Final / Camera ready submissions</span>
-				<span>August 11, 2022</span>
-			</p>
+			<Row>
+				<Col xs={12} md={6}>
+					<p className={classNames("mb-sm-0")}>Call opening:</p>
+				</Col>
+				<Col xs={12} md={6}>
+					<p>April 2022</p>
+				</Col>
+				<Col xs={12} md={6}>
+					<p className={classNames("mb-sm-0")}>Submissions deadline:</p>
+				</Col>
+				<Col xs={12} md={6}>
+					<p>
+						<del>June 2, 2022</del> June 9, 2022
+					</p>
+				</Col>
+				<Col xs={12} md={6}>
+					<p className={classNames("mb-sm-0")}>Notifications of acceptance:</p>
+				</Col>
+				<Col xs={12} md={6}>
+					<p>July 14, 2022</p>
+				</Col>
+				<Col xs={12} md={6}>
+					<p className={classNames("mb-sm-0")}>
+						Final / Camera ready submissions:
+					</p>
+				</Col>
+				<Col xs={12} md={6}>
+					<p>August 11, 2022</p>
+				</Col>
+			</Row>
 			<p>
-				All deadlines are at {" "}
+				All deadlines are at{"  "}
 				<a href="https://www.worldtimeserver.com/time-zones/aoe/#:~:text=The%20current%20time%20and%20date%20right%20now&text=Anywhere%20on%20Earth%20or%20AoE,offset%20of%20%2D%2012%3A00">
 					AOE
+				</a>
+				.<br />
+				Submit using the{" "}
+				<a href="https://new.precisionconference.com/vgtc">
+					Precision Conference System (PCS)
 				</a>
 				.
 			</p>
