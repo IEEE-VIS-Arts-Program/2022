@@ -24,7 +24,7 @@ export default function Dates() {
 					<p className={classNames("mb-sm-0")}>Notifications of acceptance:</p>
 				</Col>
 				<Col xs={12} md={6}>
-					<p>July 14, 2022</p>
+					<p><del>July 18, 2022</del> July 19, 2022</p>
 				</Col>
 				<Col xs={12} md={6}>
 					<p className={classNames("mb-sm-0")}>
