@@ -1,8 +1,14 @@
 import "../fonts/argentum/stylesheet.css";
-import '../styles/globals.scss'
+import "../styles/globals.scss";
+import { SSRProvider } from "react-bootstrap";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+	return (
+		<SSRProvider>
+			{" "}
+			<Component {...pageProps} />
+		</SSRProvider>
+	);
 }
 
-export default MyApp
+export default MyApp;
