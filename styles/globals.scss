@@ -105,6 +105,31 @@ ol {
 	font-size: 0.75em;
 }
 
+.stickyTitleSection {
+	&:not(:last-child) {
+		border-bottom: 1px solid var(--bs-gray-200);
+		margin-bottom: 2rem;
+	}
+	h3 {
+		background-color: rgba(255, 255, 255, 0.8);
+		backdrop-filter: blur(4px);
+		display: block;
+		top: calc(46px + 0rem);
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.stickyTitleSection {
+		h3 {
+			top: calc(var(--navbar-height) - 3px);
+		}
+	}
+}
+
 @media screen and (min-width: 768px) {
 	h1 {
 		&.page-title {
