@@ -2,8 +2,17 @@ import PageTemplate from "../components/PageTemplate/PageTemplate";
 import classNames from "classnames";
 import { getContributionsData } from "../lib/contributions";
 import Link from "next/link";
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 export default function Contributions({ allContributionsData }) {
+	const masonryBreakpoints = {
+		default: 4,
+		1400: 3,
+		1200: 3,
+		992: 2,
+		768: 2,
+		576: 1,
+	};
 	return (
 		<PageTemplate metaTitle="Selected Contributions">
 			<h1 className={classNames("text-gradient", "page-title")}>Selected Contributions</h1>
@@ -15,15 +24,21 @@ export default function Contributions({ allContributionsData }) {
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 			</div>
-			{allContributionsData.map((d) => (
-				<div key={d.id}>
-					<img src={`http://via.placeholder.com/640x${getRandomItem([240, 360, 480, 640])}`} />
-					<p>{d.type}</p>
-					<p>{d.title}</p>
-					<p>{d.authors.map((d) => `${d.name} ${d.surname}`).join(", ")}</p>
-					<p><Link href={"/contributions/" + d.id}>Read more</Link></p>
-				</div>
-			))}
+			<ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+				<Masonry gutter={"1.5rem"}>
+					{allContributionsData.map((d) => (
+						<div key={d.id}>
+							<img style={{width:"100%"}} src={`http://via.placeholder.com/640x${getRandomItem([240, 360, 480, 640])}`} />
+							<p>{d.type}</p>
+							<p>{d.title}</p>
+							<p>{d.authors.map((d) => `${d.name} ${d.surname}`).join(", ")}</p>
+							<p>
+								<Link href={"/contributions/" + d.id}>Read more</Link>
+							</p>
+						</div>
+					))}
+				</Masonry>
+			</ResponsiveMasonry>
 		</PageTemplate>
 	);
 }
@@ -40,7 +55,6 @@ export async function getStaticProps() {
 ///////////////////////////////////////////////////////////////////////////////
 
 function getRandomItem(arr) {
-
 	// get random index value
 	const randomIndex = Math.floor(Math.random() * arr.length);
 
