@@ -28,7 +28,7 @@ export default function Contributions({ allContributionsData }) {
 				<Masonry gutter={"1.5rem"}>
 					{allContributionsData.map((d) => (
 						<div key={d.id}>
-							<img style={{width:"100%"}} src={`http://via.placeholder.com/640x${getRandomItem([240, 360, 480, 640])}`} />
+							<img style={{width:"100%"}} src={`https://via.placeholder.com/640x${getRandomItem([240, 360, 480, 640])}`} />
 							<p>{d.type}</p>
 							<p>{d.title}</p>
 							<p>{d.authors.map((d) => `${d.name} ${d.surname}`).join(", ")}</p>
@@ -45,6 +45,7 @@ export default function Contributions({ allContributionsData }) {
 
 export async function getStaticProps() {
 	const allContributionsData = getContributionsData();
+	console.log(JSON.stringify(allContributionsData[9], null, 2))
 	return {
 		props: {
 			allContributionsData,
