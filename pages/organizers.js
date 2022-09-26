@@ -1,34 +1,44 @@
 import PageTemplate from "../components/PageTemplate/PageTemplate";
 import { groups } from "d3";
 import { useEffect, useState } from "react";
-import organizersJson from "../data/VISAP2022 - Organizers - People.json";
+// import organizersJson from "../data/VISAP2022 - Organizers - People.json";
+import peopleData from "../data/people.json";
 import classNames from "classnames";
 
 export default function Organizers() {
-	const [organizers, setOrganizers] = useState([]);
+	const [people, setPeople] = useState([]);
 	useEffect(() => {
-		const organizedOrganizers = groups(organizersJson, (d) => d["Role"]);
-		setOrganizers(organizedOrganizers);
+		const peopleDataRoles = groups(peopleData, (d) => d["role"]);
+		setPeople(peopleDataRoles);
 	}, []);
 	return (
 		<PageTemplate metaTitle="Organizers">
 			<h1 className={classNames("text-gradient", "page-title")}>Organizers</h1>
-			{organizers.map((role, i) => (
+			{people.map((role, i) => (
 				<div key={i} className={classNames("mb-5")}>
 					<h5>{role[0]}</h5>
 					{role[1].map((person, i) => (
 						<div key={i}>
 							<p className={classNames("mb-2")}>
-								{person["Name"]} – <i>{person["Affiliation"]}</i>
-								<br />
-								<a href={person["Website"]} style={{textTransform:"initial"}}>{person["Website"].replace("https://", "").replace("http://", "").replace("www.", "")}</a>
+								{person["name"]} {person["surname"]}
+								{person["affiliation"] && (
+									<>
+										{" "}– <i>{person["affiliation"]}</i>
+									</>
+								)}
+								{person["website"] && (
+									<>
+										<br />
+										<a href={person["website"]} style={{ textTransform: "initial" }}>
+											{person["website"].replace("https://", "").replace("http://", "").replace("www.", "")}
+										</a>
+									</>
+								)}
 							</p>
 						</div>
 					))}
 				</div>
 			))}
-			<h5>Program Committee</h5>
-			<p>TBA</p>
 		</PageTemplate>
 	);
 }

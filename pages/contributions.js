@@ -18,11 +18,11 @@ export default function Contributions({ allContributionsData }) {
 			<h1 className={classNames("text-gradient", "page-title")}>Selected Contributions</h1>
 			<div id="cotributions-list" className={classNames("stickyTitleSection")}>
 				<h3 className={classNames("sticky-top")}>Artworks, Pictorials and Papers</h3>
-				<p>
+				{/* <p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+				</p> */}
 			</div>
 			<ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
 				<Masonry gutter={"1.5rem"}>
@@ -45,7 +45,6 @@ export default function Contributions({ allContributionsData }) {
 
 export async function getStaticProps() {
 	const allContributionsData = getContributionsData();
-	console.log(JSON.stringify(allContributionsData[9], null, 2))
 	return {
 		props: {
 			allContributionsData,
