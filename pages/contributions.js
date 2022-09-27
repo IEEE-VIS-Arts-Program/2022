@@ -33,7 +33,7 @@ export default function Contributions({ allContributionsData }) {
 						<Link key={"cont" + i} href={"/contributions/" + d.id} passHref>
 							<div
 								key={d.id}
-								dataName={d.id}
+								dataname={d.id}
 								className={classNames(styles.contribution)}
 								style={{
 									borderColor: `var(${d.type === "artwork" ? "--pink" : "--azure"})`,

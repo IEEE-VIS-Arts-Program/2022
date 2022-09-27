@@ -63,7 +63,7 @@ export default function Contribution({ data }) {
 								{d.name} {d.surname}{" "}
 								{d.website && (
 									<a className={classNames()} href={d.website}>
-										{d.website}
+										{d.website.replace("https://", "").replace("http://", "").replace("www.", "").replace(/[\/$]/,"")}
 									</a>
 								)}
 							</p>
