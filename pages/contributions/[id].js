@@ -5,7 +5,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { getIds, getSingleData } from "../../lib/contributions";
 import { Row, Col } from "react-bootstrap";
 import { useRouter } from "next/router";
-import { useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { image as d3Image } from "d3";
 import ExportedImage from "next-image-export-optimizer";
 
@@ -21,7 +21,7 @@ export default function Contribution({ data }) {
 	};
 	const [images, setImages] = useState([]);
 	const [authorsImages, setAuthorsImages] = useState([]);
-	useLayoutEffect(() => {
+	useEffect(() => {
 		const arr = [];
 		data.images.forEach((d) => {
 			const imgSrc = basePath + "/images/contributions-media/" + data.pc_id + "/" + d;
