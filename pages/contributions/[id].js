@@ -49,7 +49,7 @@ export default function Contribution({ data }) {
 			});
 			setAuthorsImages(_authorsImages);
 		});
-	}, [data]);
+	}, [data, basePath]);
 
 	return (
 		<ContributionPageTemplate metaTitle={data.title}>
