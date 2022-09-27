@@ -29,6 +29,21 @@ export default function Header() {
 							<Link href="/">
 								<a className={classNames("nav-link", "reset-link")}>Home</a>
 							</Link>
+							<Link href="/contributions">
+								<a className={classNames("nav-link", "reset-link")}>
+									Contributions
+								</a>
+							</Link>
+							<Link href="/programme">
+								<a className={classNames("nav-link", "reset-link")}>
+									Programme
+								</a>
+							</Link>
+							<Link href="/organizers">
+								<a className={classNames("nav-link", "reset-link")}>
+									Organizers
+								</a>
+							</Link>
 							<Link href="/call-for-entries">
 								<a className={classNames("nav-link", "reset-link")}>
 									Call for Entries
@@ -71,11 +86,6 @@ export default function Header() {
 									Submission Procedure
 								</NavDropdown.Item>
 							</NavDropdown>
-							<Link href="/organizers">
-								<a className={classNames("nav-link", "reset-link")}>
-									Organizers
-								</a>
-							</Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>

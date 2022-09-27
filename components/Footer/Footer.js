@@ -18,9 +18,11 @@ export default function Footer() {
 							<img className={classNames(styles.logo)} src={logoVisap.src} alt="VISAP2022 logo" />
 							<div className={classNames(styles.navigation)}>
 								<Link href="/">Home</Link>
+								<Link href="/contributions">Contributions</Link>
+								<Link href="/programme">Programme</Link>
+								<Link href="/organizers">Organizers</Link>
 								<Link href="/call-for-entries">Call for Entries</Link>
 								<Link href="/submission">Submission</Link>
-								<Link href="/organizers">Organizers</Link>
 							</div>
 							<div className={classNames("mt-4")}>
 								<a href="http://ieeevis.org/year/2022/welcome">
