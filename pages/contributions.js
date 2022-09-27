@@ -29,8 +29,8 @@ export default function Contributions({ allContributionsData }) {
 			</div>
 			<ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
 				<Masonry gutter={"1.5rem"}>
-					{allContributionsData.map((d) => (
-						<Link href={"/contributions/" + d.id}>
+					{allContributionsData.map((d, i) => (
+						<Link key={"cont" + i} href={"/contributions/" + d.id} passHref>
 							<div
 								key={d.id}
 								dataName={d.id}

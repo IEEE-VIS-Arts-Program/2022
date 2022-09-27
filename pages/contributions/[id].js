@@ -53,8 +53,8 @@ export default function Contribution({ data }) {
 				<h5>Artist{data.authors.length > 1 ? "s" : ""} bio</h5>
 			</Col>
 			{data.authors.map((d, i) => (
-				<Col sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: (i % 3) + 1 }}>
-					<Row key={"auth" + i} className={classNames("d-flex", "align-items-center", "mb-5")}>
+				<Col key={"auth" + i} sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: (i % 3) + 1 }}>
+					<Row className={classNames("d-flex", "align-items-center", "mb-5")}>
 						<Col sm={2}>
 							{d.image && <img className={classNames("w-100")} src={basePath + "/contributions-media/" + data.pc_id + "/" + d.image} />}
 						</Col>
