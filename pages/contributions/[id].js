@@ -32,10 +32,10 @@ export default function Contribution({ data }) {
 			</Col>
 
 			<Col sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: 1 }} className={classNames("mb-5")}>
-				<ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }} className={classNames(styles.contributionGallery)}>
+				<ResponsiveMasonry columnsCountBreakPoints={masonryBreakpoints} className={classNames(styles.contributionGallery)}>
 					<Masonry gutter={"1.5rem"}>
 						{data.images.map((d, i) => (
-							<img key={"img-" + i} style={{ width: "100%" }} src={basePath + "/contributions-media/" + data.pc_id + "/" + d} />
+							<img key={"img-" + i} style={{ width: "100%" }} src={basePath + "/images/contributions-media/" + data.pc_id + "/" + d} />
 						))}
 					</Masonry>
 				</ResponsiveMasonry>
@@ -43,12 +43,12 @@ export default function Contribution({ data }) {
 			<Col sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: 1 }} lg={{ span: 8, offset: 2 }} xl={{ span: 8, offset: 2 }}>
 				<p className={classNames("mb-5")} style={{ whiteSpace: "pre-line" }}>{data.description.split("\n").join("\n")}</p>
 			</Col>
-			{data.video && (
+			{/* {data.video && (
 				<Col sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: 1 }} className={classNames("mb-5")}>
 					<h5>Video</h5>
 					<p>{data.video}</p>
 				</Col>
-			)}
+			)} */}
 			<Col sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: 1 }} lg={{ span: 8, offset: 2 }} xl={{ span: 8, offset: 2 }}>
 				<h5>Artist{data.authors.length > 1 ? "s" : ""} bio</h5>
 			</Col>
@@ -56,7 +56,7 @@ export default function Contribution({ data }) {
 				<Col key={"auth" + i} sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: (i % 3) + 1 }}>
 					<Row className={classNames("d-flex", "align-items-center", "mb-5")}>
 						<Col sm={2}>
-							{d.image && <img className={classNames("w-100")} src={basePath + "/contributions-media/" + data.pc_id + "/" + d.image} />}
+							{d.image && <img className={classNames("w-100")} src={basePath + "/images/contributions-media/" + data.pc_id + "/" + d.image} />}
 						</Col>
 						<Col sm={7}>
 							<p className={classNames("mt-0", "mb-0", "fw-semibold")}>

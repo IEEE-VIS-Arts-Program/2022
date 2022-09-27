@@ -5,12 +5,13 @@ import Link from "next/link";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import styles from "../styles/contributions.module.scss";
 import { useRouter } from "next/router";
+import ExportedImage from "next-image-export-optimizer";
 
 export default function Contributions({ allContributionsData }) {
 	const { basePath } = useRouter();
 	const masonryBreakpoints = {
 		default: 4,
-		1400: 3,
+		1400: 4,
 		1200: 3,
 		992: 2,
 		768: 2,
@@ -27,7 +28,7 @@ export default function Contributions({ allContributionsData }) {
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p> */}
 			</div>
-			<ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+			<ResponsiveMasonry columnsCountBreakPoints={masonryBreakpoints}>
 				<Masonry gutter={"1.5rem"}>
 					{allContributionsData.map((d, i) => (
 						<Link key={"cont" + i} href={"/contributions/" + d.id} passHref>
@@ -40,7 +41,15 @@ export default function Contributions({ allContributionsData }) {
 									boxShadow: `7px 7px 2px 0px var(${d.type === "artwork" ? "--pink" : "--azure"})`,
 								}}
 							>
-								<img className={classNames("w-100")} src={basePath + "/contributions-media/" + d.pc_id + "/" + d.images[0]} />
+								<div className={classNames(styles.thumbnail)}>
+									<ExportedImage
+										src={basePath + "/images/contributions-media/" + d.pc_id + "/" + d.images[0]}
+										alt={"Preview image of " + d.title}
+										layout="fill"
+										objectFit="cover"
+										placeholder="blur"
+									/>
+								</div>
 								<div className="px-2 pb-2">
 									<h6 className={classNames(styles.category, "mt-2", "mb-1")}>{d.type}</h6>
 									<h5 className={classNames(styles.title, "mb-2")}>{d.title}</h5>
