@@ -1,2 +1,3 @@
 import PageTemplate from "./PageTemplate";
-export default PageTemplate;
+import ContributionPageTemplate from "./ContributionPageTemplate";
+export { PageTemplate, ContributionPageTemplate };

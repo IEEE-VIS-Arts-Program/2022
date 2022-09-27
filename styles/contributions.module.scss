@@ -1,0 +1,26 @@
+.template {
+	background-color: rgb(65, 65, 65);
+	color: white;
+}
+
+.contribution {
+	border: 1px solid transparent;
+	cursor: pointer;
+	box-shadow: 7px 7px 2px 0px var(--pink);
+
+	.category {
+		color: #666;
+		font-size: 0.9rem;
+		font-weight: 500;
+	}
+	.title {
+		font-size: 1.2rem;
+	}
+	.authors {
+		font-size: 1.1rem;
+	}
+	.readMore {
+		color: #242424;
+		font-size: 1rem !important;
+	}
+}
