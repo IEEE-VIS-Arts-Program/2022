@@ -66,16 +66,16 @@ export default function Contributions({ allContributionsData, metaContent }) {
 												dataname={d.id}
 												className={classNames(styles.contribution)}
 												style={{
-													// borderColor: `var(${d.type === "artwork" ? "--pink" : "--azure"})`,
 													boxShadow: `0px 5px 15px 0px var(${d.type === "artwork" ? "--pink" : "--azure"})`,
 												}}
 											>
 												<div className={classNames(styles.thumbnail)}>
 													<ExportedImage
-														src={basePath + "/images/contributions-media/" + d.pc_id + "/" + d.images[0]}
+														src={basePath + "/images/contributions-media/" + d.pc_id + "/" + d.images[0].src}
 														alt={"Preview image of " + d.title}
-														layout="fill"
-														objectFit="cover"
+														layout="responsive"
+														width={d.images[0].width}
+														height={d.images[0].height}
 														placeholder="blur"
 													/>
 												</div>
@@ -112,16 +112,4 @@ export async function getStaticProps() {
 			allContributionsData,
 		},
 	};
-}
-
-///////////////////////////////////////////////////////////////////////////////
-
-function getRandomItem(arr) {
-	// get random index value
-	const randomIndex = Math.floor(Math.random() * arr.length);
-
-	// get random item
-	const item = arr[randomIndex];
-
-	return item;
 }
