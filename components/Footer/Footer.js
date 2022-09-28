@@ -8,6 +8,11 @@ import logoTwitter from "../../images/logo-twitter.png";
 import classNames from "classnames";
 import Link from "next/link";
 
+import ExportedImage from "next-image-export-optimizer";
+
+import logoAutodesk from "../../images/logo-autodesk-white.svg";
+import logoUniVictoria from "../../images/logo_UNI_VICT_CS.jpeg";
+
 export default function Footer() {
 	return (
 		<Container className={classNames(styles.footer, "pt-4")} fluid>
@@ -43,11 +48,14 @@ export default function Footer() {
 							</div>
 						</div>
 					</Col>
-					{/* <Col xs={6} md={4} lg={4} xl={6} className={classNames("mb-4")}>
+					<Col xs={6} md={4} lg={4} xl={6} className={classNames("mb-4")}>
 						<h6 className={classNames("mb-3", "text-gradient")}>Sponsors</h6>
-						<p>TBA</p>
-					</Col> */}
-					<Col xs={12} md={6} lg={6} xl={6} className={classNames("mb-4")}>
+						<div style={{width: "100%", maxWidth: 300}}>
+								<ExportedImage src={logoAutodesk} alt="Autodesk Sponsorship" layout="responsive" />
+								<ExportedImage src={logoUniVictoria} alt="Autodesk Sponsorship" layout="responsive" />
+							</div>
+					</Col>
+					<Col xs={6} md={4} lg={3} xl={3} className={classNames("mb-4")}>
 						<h6 className={classNames("mb-3", "text-gradient")}>
 							Previous editions
 						</h6>
