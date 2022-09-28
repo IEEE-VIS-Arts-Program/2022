@@ -8,6 +8,7 @@
     "export": "next build && next export && next-image-export-optimizer && touch out/.nojekyll",
     "start": "open http://localhost:3000/ & next start",
     "fetch-data": "node ./data/fetch-data.js",
+    "delete-original-media-from-export": "rm out/images/contributions-media/*/*.JPG & rm out/images/contributions-media/*/*.jpg & rm out/images/contributions-media/*/*.JPEG & rm out/images/contributions-media/*/*.jpeg & rm out/images/contributions-media/*/*.png & rm out/images/contributions-media/*/*.PNG",
     "lint": "next lint"
   },
   "dependencies": {

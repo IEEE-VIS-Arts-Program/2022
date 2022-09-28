@@ -66,8 +66,8 @@ export default function Contributions({ allContributionsData, metaContent }) {
 												dataname={d.id}
 												className={classNames(styles.contribution)}
 												style={{
-													borderColor: `var(${d.type === "artwork" ? "--pink" : "--azure"})`,
-													boxShadow: `7px 7px 2px 0px var(${d.type === "artwork" ? "--pink" : "--azure"})`,
+													// borderColor: `var(${d.type === "artwork" ? "--pink" : "--azure"})`,
+													boxShadow: `0px 5px 15px 0px var(${d.type === "artwork" ? "--pink" : "--azure"})`,
 												}}
 											>
 												<div className={classNames(styles.thumbnail)}>
