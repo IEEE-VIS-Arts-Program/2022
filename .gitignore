@@ -38,5 +38,5 @@ yarn-error.log*
 data/authors.json
 data/committee.json
 data/contributions.json
-data/organizers.json
+data/people.json
 data/programme.json
