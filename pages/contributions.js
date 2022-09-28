@@ -40,7 +40,7 @@ export default function Contributions({ allContributionsData, metaContent }) {
 							xl={{ span: 8, offset: 2 }}
 							className={classNames(stylesPageTemplate.pageTitle, "mb-5")}
 						>
-							<h1 className={classNames("text-gradient", "page-title")}>Visap'22 Contributions</h1>
+							<h1 className={classNames("text-gradient", "page-title")}>Visap&apos;22 Contributions</h1>
 							<div id="contributions-list" className={classNames("XstickyTitleSection")}>
 								<h6 className={classNames("Xsticky-top")}>Artworks, Pictorials and Papers</h6>
 								{/* <p>
