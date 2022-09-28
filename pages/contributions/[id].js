@@ -73,7 +73,7 @@ export default function Contribution({ data }) {
 				<Col key={"auth" + i} sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: (i % 3) + 1 }}>
 					<Row className={classNames("d-flex", "align-items-center", "mb-5")}>
 						<Col sm={2}>
-							{author.images.map((authImage,i) => (
+							{author.images && author.images.map((authImage,i) => (
 								<div className={classNames({"mt-3":i>0})} key={"img-author-" + authImage} style={{ maxWidth: "30vw" }}>
 									<ExportedImage
 										src={basePath + "/images/contributions-media/" + data.pc_id + "/" + authImage.src}
