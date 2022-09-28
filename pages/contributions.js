@@ -16,7 +16,7 @@ export default function Contributions({ allContributionsData, metaContent }) {
 	const { basePath } = useRouter();
 	const masonryBreakpoints = {
 		default: 4,
-		1400: 4,
+		1400: 3,
 		1200: 3,
 		992: 2,
 		768: 2,
@@ -25,7 +25,7 @@ export default function Contributions({ allContributionsData, metaContent }) {
 	return (
 		<>
 			<Head>
-				<title>{"Selected Contributions | VISAP'22"}</title>
+				<title>{"Visap'22 Contributions | VISAP'22"}</title>
 				<meta name="description" content={metaContent} />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
@@ -40,9 +40,9 @@ export default function Contributions({ allContributionsData, metaContent }) {
 							xl={{ span: 8, offset: 2 }}
 							className={classNames(stylesPageTemplate.pageTitle, "mb-5")}
 						>
-							<h1 className={classNames("text-gradient", "page-title")}>Selected Contributions</h1>
+							<h1 className={classNames("text-gradient", "page-title")}>Visap'22 Contributions</h1>
 							<div id="contributions-list" className={classNames("XstickyTitleSection")}>
-								<h6 className={classNames("Xsticky-top")}><span style={{color: "var(--pink)"}}>Artworks</span>, <span style={{color: "var(--azure)"}}>Pictorials and Papers</span></h6>
+								<h6 className={classNames("Xsticky-top")}>Artworks, Pictorials and Papers</h6>
 								{/* <p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -61,14 +61,7 @@ export default function Contributions({ allContributionsData, metaContent }) {
 								<Masonry gutter={"1.5rem"}>
 									{allContributionsData.map((d, i) => (
 										<Link key={"cont" + i} href={"/contributions/" + d.id} passHref>
-											<div
-												key={d.id}
-												dataname={d.id}
-												className={classNames(styles.contribution)}
-												style={{
-													boxShadow: `0px 5px 15px 0px var(${d.type === "artwork" ? "--pink" : "--azure"})`,
-												}}
-											>
+											<div key={d.id} dataname={d.id} className={classNames(styles.contribution)}>
 												<div className={classNames(styles.thumbnail)}>
 													<ExportedImage
 														src={basePath + "/images/contributions-media/" + d.pc_id + "/" + d.images[0].src}
@@ -79,11 +72,10 @@ export default function Contributions({ allContributionsData, metaContent }) {
 														placeholder="blur"
 													/>
 												</div>
-												<div className="px-2 pb-2">
+												<div className="px-3 pb-3">
 													<h6 className={classNames(styles.category, "mt-2", "mb-1")}>{d.type}</h6>
 													<h5 className={classNames(styles.title, "mb-2")}>{d.title}</h5>
 													<p className={classNames(styles.authors, "mb-1")}>{d.authors.map((d) => `${d.name} ${d.surname}`).join(", ")}</p>
-													<a className={classNames(styles.readMore, "m-0")}>Read more</a>
 												</div>
 											</div>
 										</Link>

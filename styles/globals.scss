@@ -6,16 +6,8 @@
 	--navbar-height: 60px;
 	--pink: rgba(251, 160, 191, 1);
 	--azure: rgba(0, 173, 239, 1);
-	--header-gradient: linear-gradient(
-		135deg,
-		rgba(251, 160, 191, 1) 10%,
-		rgba(0, 173, 239, 1) 94%
-	);
-	--text-gradient: linear-gradient(
-		-6deg,
-		rgba(251, 160, 191, 1) 18%,
-		rgba(0, 173, 239, 1) 100%
-	);
+	--header-gradient: linear-gradient(135deg, rgba(251, 160, 191, 1) 10%, rgba(0, 173, 239, 1) 94%);
+	--text-gradient: linear-gradient(-6deg, rgba(251, 160, 191, 1) 18%, rgba(0, 173, 239, 1) 100%);
 }
 
 html {
@@ -78,8 +70,8 @@ a {
 	line-height: var(--bs-body-line-height);
 	font-weight: 400;
 	letter-spacing: -0.25px;
-	// top: 0.03rem;
-	// position: relative;
+	bottom: -0.05rem;
+	position: relative;
 	&:hover {
 		background: var(--text-gradient);
 		-webkit-background-clip: text;
