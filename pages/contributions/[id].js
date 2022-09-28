@@ -5,9 +5,8 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { getIds, getSingleData } from "../../lib/contributions";
 import { Row, Col } from "react-bootstrap";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
-import { image as d3Image } from "d3";
 import ExportedImage from "next-image-export-optimizer";
+import Zoom from "react-medium-image-zoom";
 
 export default function Contribution({ data }) {
 	const { basePath } = useRouter();
@@ -35,21 +34,23 @@ export default function Contribution({ data }) {
 				{/* {data.keywords && <p>{data.keywords.split(";").join(", ")}</p>} */}
 			</Col>
 
-			<Col sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: 1 }} className={classNames("mb-5")}>
+			<Col sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: 1 }} className={classNames("mb-5", styles.gallery)}>
 				<ResponsiveMasonry columnsCountBreakPoints={masonryBreakpoints} className={classNames(styles.contributionGallery)}>
 					<Masonry gutter={"1.5rem"}>
 						{data.images.map((d, i) => (
-							<div key={"img-" + i} style={{ width: "100%", position: "relative" }}>
-								<ExportedImage
-									key={"img-" + i}
-									src={basePath + "/images/contributions-media/" + data.pc_id + "/" + d.src}
-									alt={"Image of " + data.title}
-									layout="responsive"
-									width={d.width}
-									height={d.height}
-									placeholder="blur"
-								/>
-							</div>
+							<Zoom key={"img-" + i} zoomMargin={20}>
+								<div key={"img-" + i} className={classNames(styles.thumbnail)}>
+									<ExportedImage
+										key={"img-" + i}
+										src={basePath + "/images/contributions-media/" + data.pc_id + "/" + d.src}
+										alt={"Image of " + data.title}
+										layout="responsive"
+										width={d.width}
+										height={d.height}
+										placeholder="blur"
+									/>
+								</div>
+							</Zoom>
 						))}
 					</Masonry>
 				</ResponsiveMasonry>
@@ -68,35 +69,38 @@ export default function Contribution({ data }) {
 			<Col sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: 1 }} lg={{ span: 8, offset: 2 }} xl={{ span: 8, offset: 2 }}>
 				<h5>Artist{data.authors.length > 1 ? "s" : ""} bio</h5>
 			</Col>
-			{data.authors.map((d, i) => (
+			{data.authors.map((author, i) => (
 				<Col key={"auth" + i} sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: (i % 3) + 1 }}>
 					<Row className={classNames("d-flex", "align-items-center", "mb-5")}>
 						<Col sm={2}>
-							{d.image && (
-								// <img className={classNames("w-100")} src={basePath + "/images/contributions-media/" + data.pc_id + "/" + d.image} />
-								<div key={"img-author-" + i} style={{ width: "100%", position: "relative" }}>
+							{author.images.map((authImage,i) => (
+								<div className={classNames({"mt-3":i>0})} key={"img-author-" + authImage} style={{ maxWidth: "30vw" }}>
 									<ExportedImage
-										src={basePath + "/images/contributions-media/" + data.pc_id + "/" + d.image}
+										src={basePath + "/images/contributions-media/" + data.pc_id + "/" + authImage.src}
 										alt={"Image of " + data.title}
 										layout="responsive"
-										width={d.imgWidth}
-										height={d.imgHeight}
+										width={authImage.width}
+										height={authImage.height}
 										placeholder="blur"
 									/>
 								</div>
-							)}
+							))}
 						</Col>
 						<Col sm={7}>
 							<p className={classNames("mt-0", "mb-0", "fw-semibold")}>
-								{d.name} {d.surname}{" "}
-								{d.website && (
-									<a className={classNames()} href={d.website}>
-										{d.website.replace("https://", "").replace("http://", "").replace("www.", "").replace(/[\/$]/, "")}
+								{!author.website && (
+									<a>
+										{author.name} {author.surname}
+									</a>
+								)}
+								{author.website && (
+									<a href={author.website}>
+										{author.name} {author.surname}
 									</a>
 								)}
 							</p>
 
-							{d.bio && <p className={classNames(styles.bio, "mb-0")}>{d.bio}</p>}
+							{author.bio && <p className={classNames(styles.bio, "mb-0")}>{author.bio}</p>}
 						</Col>
 					</Row>
 				</Col>
