@@ -3,7 +3,7 @@ const debug = process.env.NODE_ENV !== 'production'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // assetPrefix: !debug ? '/visap2022/' : '',
+  basePath: "2022/",
   images: {
     loader: "custom",
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
@@ -12,7 +12,7 @@ const nextConfig = {
   env: {
     nextImageExportOptimizer_imageFolderPath: "public/images",
     nextImageExportOptimizer_exportFolderPath: "out",
-    nextImageExportOptimizer_quality: 75,
+    nextImageExportOptimizer_quality: 80,
     nextImageExportOptimizer_storePicturesInWEBP: true,
     nextImageExportOptimizer_generateAndUseBlurImages: true,
   },

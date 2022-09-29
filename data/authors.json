@@ -1,0 +1,521 @@
+[
+  {
+    "id": "A001",
+    "name": "Amay ",
+    "surname": "Kataria",
+    "affiliation": "Independent",
+    "website": "https://amaykataria.com/",
+    "bio": "Amay Kataria is an artist currently practicing out of Mana Contemporary Chicago. He holds an MFA from the School of the Art Institute of Chicago and a Bachelors in Computer Engineering from Virginia Tech. He has previously held new media residencies at Art Center Nabi and Mana Contemporary and will be an artist in residence at Sandnes Kommune in Stavanger, Norway in 2021. His works have been exhibited at Vector Festival, Electromuseum, Ars Electronica, Piksel Festival, TIFA Studios, Experimental Sound Studio, amongst others.",
+    "images": "Kataria_Amay.png",
+    "contributions_ids": 1018
+  },
+  {
+    "id": "A002",
+    "name": "Sérgio M.",
+    "surname": "Rebelo",
+    "affiliation": "University of Coimbra, Centre for Informatics and Systems of the University of Coimbra, Coimbra, Portugal",
+    "website": "https://sergiorebelo.work/",
+    "bio": "Sérgio M. Rebelo is a Portuguese graphic designer, researcher, coder, and cross-media artist. His work practice is focused on the exploration of procedural and simulation approaches to craft audiovisual artefacts and experiences. His research and commercial work have been distinguished in several cultural events and venues, such as the Portuguese National Museum of Contemporary Art (MNAC), the Círculo de Artes Plásticas de Coimbra (CAPC), the Electronic Literature Organisation Media Arts Festival (ELO), the Golden Bee Biennale, or the Cultural Week of the University of Coimbra. Sérgio is a PhD candidate at the Cognitive and Media Systems group of the Centre for Informatics and Systems of the University of Coimbra. Since 2017, he is an invited teaching assistant in the Design and Multimédia bachelor's and master's degrees at the University of Coimbra.",
+    "images": "REBELO_SERGIO.JPG",
+    "contributions_ids": 1027
+  },
+  {
+    "id": "A003",
+    "name": "Mariana",
+    "surname": "Seiça",
+    "affiliation": "CISUC, Department of Informatics Engineering, University of Coimbra, Coimbra, Portugal",
+    "website": "https://cdv.dei.uc.pt/authors/mariana-seica/",
+    "bio": "Mariana Seiça is a crossmedia designer, trained in the Bachelor and Master's Degree in Design and Multimedia in the University of Coimbra. She is currently reaching the final year of her PhD journey at the same institution, and a teaching assistant in the Master degree course.\nHer research and artistic practices focuses on the use of sound as a communication tool, embodying her enthusiasm for musical forms that travel between the fields of Sonification, Sound Design, Human-Computer Interaction and Collaborative and Social Computing. Her PhD theme deals with the proposal and exploration of a systemic structure to conceive a sonification, materialised through an auditory field of sound beings. The main exploration deals with the interaction possibilities with sound forms, and how can they embrace new forms of dialogue that may, ultimately, enhance the emergence of aesthetic experiences that expand new forms of perception.",
+    "images": "SEICA_MARIANA.jpg",
+    "contributions_ids": 1027
+  },
+  {
+    "id": "A004",
+    "name": "Pedro",
+    "surname": "Martins",
+    "affiliation": "CISUC, Department of Informatics Engineering, University of Coimbra, Coimbra, Portugal",
+    "website": "https://cdv.dei.uc.pt/authors/pedro-martins/",
+    "bio": "Pedro Martins holds a PhD degree in Computer Science, and an MSc degree in Informatics and Systems (University of Coimbra). His interests are in the fields of Computational Creativity, Computer Vision, Computer Graphics, and Computational Art.\nHe has participated in several projects in his areas of interest. He is also a referee of journals in the fields of Image Processing, Computer Vision, Multimedia, and Artificial Intelligence.\nHe is a researcher at the Centre for Informatics and Systems of the University of Coimbra and an Assistant Professor at the Department of Informatics Engineering of the University of Coimbra.",
+    "images": "MARTINS_PEDRO.jpeg",
+    "contributions_ids": 1027
+  },
+  {
+    "id": "A005",
+    "name": "João",
+    "surname": "Bicker",
+    "affiliation": "CISUC, Department of Informatics Engineering, University of Coimbra, Coimbra, Portugal",
+    "website": "https://cdv.dei.uc.pt/authors/joao-bicker/",
+    "bio": "João Bicker is a Professor at Universidade de Coimbra and is the creative director of the Computacional Design and Visualization Lab (CISUC). He is also founder and creative director of FBA., a graphic design practice in Coimbra, Portugal.\nIn 2015 he published FBA: o design gráfico como prática de clarificação, Almedina. \nHis work has been exhibited in several venues, like the Triennale di Milano (2004), Centre du Graphisme de Échirolles (2008), MoMA, New York (2011). \nHis work has been awarded in Prague Quadriennal Gold Medal, Best Stage Design, Prague, 2007; Red Dot Award – communication design, Germany, 2009 and 2010; National Design Award – Troféu Sena da Silva, Portugal, 2009; European Design Awards, 2010, 2013 and 2016; 50 books/50 covers, AIGA, New York, 2010 and 2011; Type Directors Club, New York, 2013 and the D&AD Award, 2020.",
+    "images": "BICKER_JOAO.jpg",
+    "contributions_ids": 1027
+  },
+  {
+    "id": "A006",
+    "name": "Penousal",
+    "surname": "Machado",
+    "affiliation": "CISUC, Department of Informatics Engineering, University of Coimbra, Coimbra, Portugal",
+    "website": "https://cdv.dei.uc.pt/authors/penousal-machado/",
+    "bio": "Penousal Machado is an Associate Professor at the Department of Informatics Engineering of the University of Coimbra and coordinator of the Cognitive and Media Systems group of CISUC. His research interests include Artificial Intelligence, Evolutionary Computation, Computational Creativity, and Information Visualization. He is also the president of SPECIES - the Society for the Promotion of Evolutionary Computation in Europe and its Surroundings. He is the author of more than 200 refereed journal and conference papers, and his publications have been awarded as best papers multiple times. He is the recipient of several scientific awards, including the prestigious EvoStar Award for Outstanding Contribution to Evolutionary Computation in Europe. He has been a keynote speaker at several major international conferences. His work was presented in venues such as the National Museum of Contemporary Art and MoMA, NY.",
+    "images": "MACHADO_PENOUSAL.jpeg",
+    "contributions_ids": 1027
+  },
+  {
+    "id": "A007",
+    "name": "Stephanie",
+    "surname": "Zeller",
+    "affiliation": "Texas Advanced Computing Center, University of Texas, Austin, USA",
+    "website": "https://scholar.google.com/citations?hl=en&oi=ao&user=z5EnT0oAAAAJ",
+    "bio": "Stephanie Zeller is a scientific visualization researcher and graduate student at the Texas Advanced Computing Center (TACC) and The University of Texas at Austin’s department of Geography and the Environment. Her interests include data physicalization, color theory in visualization, environmental epistemologies / ontologies, human-environment relations, posthumanist philosophies, and transdisciplinary approaches to community-based work. Her research investigates the value of applied arts theory in geographic visualization for understanding and communicating the dynamics of climate change and landscape transformation on a local scale. Zeller’s prior experience includes research at the National Center for Atmospheric Research, Los Alamos National Laboratory, NASA's Johnson Space Center, NASA's Goddard Space Flight Center, the Texas Health Journal, and others. She holds a B.A. in Studio Art, a B.S. in Public Relations, and minors in Spanish, Astronomy, and Business from the University of Texas at Austin.",
+    "contributions_ids": 1072
+  },
+  {
+    "id": "A008",
+    "name": "Francesca",
+    "surname": "Samsel",
+    "affiliation": "Texas Advanced Computing Center, University of Texas, Austin, USA",
+    "website": "https://scholar.google.com/citations?user=F4BBJpcAAAAJ&hl=en",
+    "bio": "Samsel, who holds a BFA from the California College of Arts and an MFA from the University of Washington, is a Research Scientist at the Texas Advanced Computing Center (UT Austin) focusing on multidisciplinary collaborations with visualization teams and the geosciences. Her research investigates the application of artistic expertise to real-world visualization challenges as practical solutions for scientific questions and as innovative approaches to communicating science.\n\nSamsel is a regular collaborator with the Data Science at Scale and Climate, Ocean Sea Ice, Modeling teams at Los Alamos National Laboratory, and the Interactive Visualization Lab at the University of Minnesota. Her work has been recognized by multiple Best Scientific Visualization and Data Analytics Awards, along with over 60 publications. Funded by the NSF and DOE, she is a regular presenter at conferences across disciplines including AGU Fall Meeting, IEEE Vis, SIG CHI, Euro Graphics and the College Art Association. \n",
+    "contributions_ids": 1072
+  },
+  {
+    "id": "A009",
+    "name": "Lyn",
+    "surname": "Bartram",
+    "affiliation": "School of Interactive Art and Technology, Simon Fraser University, Surrey, British Columbia, Canada",
+    "website": "https://www.sfu.ca/siat/people/research-faculty/lyn-bartram.html",
+    "bio": "Lyn Bartram is Professor  in the School of Interactive Art and Technology at SFU and Director of the Vancouver Institute of Visual Analytics, an SFU Research Institute engaging researchers, practitioners and organizations with challenges and opportunities in the emerging universe of big data. Her work explores  the  intersecting potential of interactive technologies, visual analytics, and computational media from both theoretical and applied perspectives, particularly to better support data-enabled thinking beyond the traditional applications of expert data science. She and her students study how we can leverage the capabilities of human perception, cognition, affect, and behaviour to reduce the overhead of using information systems. Bartram works in both standard and practice-based research methods in applications-related to data visualization, personal visual analytics, computational sustainability, and computational aesthetics.",
+    "contributions_ids": 1072
+  },
+  {
+    "id": "A010",
+    "name": "Zhen",
+    "surname": "Zeng",
+    "affiliation": "Design School, Sichuan Fine Arts Institute, Chongqing, Chongqing, China",
+    "website": "https://www.creativity-ai-colab.com/",
+    "bio": "Zhen Zeng is the dean and associate professor of the Department of Digital Media Art, Design School, Sichuan Fine Arts Institute. She is also a PhD candidate at the College of Design and Innovation, Tongji University. Her research interests are information visualization design and interaction design. She pays attention to the cross-integration innovation of design,  technology and science. She co-founded Creativity-AI-Colab with Associate Professor of Media and Design, Parsons. Creativity-AI-Colab focuses on exploring the methods and paths of collaborative creativity between humans and artificial intelligence in the field of design and art.",
+    "images": "Zeng_Zhen.jpg",
+    "contributions_ids": 1032
+  },
+  {
+    "id": "A011",
+    "name": "Jie",
+    "surname": "Wang",
+    "affiliation": "Design School, Sichuan Fine Arts Institute, Chongqing, Chongqing, China",
+    "website": "https://www.creativity-ai-colab.com/",
+    "bio": "Jie Wang，（Sichuan Fine Arts Institute MFA, Design School, Sichuan Fine Arts Institute）. He devotes himself to Digital Media Art Design, Information and Interaction Design, human-AI Collaborative Creative Design and other design fields. He is full of enthusiasm and interest in all kinds of cutting-edge artificial intelligence technologies, and likes to cooperate with AI in creative artistic design.",
+    "images": "Wang_Jie.png",
+    "contributions_ids": 1032
+  },
+  {
+    "id": "A012",
+    "name": "Nan",
+    "surname": "He",
+    "affiliation": "Design School, Sichuan Fine Arts Institute, Chongqing, Chongqing, China",
+    "website": "https://www.creativity-ai-colab.com/",
+    "bio": "He Nan, （Sichuan Fine Arts Institute MFA, Design School, Sichuan Fine Arts Institute）. She is devoted to the research of Digital Media Art Design, Information and Interaction Design, is full of enthusiasm for font design. She also loves Chinese traditional culture and is very interested in the innovation and integration of technology and design.",
+    "images": "He_Nan.jpeg",
+    "contributions_ids": 1032
+  },
+  {
+    "id": "A013",
+    "name": "Christoph",
+    "surname": "Müller",
+    "affiliation": "Visualisierungsinstitut der Universität Stuttgart, Universität Stuttgart, Stuttgart, Germany",
+    "bio": "Christoph Müller received his diploma in software engineering from the University of Stuttgart, Germany. He is currently a doctoral researcher at the Visualization Research Center of the University of Stuttgart. His research interests include visualisation and GPU computing, in particular graphics clusters and large, high-resolution displays, the quantification of GPU-based visualisation techniques with respect to performance an energy consumption, and security visualisation.",
+    "images": "MÜLLER_CHRISTOPH.png",
+    "contributions_ids": 1089
+  },
+  {
+    "id": "A014",
+    "name": "Karsten",
+    "surname": "Schatz",
+    "affiliation": "Visualization Research Center (VISUS), University of Stuttgart, Stuttgart, Germany",
+    "bio": "Karsten Schatz is a software engineer working at Mercedes-Benz Tech Motion GmbH in Leinfelden-Echterdingen, Germany. Previously, he was a doctoral researcher at the Visualization Research Center of the University of Stuttgart, and Eberhard Karls University of Tübingen, Germany. He received his Master’s degree in computer science from the University of Stuttgart, Germany. His research interests include visualization and computer graphics, with a focus on molecular and astrophysical visualization, and the visualization of large particle-based data.",
+    "images": "SCHATZ_KARSTEN.jpg",
+    "contributions_ids": 1089
+  },
+  {
+    "id": "A015",
+    "name": "Florian",
+    "surname": "Frieß",
+    "affiliation": "University of Stuttgart, Stuttgart, Germany",
+    "bio": "Florian Frieß is a software engineer working at ADVANTEST in Böblingen, Germany. Previously, he was a doctoral researcher at the Visualization Research Center of the University of Stuttgart. He received a M. Sc. and a Ph. D. (Dr. rer. nat., with honours) in computer science from the University of Stuttgart, Germany. His research interests include visualisation, computer graphics, GPU computing with a focus on interactive remote visualisation of large data on large high-resolution displays.",
+    "images": "FRIESS_FLORIAN.jpg",
+    "contributions_ids": 1089
+  },
+  {
+    "id": "A016",
+    "name": "Michael",
+    "surname": "Krone",
+    "affiliation": "Big Data Visual Analytics, University of Tübingen, Tübingen, Germany",
+    "bio": "Michael Krone is a junior professor for Big Data Visual Analytics in Life Sciences at the department of computer science at Eberhard Karls University of Tübingen, Germany. He is currently also a visiting assistant professor at New York University. Previously, he was a postdoctoral researcher at the Visualization Research Center of the University of Stuttgart and a guest lecturer at Ludwig Maximilian University of Munich, Germany. He received a diploma and a Ph. D. (Dr. rer. nat., with honours) in computer science from the University of Stuttgart, Germany. His research interests include visualization, computer graphics, GPU computing, and human-computer interaction, with a focus on molecular visualization, visual analysis of biomedical data, web-based visualization, and interactive visual exploration of large data. In 2017, he contributed to the science exhibition “In the Digital Laboratory”.",
+    "images": "KRONE_MICHAEL.jpg",
+    "contributions_ids": 1089
+  },
+  {
+    "id": "A017",
+    "name": "Bon Adriel",
+    "surname": "Aseniero",
+    "affiliation": "Autodesk Research",
+    "website": "https://bonadriel.com",
+    "bio": "Bon Adriel Aseniero is a multi-disciplinary information designer, computer scientist, and visual artist, based in Toronto, Ontario, Canada. His research interests lie in the intersection of Information Visualization and Human-Computer Interaction, particularly in exploring how delightful visualizations can engage and support people in exploring data. This research is informed by his background in computer science (BSc., MSc., and Ph.D. University of Calgary) and a long-time passion for the visual arts including graphic design, photography, drawing, and painting. He currently works at Autodesk as a Senior Research Scientist.",
+    "images": "ASENIERO_BONADRIEL.png",
+    "contributions_ids": 1013
+  },
+  {
+    "id": "A018",
+    "name": "Sheelagh",
+    "surname": "Carpendale",
+    "affiliation": "Simon Fraser University",
+    "website": "https://www.cs.sfu.ca/~sheelagh/",
+    "bio": "Sheelagh Carpendale is a Professor at Simon Fraser University (SFU). She directs the InnoVis (Innovations in Visualization) research group and the newly formed ixLab (Interactive Experiences Lab). Her NSERC/SMART Industrial Research Chair in Interactive Technologies is still current. She has been awarded the IEEE VGTC Visualization Career Award and is inducted into both the IEEE Visualization Academy (highest and most prestigious honor in the field of visualization) and the ACM CHI Academy. Her research on information visualization, large interactive displays, and new media draws on her dual background in Computer Science (BSc. and Ph.D. Simon Fraser University) and Visual Arts (Sheridan College School of Design, and Emily Carr College of Art).",
+    "images": "CARPENDALE_SHEELAGH.png",
+    "contributions_ids": 1013
+  },
+  {
+    "id": "A019",
+    "name": "George",
+    "surname": "Fitzmaurice",
+    "affiliation": "Autodesk Research",
+    "website": "https://www.autodesk.com/research/people/george-fitzmaurice",
+    "bio": "George Fitzmaurice is a Research Fellow and heads the Human Computer Interaction and Visualization Research group. During the last 25 years his research has focused on technology-assisted learning systems, knowledge capture and retrieval, highly interactive visualization systems, AR/VR and novel input, and interaction techniques. He received a B.Sc. in Mathematics with Computer Science at MIT, an M.Sc. in Computer Science at Brown University, and a Ph.D. in Computer Science at the University of Toronto. In 2019 he was inducted into the ACM CHI Academy for his substantial contributions to the field of HCI.",
+    "images": "FITZMAURICE_GEORGE.png",
+    "contributions_ids": 1013
+  },
+  {
+    "id": "A020",
+    "name": "Justin",
+    "surname": "Matejka",
+    "affiliation": "Autodesk Research",
+    "website": "https://www.autodesk.com/research/people/justin-matejka",
+    "bio": "Justin Matejka is a Senior Principal Research Scientist at Autodesk Research in Toronto, Canada. Since 2006 he has published more than 30 papers and received over 40 patents on a diverse set of topics including interfaces for 3D navigation, software learnability, video navigation, and data visualization. His current research focus is understanding basic human behaviour in visualization and perception, and combining the insights gained into systems for interactively exploring large datasets.",
+    "images": "MATEJKA_JUSTIN.png",
+    "contributions_ids": 1013
+  },
+  {
+    "id": "A021",
+    "name": "Luiz",
+    "surname": "Ludwig",
+    "affiliation": "School of Fine Arts, Federal University of Rio de Janeiro. Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro",
+    "bio": "[Artist] Luiz Ludwig is a designer, artist and professor. Focused on the convergence between data, art and design, Luiz has developed projects for museums such as Museum of Tomorrow, Banco do Brasil Cultural Center, and Oi Futuro Cultural Center. He has also carried out projects for institutions such as Oi, Petrobras, National Institute for Pure and Applied Mathematics. \n\n\nHe participated as an artist and co-producer in the exhibition on artistic data visualization 'Numerical Existence', at the Oi Futuro Cultural Center in 2018. Together with Doris Kosminsky and Barbara Castro, he edited the book ''Numerical Existence' with key texts on data visualization translated to Portuguese.\n\n\nMaster in Graphic Design from the Maryland Institute College of Art (USA), Luiz is currently pursuing his doctoral degree in Visual Arts at Federal University of Rio de Janeiro and he is currently a professor at Pontifical Catholic University of Rio de Janeiro.",
+    "images": "LUDWIG_LUIZ.JPG",
+    "contributions_ids": 1019
+  },
+  {
+    "id": "A022",
+    "name": "Doris",
+    "surname": "Kosminsky",
+    "affiliation": "School of Fine Arts, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil",
+    "bio": "[Advisor] Doris Kosminsky is a designer, researcher, and associate professor at the Federal University of Rio de Janeiro in the Visual Design Department at the School of Fine Arts. She also teaches at the Graduate Programs in Visual Arts, and in Design. \n\n\nKosminsky leads the Visuality and Visualization Lab (labvis.eba.ufrj.br) since 2010. Her primary research interests are in Data Visualization, Information Design, and the creative processes with the use of data. Among her principal works are the exhibition and book “Numerical Existence”, as well as “Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff”, Best Paper IEEE InfoVIS 2019.\n\n\nRecently, she has been coordinating the big data visualization project, “AMPLIA SAÚDE”, which explores the effect of environmental factors on maternal and newborn health, from the design point of view. This project is granted by the Bill & Melinda Gates Foundation and the Brazilian National Research Council – CNPq.",
+    "contributions_ids": 1019
+  },
+  {
+    "id": "A023",
+    "name": "Jiabao",
+    "surname": "Li",
+    "affiliation": "The University of Texas at Austin",
+    "website": "https://www.jiabaoli.org/",
+    "bio": "Jiabao Li creates works addressing climate change, interspecies world sharing, humane technology, and a just, sustainable future. In Jiabao’s TED Talk, she uncovered how technology mediates the way we perceive reality. At Apple, she invents and explores new technologies for future products. Jiabao holds multiple patents and awards including Falling Walls, iF, AACYF 30 Under 30, FastCo, Core77, A’ Design. She serves on IDSA education counsel and D&AD jury panel. Currently, Jiabao is an Assistant Professor at UT Austin and a member of NEW INC at the New Museum. She holds a Master of Design Technology with Distinction at Harvard GSD.",
+    "images": "li_jiabao.jpg",
+    "contributions_ids": 1021
+  },
+  {
+    "id": "A024",
+    "name": "Houjiang",
+    "surname": "Liu",
+    "affiliation": "The University of Texas at Austin",
+    "bio": "Houjiang Liu is currently a PhD student studying HCI and Human-centered AI in the Information School at the University of Texas at Austin. He holds an MFA in Design and BA in Applied Physics. Previously, he was a design researcher and an interaction designer.",
+    "contributions_ids": 1021
+  },
+  {
+    "id": "A025",
+    "name": "Jilie",
+    "surname": "Zeng",
+    "affiliation": "The University of Texas at Austin",
+    "website": "https://www.zengjilie.com/",
+    "bio": "Jilie Zeng is a graduate student in the Information School at the University of Texas at Austin.",
+    "contributions_ids": 1021
+  },
+  {
+    "id": "A026",
+    "name": "Di",
+    "surname": "Wu",
+    "affiliation": "The University of Texas at Austin",
+    "bio": "Di Wu is currently a Master student in the Information School at the University of Texas at Austin. ",
+    "contributions_ids": 1021
+  },
+  {
+    "id": "A027",
+    "name": "Ying",
+    "surname": "Ding",
+    "affiliation": "The University of Texas at Austin",
+    "website": "https://yingding.ischool.utexas.edu/",
+    "bio": "Dr. Ying Ding is Bill & Lewis Suit Professor at School of Information, University of Texas at Austin. She has been involved in various NIH, NSF and European-Union funded projects. She has published 240+ papers in journals, conferences, and workshops, and served as the program committee member for 200+ international conferences. She is the co-editor of book series called Semantic Web Synthesis by Morgan & Claypool publisher, the co-editor-in-chief for Data Intelligence published by MIT Press and Chinese Academy of Sciences, and serves as the editorial board member for several top journals in Information Science and Semantic Web. Her current research interests include data-driven science of science, AI in healthcare, Semantic Web, knowledge graph, data science, scholarly communication, and the application of Web technologies.",
+    "images": "ding_ying.JPG",
+    "contributions_ids": 1021
+  },
+  {
+    "id": "A028",
+    "name": "Alec",
+    "surname": "McGail",
+    "affiliation": "The University of Texas at Austin",
+    "website": "https://www.alecmcgail.com/",
+    "bio": "Alec McGail is a Ph.D. candidate at Cornell studying the sociology of sociology and the science of science. He has been completing his dissertation from a van-office which he has been carting around the country, interviewing key informants in the history of the social sciences, in an homage to Erdős. His focus on the theoretical foundations of his own discipline, and the processes of their calcification, was originally intended to give a robust backdrop for his own scattered theoretical and empirical studies. His interests include emergence in network formation and diffusion processes, physiological sensors of emotional energy flowing in conversation, and a chatbot which comes to understand you through conversation as the universal intermediary. His studies tend to emphasize the variety of mechanisms operative in social life, and as such often rely on an inductive and descriptive paradigm.",
+    "images": "mcgail_alec.JPG",
+    "contributions_ids": 1021
+  },
+  {
+    "id": "A029",
+    "name": "Kim",
+    "surname": "Albrecht",
+    "affiliation": "metaLAB (at) FU Berlin, Freie Universität Berlin, Berlin, Berlin, Germany\nmetaLAB (at) Harvard, Harvard, Cambridge, Massachusetts, United States",
+    "website": "https://kimalbrecht.com",
+    "bio": "Kim Albrecht visualizes cultural, technological, and scientific forms of knowledge. His diagrams unfold and question the structures of representation and explore the aesthetics of technology and society. Kim is a principal researcher at metaLAB (at) Harvard, director of metaLAB (at) FU Berlin, and holds a Ph. D. from the University of Potsdam in media theory. As a design researcher, Kim Albrecht explores the boundaries of visual knowledge in the post-digital age. Working and living in Berlin, Kim exhibited, among others, at Harvard Art Museums, MIT List Visual Arts Center, Four Domes Pavilion Wrocław, Ars Electronica Center, Cooper Hewitt, Cube design museum, ZKM Center for Art and Media Karlsruhe, Kaestner Gesellschaft, The Wrong Biennial, Istanbul Contemporary Art Museum, and Kunsthaus Graz.",
+    "images": "ALBRECHT_KIM.jpg"
+  },
+  {
+    "id": "A030",
+    "name": "Catherine",
+    "surname": "D'Ignazio",
+    "affiliation": "Dept of Urban Studies & Planning, MIT, Cambridge, Massachusetts, United States",
+    "website": "http://www.kanarinka.com",
+    "bio": "Catherine D’Ignazio is a hacker mama, scholar, and artist/designer who focuses on feminist technology, data literacy and civic engagement. She has run women’s health hackathons, designed global news recommendation systems, created talking and tweeting water quality sculptures, and led walking data visualizations to envision the future of sea level rise. Her 2020 book from MIT Press, Data Feminism, co-authored with Lauren Klein, charts a course for more ethical and empowering data science practices. D’Ignazio is an assistant professor of Urban Science and Planning in the Department of Urban Studies and Planning at MIT where she is the Director of the Data + Feminism Lab."
+  },
+  {
+    "id": "A031",
+    "name": "Nicole",
+    "surname": "Martin",
+    "affiliation": "Arnold Arboretum, Harvard University , Boston, Massachusetts, United States",
+    "website": "https://www.iwrising.org/nicole-martin",
+    "bio": "Nicole Martin (Navajo, Laguna, Chiricahua Apache, Zuni) is an organizer for Indigenous Women Rising.  Her passion is rooted in creating healthier conversations in regards to sex, gender, and sexuality. Nicole received her BA in Native American and Indigenous Studies with a minor in Gender and Women’s Studies, from Fort Lewis College in Durango, CO. She resides in Albuquerque with family."
+  },
+  {
+    "id": "A032",
+    "name": "Matthew",
+    "surname": "Battles",
+    "affiliation": "Sex Educator",
+    "website": "https://www.matthewbattles.org/",
+    "bio": "Matthew Battles is a maker and thinker whose work merges literary, scholarly, and artistic forms of inquiry. His writing has appeared in such venues as The American Scholar, The Atlantic, Harper’s Magazine, and The New York Times. His most recent book, TREE, was published by Bloomsbury in 2017. He is currently working on a cultural and natural history of memory. With a far-flung network of collaborators, he has created films, installations, and experiences from Boston to Berlin. In January 2022, he joined the staff of Harvard’s Arnold Arboretum, where he edits the magazine, Arnoldia."
+  },
+  {
+    "id": "A033",
+    "name": "Pedro",
+    "surname": "Cruz",
+    "affiliation": "Art + Design, Northeastern University, Boston, Massachusetts, United States",
+    "website": "pmcruz.com",
+    "bio": "Pedro Cruz is an Assistant Professor in the Art + Design Department at Northeastern University, where he teaches Information Design and Data Visualization. His work as been featured in venues such as the London Design Biennale, MoMA, CES, the Museum of the City of New York, the Ibero-American Biennale of Design, SIGGRAPH, the IEEE VIS Arts Program, the ALIFE Conference on Artificial Life, the Museum of Fine Arts in Boston, FACTT Festival of Art & Science, the Albright-Knox Art Gallery, and in the Information is Beautiful Awards. Pedro earned his PhD in Information Science and Technology at the University of Coimbra. He was also a visiting PhD student at the MIT Senseable City Lab in Cambridge and a research assistant at the Singapore-MIT Alliance for Research and Technology.",
+    "images": "CRUZ_PEDRO.jpg",
+    "contributions_ids": 1030
+  },
+  {
+    "id": "A034",
+    "name": "Joseph A.",
+    "surname": "Insley",
+    "affiliation": "Northern Illinois University, DeKalb, Illinois, United States Argonne National Laboratory, Lemont, Illinois, United States",
+    "bio": "Joseph A. Insley is the Team Lead for Visualization and Data Analysis at Argonne National Laboratory’s Leadership Computing Facility (ALCF), and an Associate Professor in the School of Art and Design at Northern Illinois University. With a Master of Fine Arts and a Master of Science in Computer Science he draws on his diverse background in both his professional and artistic career. At the ALCF his research includes the development of parallel and scalable methods for large-scale data analysis and visualization on current and next-generation systems. He works closely with facility users from a wide range of scientific domains, developing cutting edge visualizations that provide insight into their large-scale simulation data. One of his crowning achievements is the appearance of one of his images on the cover of the international science journal “Nature”. In his artistic practice he leverages computers and technology to transform data and ideas into visual expression.",
+    "images": "Insley_Joseph.jpg",
+    "contributions_ids": 1031
+  },
+  {
+    "id": "A035",
+    "name": "Maria",
+    "surname": "Castellanos",
+    "affiliation": "Department of Art, Design and Drama/Faculty of Technology, Art and Design/ FeLT Project, OsloMet - Oslo Metropolitan University, Oslo, Norway",
+    "bio": "María Castellanos and Alberto Valverde (uh513), began working together as a duo in 2009. María Castellanos is currently working as post-doc researcher at Oslo Metropolitan University, in the framework of FeLT Project –Futures of Living Technologies–.  Alberto Valverde is an artist and technologist with experience in system design, creation of interactive environments, multimedia and robotics.\n\nThey joint practice focuses on the relationships between human beings , non human beings and machines. During the  recent years they have centred their research on the exploration about boundaries of human senses and the creation of complex systems that promote the communication and the understanding between humans and plants.\n\nTheir work has won awards like Leonardo Grant for Researchers and Cultural Creators by BBVA Foundation (Spain) in 2020. In 2017 they received the prize  VERTIGO STARTS,  granted under the aegis of EU-Horizon 2020, an initiative led by Centre Pompidou and IRCAM , Paris, and the Fraunhifer. Gesellschaft, Germany, to foster collaboration between art practitioners and R&D projects. In 2016 they were awarded the Antón Scholarship for Sculpture Research from the Museo Antón in Candás (Spain). Also in 2016 they were nominated for the STARTSPrize' 16 at Ars Electronica, Linz (Austria) and the Japan Media Arts Festival, Tokyo (Japan).\n\nTheir work was exhibited and performed at venues and festivals such as Ars Electronica Festival (AT), LABoral Art Centre (SP) , Athens Digital Arts Festival (GR), Onassis Stegi (GR), House of electronic Arts Basel(CH), La Gâite Lyrique Museum (FR), DRIVE Volskwagen (DE), Matadero Madrid (SP), Bozar Electronic Art Festival (BE), Arts Santa Mónica (SP), Touch me Festival (CH) MUSAC (SP), CEBIT. Europe's Festival for Innovation and Digitization (DE), RIXC Art Science Festival (LV), Meta.Morf. Trondheim International Biennale for Art and Technology (NO).",
+    "images": "castellanos-vicente_maria.jpg",
+    "contributions_ids": 1038
+  },
+  {
+    "id": "A036",
+    "name": "Alberto",
+    "surname": "Valverde",
+    "bio": "María Castellanos and Alberto Valverde (uh513), began working together as a duo in 2009. María Castellanos is currently working as post-doc researcher at Oslo Metropolitan University, in the framework of FeLT Project –Futures of Living Technologies–.  Alberto Valverde is an artist and technologist with experience in system design, creation of interactive environments, multimedia and robotics.\n\nThey joint practice focuses on the relationships between human beings , non human beings and machines. During the  recent years they have centred their research on the exploration about boundaries of human senses and the creation of complex systems that promote the communication and the understanding between humans and plants.\n\nTheir work has won awards like Leonardo Grant for Researchers and Cultural Creators by BBVA Foundation (Spain) in 2020. In 2017 they received the prize  VERTIGO STARTS,  granted under the aegis of EU-Horizon 2020, an initiative led by Centre Pompidou and IRCAM , Paris, and the Fraunhifer. Gesellschaft, Germany, to foster collaboration between art practitioners and R&D projects. In 2016 they were awarded the Antón Scholarship for Sculpture Research from the Museo Antón in Candás (Spain). Also in 2016 they were nominated for the STARTSPrize' 16 at Ars Electronica, Linz (Austria) and the Japan Media Arts Festival, Tokyo (Japan).\n\nTheir work was exhibited and performed at venues and festivals such as Ars Electronica Festival (AT), LABoral Art Centre (SP) , Athens Digital Arts Festival (GR), Onassis Stegi (GR), House of electronic Arts Basel(CH), La Gâite Lyrique Museum (FR), DRIVE Volskwagen (DE), Matadero Madrid (SP), Bozar Electronic Art Festival (BE), Arts Santa Mónica (SP), Touch me Festival (CH) MUSAC (SP), CEBIT. Europe's Festival for Innovation and Digitization (DE), RIXC Art Science Festival (LV), Meta.Morf. Trondheim International Biennale for Art and Technology (NO).",
+    "images": "valverde-garcia_alberto.jpg",
+    "contributions_ids": 1038
+  },
+  {
+    "id": "A035+A036",
+    "name": "Maria Castellanos and",
+    "surname": "Alberto Valverde",
+    "affiliation": "(1) Department of Art, Design and Drama/Faculty of Technology, Art and Design/ FeLT Project, OsloMet - Oslo Metropolitan University, Oslo, Norway, (2) Independent artist",
+    "bio": "\"María Castellanos and Alberto Valverde (uh513), began working together as a duo in 2009. María Castellanos is currently working as post-doc researcher at Oslo Metropolitan University, in the framework of FeLT Project –Futures of Living Technologies–.  Alberto Valverde is an artist and technologist with experience in system design, creation of interactive environments, multimedia and robotics.\n\nThey joint practice focuses on the relationships between human beings , non human beings and machines. During the  recent years they have centred their research on the exploration about boundaries of human senses and the creation of complex systems that promote the communication and the understanding between humans and plants.\n\nTheir work has won awards like Leonardo Grant for Researchers and Cultural Creators by BBVA Foundation (Spain) in 2020. In 2017 they received the prize  VERTIGO STARTS,  granted under the aegis of EU-Horizon 2020, an initiative led by Centre Pompidou and IRCAM , Paris, and the Fraunhifer. Gesellschaft, Germany, to foster collaboration between art practitioners and R&D projects. In 2016 they were awarded the Antón Scholarship for Sculpture Research from the Museo Antón in Candás (Spain). Also in 2016 they were nominated for the STARTSPrize' 16 at Ars Electronica, Linz (Austria) and the Japan Media Arts Festival, Tokyo (Japan).\n\nTheir work was exhibited and performed at venues and festivals such as Ars Electronica Festival (AT), LABoral Art Centre (SP) , Athens Digital Arts Festival (GR), Onassis Stegi (GR), House of electronic Arts Basel(CH), La Gâite Lyrique Museum (FR), DRIVE Volskwagen (DE), Matadero Madrid (SP), Bozar Electronic Art Festival (BE), Arts Santa Mónica (SP), Touch me Festival (CH) MUSAC (SP), CEBIT. Europe's Festival for Innovation and Digitization (DE), RIXC Art Science Festival (LV), Meta.Morf. Trondheim International Biennale for Art and Technology (NO).\"",
+    "images": "castellanos-vicente_maria.jpg;valverde-garcia_alberto.jpg",
+    "contributions_ids": 1038
+  },
+  {
+    "id": "A037",
+    "name": "Andrea",
+    "surname": "Benedetti",
+    "affiliation": "Department of Design, Politecnico di Milano, Milan, Italy",
+    "website": "https://www.bndndr.it/ ",
+    "bio": "Andrea Benedetti is currently a PhD student in Design at Politecnico di Milano, Italy. He’s affiliated to DensityDesign Lab where he started as Junior Research Assistant in 2019. He works at the intersection of data visualization, creative coding and communication design. He worked on interfaces for the curatorial and serendipitous exploration for digital archives of cultural heritage and is now focusing on the role of interfaces and the role of design in general in shaping awareness on how data is produced online by users. His teaching efforts are focused on teaching data visualization to students of various backgrounds, as well as creative coding as an expressive practice for designers. From 2017, he collaborates with the Digital Methods Initiative at the University of Amsterdam.",
+    "images": "BENEDETTI_ANDREA.JPG"
+  },
+  {
+    "id": "A038",
+    "name": "Beatrice",
+    "surname": "Gobbo",
+    "affiliation": "Department of Design, Politecnico di Milano, Milan, Italy",
+    "website": "http://beatgo.it/ ",
+    "bio": "Beatrice Gobbo is a PhD in Design and she is currently working as researcher at DensityDesign (Politecnico Di Milano). Her work and academic interests are positioned at the intersection between information design and computer science. Indeed, with her PhD thesis “Embalming and Dissecting AI. Visual Explanations for the General Public” she described a mixed methodology for approaching the Explainable Artificial Intelligence issue from a communication design perspective. Moreover, from 2019 she is also focused on teaching data visualization to students from different background.",
+    "images": "GOBBO_BEATRICE.JPG"
+  },
+  {
+    "id": "A039",
+    "name": "Giacomo",
+    "surname": "Flaim",
+    "affiliation": "Independent Researcher, Milan, Italy",
+    "website": "https://giacomoflaim.com/ ",
+    "bio": "Giacomo Flaim is an Information and User Experience designer from Italy, currently working in H-FARM Innovation. Previously, he worked in other design companies such as Accurat and oblo.design. He graduated at Politecnico di Milano in MA in Communication Design, after a bachelor in Cognitive Science. He works on UI and digital products, mainly focusing on data visualization with a human-centered approach. During the academic year 2021-2022, he taught a data visualization module in the master’s degree program in Communication Design at the University of San Marino. From 2017 to 2019, he collaborates with the Digital Methods Initiative at the University of Amsterdam.",
+    "images": "FLAIM_GIACOMO.jpg"
+  },
+  {
+    "id": "A040",
+    "name": "Liu",
+    "surname": "Chunxi Tracy",
+    "affiliation": "City University of Hong Kong, Department of Biomedical Sciences",
+    "website": "https://www.tracychunxiliucc.com",
+    "bio": "LIU Chunxi Tracy is an artist and biological researcher based in Hong Kong. Her artworks include bioart, photography, installation, interactive installation, paintings, videos, writings, poems and dramas. She believes artists as the “mediums” has the responsibility to step the world forward. “Whatever I could do to change the world a little bit, I would do anything for it.”She said.\nIn addition to artworks, she is also a biological researcher with interests in molecular biology, genetics, neuroscience, biological coding and biomedical engineering. She would like to make the world better.",
+    "images": "LIUChunxiTracy.jpg",
+    "contributions_ids": 1043
+  },
+  {
+    "id": "A041",
+    "name": "Luk",
+    "surname": "Wai Lam Noah",
+    "affiliation": "City University of Hong Kong, School of Creative Media",
+    "website": "http://noahluk.co/",
+    "bio": "LUK Wai Lam Noah is a senior undergraduate in the School of Creative Media at the City University of Hong Kong. She is a CGI enthusiast, not only does she is a 3D animator, but she is also passionate about creating multidisciplinary installation art. Her knowledge of 3D computer graphics and printing allows her to bring all sorts of imaginative ideas to life. Her artworks include: 3D animations, motion graphics, interdisciplinary installations, and graphic designs.",
+    "images": "LUKWaiLamNoah.jpg",
+    "contributions_ids": 1043
+  },
+  {
+    "id": "A042",
+    "name": "Varvara",
+    "surname": "Guljajeva",
+    "affiliation": "Computational Media and Arts, Hong Kong University of Science and Technology",
+    "website": "http://var-mar.info/",
+    "bio": "Dr Varvara Guljajeva is an Assistant Professor in Computational Media and Arts at the Hong Kong University of Science and Technology (Guangzhou). Previously, she held positions at the Estonian Academy of Arts and Elisava Design School in Barcelona. Her PhD thesis “From Interaction to Post-Participation: The Disappearing Role of the Active Participant” was selected as the highest-ranking abstracts by Leonardo Labs in 2020. As an artist, she works together with Mar Canet forming an artist duo Varvara & Mar. Often the duo's work is inspired by the information age. Their works were shown at MAD, Barbican, Ars Electronica, ZKM, etc. ",
+    "images": "Guljajve_Varvara.jpg",
+    "contributions_ids": 1047
+  },
+  {
+    "id": "A043",
+    "name": "Mar",
+    "surname": "Canet Sola",
+    "affiliation": "Tallinn University, Estonia",
+    "website": "http://var-mar.info/",
+    "bio": "Mar Canet Sola is a PhD candidate and research fellow at Cudan research group in BFM Tallinn University. He has a master’s degree from Interface Cultures at the University of Art and Design Linz and two degrees in art and design from ESDI in Barcelona and in computer game development from University Central Lancashire in the UK. As an artist, she works together with Varvara Guljajeva forming an artist duo Varvara & Mar. Often the duo's work is inspired by the information age. Their works were shown at MAD, Barbican, Ars Electronica, ZKM, etc.",
+    "images": "Canet Sola_Mar.jpg",
+    "contributions_ids": 1047
+  },
+  {
+    "id": "A044",
+    "name": "Yin",
+    "surname": "Yu",
+    "affiliation": "School of Art and Design, San Diego State University, USA",
+    "website": "https://yinyudesign.com/",
+    "bio": "Dr. Yin Yu is a multidisciplinary artist, designer, and engineer. Her research investigates the potential of interactive multimedia environments and the intersection of architecture, music, and emerging technologies. Her practice covers a broad spectrum, including furniture, architecture, interactive multimedia, wearable design, and art installation. Underlying every aspect of her work is her deep commitment to investigating the social and physical interactions between human beings and the built spaces and redesigning the human-made environment through new media technologies. Her works have won several prestigious awards, published and exhibited internationally, such as CHI, HAID, and Xenakis22 Symposium. Dr. Yu joined the School of Art and Design at San Diego State University as Assistant Professor in 2022. She has a Bachelor of Science in Electronic Engineering (CN), a Master of Science in Information Technology (US), a Master of Science in Interior Architecture (US), and a Ph.D. in Media Arts and Technologies (US).",
+    "images": "YU_YIN.png",
+    "contributions_ids": 1052
+  },
+  {
+    "id": "A045",
+    "name": "Weidi",
+    "surname": "Zhang",
+    "affiliation": "Media and Immersive eXperience Center (MIX), Arizona State University, USA",
+    "website": "www.zhangweidi.com",
+    "bio": "Weidi Zhang is an LA and Phoenix-based new media artist/designer and an assistant professor of immersive experience design at Arizona State University. Her interdisciplinary art and design research investigates A Speculative Assemblage at the intersection of immersive media design, experimental data visualization, and interactive AI art. Her works are featured in international awards, such as the Best In Show Awards in SIGGRAPH, Red Dot Design Award, Honorary Mention in Prix Ars Electronica, Juried Selection in Japan Media Arts Festival, Lumen Prize shortlists, and others. Her works have been exhibited at international venues such as ISEA, Times Art Museum, Society For Arts and Technology [SAT], SwissNex Gallery, CVPR, IEEE VISAP, Zeiss-Planetarium Jena, Planetarium 1, and others. She holds her Ph.D. degree in Media Arts and Technology from the University of California, Santa Barbara, and an MFA degree in Art + Technology at the California Institute of the Arts.",
+    "images": "ArtistProfile.JPG",
+    "contributions_ids": 1078
+  },
+  {
+    "id": "A046",
+    "name": "Linqi",
+    "surname": "Wang",
+    "affiliation": "School of Design, Hunan University, Changsha, Hunan, China",
+    "bio": "UX designer, Master, School of Design in Hunan University\nHer research interests include Interactive Data Visualization, Information Design, and User Experience Design. She explores the paradigms of Visual Data Storytelling in artistic design. She is responsible for the overall design and data processing of the project.",
+    "contributions_ids": 1079
+  },
+  {
+    "id": "A047",
+    "name": "Fengzhou",
+    "surname": "Liang",
+    "affiliation": "School of Data and Computer Science, sun yat-sen university, Guangzhou, Guangdong, China",
+    "bio": "Master, School of Computer Science and Engineering in Sun Yat-sen University\nHis research focuses on Visualization. He devotes to exploring better 3D rendering techniques. He is responsible for the Front-end development of the project.",
+    "contributions_ids": 1079
+  },
+  {
+    "id": "A048",
+    "name": "Fang",
+    "surname": "Liu",
+    "affiliation": "School of Design, Hunan University, Hunan, China",
+    "bio": "Ph.D., Professor and Doctoral Supervisor in Hunan University, Deputy Director of the Key Laboratory of the Ministry of Culture and Tourism for \"Intelligent Design Technology for Digital Culture and Creativity\", Member of the Professional Committee of Information Storage Technology. Her research interests include Cultural Big Data, Intelligent Interaction Design, Data Visualization, Visual Analytics, Edge Computing, and other areas. ",
+    "contributions_ids": 1079
+  },
+  {
+    "id": "A049",
+    "name": "Boai",
+    "surname": "Yang",
+    "affiliation": "School of Design, Hunan University, Changsha, China",
+    "bio": "Software Engineer, Ph.D.candidate, School of Design in Hunan University\nHe has five years of development experience in Software Engineering, Big Data applications, distributed computing, etc. He is currently engaged in research on Intelligent Design, Big Data Visualization, etc. He is responsible for the Front-end development of the project.\n",
+    "contributions_ids": 1079
+  },
+  {
+    "id": "A050",
+    "name": "Junyan ",
+    "surname": "Lv",
+    "affiliation": "School of Design, Hunan University, Changsha, China",
+    "bio": "Postgraduate student, School of Design in Hunan University\nShe is good at video editing and post-production. She explores new forms of expression that combine Data Narrative and Interaction Design. She assisted with video editing in this project.\n",
+    "contributions_ids": 1079
+  },
+  {
+    "id": "A051",
+    "name": "Ray",
+    "surname": "LC",
+    "affiliation": "School of Creative Media, City University of Hong Kong",
+    "website": "https://raylc.org/",
+    "bio": "RAY LC (Parsons MFA, UCLA PhD) creates exhibitions and interventions using environmental storytelling and human-machine interactions. He takes inspiration from his own research in human-computer interaction and neuroscience in works that probe human communityís evolving relationship with technology. Notable exhibitions include BankArt, 1_Wall, Process Space LMCC, New York Hall of Science Residency, Saari Residency, Kyoto Design Lab Residency, Kiyoshi Saito Museum, ICRA Elektra Montreal, ArtLab Lahore, Ars Electronica Linz, NeON Digital Arts Festival, New Museum, CICA Museum, NYC Short Documentary Film Festival, Burning Man, NeurIPS, Deconstrukt, Angewandte Festival, University of Graz, Elektron Tallinn, Floating Projects, Jockey Club Creative Arts Centre, Soho House Hong Kong, Osage Gallery, Hong Kong Arts Centre, Science Gallery Detroit.",
+    "images": "LC_RAY.jpg",
+    "contributions_ids": 1082
+  },
+  {
+    "id": "A052",
+    "name": "Mizuho ",
+    "surname": "Kappa",
+    "affiliation": "Peridance, New York",
+    "website": "https://www.instagram.com/mizup0i_kappa/",
+    "bio": "I am a dancer, choreographer and artist. As an artist, I always tried to find new connections between scientific or statistical facts and emotions. And using technology not as a stage directing tool but as a thing that motivates movements is one of my most important subjects.\nI have worked with ìPeridance Contemporary Dance Companyî directed by Igal Perry, ìLa Danse Compagnie Kaleidoscopeî directed by Kazuyuki Futami, ìBENNYROYCE DANCEî directed by Bennyroyce Royon, ìAyalis in Motionî directed by Ayako Takahashi. I have worked with reknowned choreographers such as Igal Perry, Bennyroyce Royon, Julie Magnevile, Guanglei Hui, Hussein Smko, Kazuyuki Futami, Yoshiko Chuma, Jorge Vasquez, Jonathan Huor, Nicholas Palmquist, Vivake Khamsingsavath, Miho Ryu, Ryu Suzuki, Shuntaro Yoshida, RAY LC, Ayako Takahashi.",
+    "images": "Kappa_Mizuho.jpg",
+    "contributions_ids": 1082
+  },
+  {
+    "id": "A053",
+    "name": "Oskar",
+    "surname": "Elek",
+    "affiliation": "Computational Media, University of California, Santa Cruz, California USA",
+    "website": "https://elek.pub/",
+    "bio": "Oskar Elek is an interdisciplinary Postdoctoral Scientist at UC Santa Cruz Computational Media. He designs algorithms that draw from complex fractal systems and explores their applications in astrophysics and cosmology, as well as computational art and design. He is the lead developer of open-source projects Polyphorm and PolyPhy. Find more about his work at elek.pub.",
+    "images": "ELEK_OSKAR.jpg",
+    "contributions_ids": 1085
+  },
+  {
+    "id": "A054",
+    "name": "Weston",
+    "surname": "Mossman",
+    "affiliation": "Independent researcher, Santa Cruz, California USA",
+    "bio": "Weston Mossman is a UC Santa Cruz Computational Media alum, Front End software architect, guitarist, electronic musician, and visual/craft artist. Weston organizes a multidisciplinary community art event in Santa Cruz called @LiminalSpaceEvents, performs in an Afrobeats band called @phreeborn, plays live organic ambient music as @swayor_music, and nerds out about anything tech/art.",
+    "images": "MOSSMAN_WESTON.jpg",
+    "contributions_ids": 1085
+  },
+  {
+    "id": "A055",
+    "name": "Angus G.",
+    "surname": "Forbes",
+    "affiliation": "Creative Coding Lab, Computational Media Department, University of California USA",
+    "website": "https://angusforbes.com/",
+    "bio": "Angus Forbes is an Associate Professor in the Computer Graphics Technology Department at Purdue University. His interdisciplinary research in computational media focuses on topics in graphics and visualization, and he is also engaged in exploring the creative use of contemporary technologies. More information about his work can be found at angusforbes.com.",
+    "images": "FORBES_ANGUS.jpg",
+    "contributions_ids": 1085
+  }
+]

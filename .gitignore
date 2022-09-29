@@ -35,8 +35,8 @@ yarn-error.log*
 
 # vercel
 .vercel
-data/authors.json
-data/committee.json
-data/contributions.json
-data/people.json
-data/programme.json
+# data/authors.json
+# data/committee.json
+# data/contributions.json
+# data/people.json
+# data/programme.json

@@ -1,0 +1,204 @@
+[
+  {
+    "id": "skyglyphs",
+    "pc_id": "1013",
+    "title": "SkyGlyphs: Reflections on the Design of a Delightful Visualization",
+    "authors": "A017;A018;A019;A020",
+    "type": "pictorial",
+    "description": "In creating SkyGlyphs, our goal was to develop a data visualization that could possibly capture people’s attention and spark their curiosity to explore a dataset. This work was inspired by a mingling of research including serendipitous interactions, visualizations for public displays, and personal visualizations. SkyGlyphs is a nonconventional whimsical visualization, depicting datapoints as animated balloons in space. We designed it to encourage non-experts to casually browse the contents of a repository through visual interactions like linking and grouping of datapoints. Our contributions include SkyGlyphs’ representation and our design reflection that reveals a perspective on how to design delightful visualizations.",
+    "images": "skyglyphs_visap_2022-rep-images-01.png;skyglyphs_visap_2022-rep-images-02.png;skyglyphs_visap_2022-rep-images-03.png;skyglyphs_visap_2022-rep-images-04.png;skyglyphs_visap_2022-rep-images-05.png",
+    "video": "SkyGlyphs walkthrough video.mp4"
+  },
+  {
+    "id": "supersynthesis",
+    "pc_id": "1018",
+    "title": "Supersynthesis: A Communal Synthesis",
+    "authors": "A001",
+    "type": "pictorial",
+    "keywords": "audiovisual;communal;interactive",
+    "description": "This pictorial presents the journey of a light and sound installation called Supersynthesis. It goes over the design decisions behind the sculptural form and software architecture, which collects the data from users through an interactive interface and realizes it through the installation. In the discussion, I bring up previous works that align with this project. I propose the term “communal computing” as a technique used by these works, which create a space for collective interaction and contribute to a social experience using data-driven interactive interfaces and cloud architecture.",
+    "images": "1.jpg;2.jpg;3.jpg;4.jpg;5.jpg"
+  },
+  {
+    "id": "tangled-tracks",
+    "pc_id": "1019",
+    "title": "Tangled Tracks",
+    "authors": "A021;A022",
+    "type": "artwork",
+    "description": "The artwork Tangled Tracks consists of a set of 16 red and white ceramic tiles that register the real and virtual paths taken by the artist. As a way of exhibiting them, the tiles are available so the public can interact and rearrange them in their own way. In this manner, participants are invited to form their own paths, imagining and fabulating routes. In addition, through a projection mapped on top of some tiles, it is possible to know more features about the routes: origin and destination, what type of route it is and how the information was obtained.\n\nThe process of capturing the paths was done differently according to the type of path. The red ceramic tiles contain drawings of physical paths that were captured by the cell phone’s GPS during the artist’s walks and movements around the cities of Rio de Janeiro and São Paulo. On the other hand, the white ceramic tiles contain virtual paths that were traced considering the global information infrastructure networks and the locations where the headquarters of telecommunications and technology companies are based.\n\nWithout any colorant or glaze, the creation of the tiles is based on the use of two types of clay that are originally of different colors. The color of the clay distinguishes for the visitor the real paths from the virtual ones, serving as a key to understand the type of path that is being represented. After the paths were traced onto the clay, the tiles were fired at a high temperature respecting the traditions of pottery.\n\nThe installation is a participatory work of data physicalization that poses questions to the public about our presence in the real and virtual world today.",
+    "images": "01.jpg;02.jpg;03.jpg;04.jpg;05.jpg"
+  },
+  {
+    "id": "shifting-winds",
+    "pc_id": "1021",
+    "title": "Shifting winds: Gendered structures of academic mentorship",
+    "authors": "A023;A024;A025;A026;A027;A028",
+    "type": "pictorial",
+    "description": "Every researcher alive today had their mentors, those who helped assimilate them into a life of scholarly work. And in turn they each had their mentors, and so on to the dawn of knowledge. In the same way, each researcher’s mentees take their perspectives and methods to future mentees, and to their mentees, etc. These comprise the roots and branches, respectively, of the academic tree of a single researcher. If we let these ancestors’ and descendants’ genders affect these trees like a “wind,” most curl nearly to the earth. We depict and describe the structure of these trees, and how this wind has changed over the decades. To set these trees growing upright again we visualize giving differential weight to male and female researchers.",
+    "images": "FRANCIS GALTON (Widest and Tallest) 8.jpg;forest_hist.jpg;DONALD REIFF (most female-tilted).jpg;JENNIFER A DOUDNA.png;Richard P Feynman.jpg"
+  },
+  {
+    "id": "metoo-anti-network",
+    "pc_id": "1024+1029",
+    "title": "#MeToo Anti-Network",
+    "authors": "A029;A030;A031;A032",
+    "type": "artwork and pictorial",
+    "description": "[artwork] #MeToo Anti-Network. Cosmologists say that most of the universe is structured by antimatter. We postulate that social media is similarly structured by effects of the unobserved discourse and experience. The backbone of a movement such as #MeToo is not based on the most-liked and most-retweeted, but by the masses of unobserved tweets. Vast numbers of #MeToo tweets that had no retweets and no likes nonetheless constituted acts of quiet testimony or unassuming solidarity. Conventional measures of network science thus fail to capture the true relevance of #MeToo. As Black feminist Patricia Hill Collins says, \"Most activism is brought about by ordinary people like ourselves.\"\nFrom a distance, the graphics appear as abstract diagrams, similar to Bridget Riley’s work. The beauty of each line contains a powerful request for a reordering of power within society. We present an opportunity to engage with each request—from individual people at individual moments within a collective movement that is not over. #MeToo is urgent, #InvisibleNoMore is urgent, #BelieveBlackWomen is urgent, #MMIWG2S is urgent, #SayHerName is urgent. We are still living in a crisis of sexual violence. So we invite you to ditch the networked metrics and listen.\n\n[pictorial] Situating #MeToo; A constructivist perspective on designing with data. This document introduces the various questions, blockades, and off-center paths encountered in researching and designing a project around tweets with hashtags related to the MeToo Movement. What the paper offers is a perspective on the process of designing with data from a constructivist perspective. Rather than asking what representation fits the data, we reverse the question on two levels. First, the data: We took authorship by selecting the data, and by making choices away from the algorithmic and the superlative. And second on the level of visualization. Rather than finding the right chart type for the data, we ask what we want the data to be imagined as.",
+    "images": "metoo-first-day-lg.png;metoo-indigenous-lg.png;metoo-metoos-lg.png;metoo-reports-lg.png"
+  },
+  {
+    "id": "essys-sharing-uc",
+    "pc_id": "1027",
+    "title": "ESSYS* Sharing #UC: An Emotion-driven Audiovisual Installation",
+    "authors": "A002;A003;A004;A005;A006",
+    "type": "paper",
+    "description": "ESSYS* Sharing #UC is an audiovisual installation artwork that reflects upon the emotional context related to the university and the city of Coimbra, based on the data shared about them on Twitter. The installation was presented in an urban art gallery of Círculo de Artes Plásticas de Coimbra during the summer and autumn of 2021. In the installation space, one may see a collection of typographic posters displaying the tweets and listening to an ever-changing ambient sound. The present audiovisuals are created by an autonomous computational creative approach, which employs a neural classifier to recognise the emotional context of a tweet and uses this resulting data as feedstock for the audiovisual generation. The installation’s space was designed to promote an approach and blend between the online and physical perceptions of the same location. We applied multiple experiments with the proposed approach to evaluate the capability and performance. Also, we conduct interview-based evaluation sessions to understand how the installation elements, especially poster designs, are experienced by people regarding diversity, expressiveness and possible employment in other commercial and social scenarios.\n\nhttp://sharing-uc.dei.uc.pt/",
+    "images": "1.jpeg;2.jpeg;3.jpeg;4.jpeg;5.jpeg",
+    "video": "video-low-res.mp4"
+  },
+  {
+    "id": "diversity-traces",
+    "pc_id": "1030",
+    "title": "Diversity traces: an interactive lens on multi-racial families in America",
+    "authors": "A033",
+    "type": "artwork",
+    "description": "When looking at diversity from a racial perspective, homogenous communities are still the norm, as they remain siloed not only locally, but in their very own households as well. This visualization project comes as a celebration of the fringe couples and families who have a multi-racial identity, effectively embodying the intermingling of races, and dissolving the systemic barriers put on their very own existence. According to the census, there are only vestiges of these multi-racial families until 1960. Prior to that, the census enumerator was responsible for categorizing persons, while after 1970 race was reported by someone in the household. In 1967, Loving v. Virginia ended restrictions on multi-racial marriage. Only after 2000 people can identify as being of multiple races. More recently, there has been a surge of multi-racial families in the data, but they are still a rarity, still mere traces of diversity in America. In this visualization you can see every registered multi-racial couple in America, for recent periods in 1-5% samples of the population, and for older periods in 100% samples of the population. Each couple is represented as a colorful chromosome, enabling you to see the races within each family, their ages, sexes, and children. For each year, these couples are organized by rarest multi-racial group first, by ascending average age of the couple, and by number of children. This means that in each group you will first see couples with no children, but as you navigate towards the end a group, you will see couples with more children. In 2015 Obergefell v. Hodges ended restrictions on same-sex marriages. Only in recent years you will be able to see same-sex couples. In addition to race, individuals who identify themselves as latino/as are also marked with an L.\n\n",
+    "images": "image1.png;image2.png;image3.png",
+    "video": "video.mp4"
+  },
+  {
+    "id": "at-the-pump",
+    "pc_id": "1031",
+    "title": "at the pump",
+    "authors": "A034",
+    "type": "artwork",
+    "description": "What started as a curiosity turned into a habit.  While stopped at a gas station one day to fill up my car, I noticed a pair of broken glasses on the ground near the pump, with a rusty paperclip nearby. I found it curious, so I snapped a picture.  The next time I filled up, I saw a battery that had been partially crushed.  I snapped a picture.  I was intrigued by these things that were discarded and left behind.  What was the story behind these items?  Most were likely dropped accidentally. But did their owners know they dropped them, and didn’t bother to pick them up? Or did they get home and wonder, where did I leave my comb? How many other people had walked past them?  Did they even notice them, or give them a second thought? I started to seek them out. I noticed patterns.  I would see similar objects at different gas stations, or the same object at the same station, weeks apart. \n\nThe gas station is a common shared public space that many people move in and out of, often without giving a thought to those that are there before or after them. By focusing on these items that were left behind, we raise awareness that we are not here alone.  And while we may not know or ever directly encounter these other people, our actions can leave an imprint on them, and the environment.\n\nThe digital print includes 110 images that were collected over the course of about three and a half years. Along with the photos themselves are plots of associated data.  Including information related to when the photo was taken, and data related to the content of the image.",
+    "images": "at_the_pump_detail_01.png;at_the_pump_detail_02.png;atp_gallery_01.png;qr_code_at_the_pump.png"
+  },
+  {
+    "id": "wind-from-bamboo",
+    "pc_id": "1032",
+    "title": "Wind from Bamboo: A Chinese Handwriting Interactive Installation based on Human-AI Collaborative Font Design",
+    "authors": "A010;A011;A012",
+    "type": "pictorial",
+    "keywords": "Chinese Handwriting; Font;Human-AI Collaboration;Interactive Installation",
+    "description": "In the era of information, the feeling that the pen tip rubs against the paper is getting farther away, and the way of writing Chinese characters with strokes is gradually alienating. In response to this problem, this work tries to help people relive the touch of handwriting through the mingling of real and virtual experiences. The designer collaborated with AI to design a Chinese font that integrates bamboo leaves’ shape and Chinese characters’ structure. Based on the font, an interactive installation was set up to start a virtual Chinese poetry bamboo forest scene through real handwriting behavior. ",
+    "images": "WIND FROM BAMBOO 01.jpg;WIND FROM BAMBOO 02.jpg;WIND FROM BAMBOO 03.jpg;WIND FROM BAMBOO 04.jpg;WIND FROM BAMBOO 05.jpg",
+    "video": "The VIS Arts Program_1032_Zeng _Preview.mp4"
+  },
+  {
+    "id": "beyond-human-perception",
+    "pc_id": "1038",
+    "title": "Beyond Human Perception",
+    "authors": "A035+A036",
+    "type": "artwork",
+    "description": "The artwork is a video installation that allows the audience to visualize and compare the reactions of humans and plants to a common stimulus; live music. Erasing boundaries into the communication and understanding between both living beings and by highlighting the immediate reactions of plants to their surrounding changes.\n\nThe installation is the result of several sessions where the brain activity of humans was measured, through the EEG registered wave, and measuring the electrical oscillations that are happening into the plants, measured with a sensor developed by the artists, able to detect immediate changes in plants.\nThrough the use of mathematics, by using the Fast Fourier Transform, humans data and plants data are able to compare each other. This data can also be displayed graphically thanks to an algorithm developed by the artists that allow the audience to see the data through the shape of little spheres that are moving within the geometric shape of torus. Each little sphere represent each data registered. The graphic representation of human data and plant data can be seen simultaneously in a video allowing the audience to find patterns by comparing the both living beings reactions to the live music.\n\nThrough this artistic research we aim to know more about the secrets language of plants. To know more about the plants’ language and behavior will allow us to know more about nature, thus we could beMer understand our environment. To have an impact in other fields such as climate change, which is a reality happening now; the more we know about our environment and the living organisms that are living with us on Earth, the more we can do to try to improve the situation. Plants could give us a lot of information that we cannot understand yet, but this can help formulate new questions.",
+    "images": "001_still_videoinstallation.jpg;002_still_videoinstalaltion.jpg;012_devices_sensor_holders.jpg;during_performance_laboral_01.jpg;photo_during_the_performance.jpg"
+  },
+  {
+    "id": "quarantiles",
+    "pc_id": "1041+1042",
+    "title": "Quaran.tiles. Archiving expressive digital places from instagram during the COVID-19 pandemic",
+    "authors": "A037;A038;A039",
+    "type": "artwork and pictorial",
+    "description": "[artwork] “Quaran.tiles” is the physical representation of a collection of expressive geotags created on Instagram in 2020 as a response to quarantines during the first wave of infections of COVID-19. Due to the lack of vaccines and cures for the illness, the reaction of various local governments was lockdowns of multiple scales that forced people to stay at home. On social media platforms like Instagram, which offer UI affordances to tag photographs in various places globally, this became impossible for many people due to lockdowns. People in lockdown started to re-appropriate these UI affordances not to locate themselves in a specific place but instead in a fictional place that reflected their condition instead of geographic coordinates. A series of posts tagged in places named “Quarantine” started to appear.\nDue to how the platform is structured, these non-existent places are often associated with real-world coordinates, creating a mingling layer where digital aggregations of data and real-world features meet. After a first mapping that provided an archive of these places directly on Instagram (@quaran.tile), the ephemeral nature of the content on the platform required a physical archival effort to preserve the constructed dataset.\nThis assemblage results in a catalog of places scraped from Instagram as of summer 2020. Various levels of information can describe each place. The first layer is the one available on Instagram: the name is found on the platform, along with latitude and longitude, when available. The address was automatically obtained through reverse geocoding to emphasize the relationship between these digital places and real-world locations. A collection of images from Google Streetview was downloaded as an additional layer of information.\n50 words description - “Quaran.tiles” is a catalog of geotags scraped from Instagram as a response to quarantines during the first wave of infections of COVID-19, which started various local governments was lockdowns that forced people to stay at home. Due to the impossibility to go out, people started to re-appropriate the geotag affordance to locate themselves in fictional places linked to their condition: posts tagged in places named “Quarantine” started to appear.\n\n[pictorial] QUARANTILES. Archiving expressive digital places from Instagram during the COVID-19 pandemic.\nDuring the spring of 2020, COVID-19 limited contact between people and prevented from meeting and aggregating in real places. Many had to stay at home, and others spent time in quarantine facilities. In this context, virtual aggregation has increased at the expense\nof in-person aggregation. Expressive geo- tagging, namely the practice of creating locations with fictitious names to express an emotional condition, became worthy of attention. Grounded on anecdotal evidence, fictitious digital locations on social media such as “Quarantine” began to proliferate, which, despite not having a name that could be traced back to an existing place, still carried geo-referenced information with them. Starting from this concept, we present the book Quaran.tiles, an archive of 364 expressive digital places collected from Instagram in April 2020 and enriched with information from Google Street View, which aims to give space and dimension to the resulting collection of fictitious and mingling user-generated places.",
+    "images": "01.png;04.png;02.png;03.png",
+    "video": "vis22e-sub1041-cam-i16.mp4"
+  },
+  {
+    "id": "the-memory-of-street-hong-kong",
+    "pc_id": "1043",
+    "title": "The memory of street - Hong Kong: history, culture, memory and post-humanism",
+    "authors": "A040;A041",
+    "type": "pictorial",
+    "description": "In this annotated portfolio, we present a posthumanist idea of defining mingling spaces with microorganisms. Using this approach, we explored and extended the current boundary of cultural concerns of human beings. Human landmarks, such as buildings, streets, and cities, are usually named after famous people, important events, religious symbols, or a piece of collective memories. From Alexandra (named after the Macedonian King) to Hong Kong (meaning “fragrant harbour”), names of places are lyrical codenames that connect human emotions to a physical space. However, while these names last, the stories they tell often get forgotten. In this work, we propose a new, posthuman narrative for naming places. Microorganisms, the invisible lifeforms that pervade every micrometer of air, water bodies, and land on earth, coevolve and interact with the changing environment of the place they inhabit, accumulating genetic traits along the way. Just like gut microbiota that are unique for each individual human, the composition and genetic variations of the microbes in each location are also unique to that place, shaped by millennia of adaptation. Microorganisms narrate another kind of story, told through their genomes, where “collective memories” are a natural history in which anthropological activities play only a small part. Bacteria, the witness of human kings and heroes, wars and revolutions, ascent and extinction, are the rightful “namesake” of places. Using four landmarks in Hong Kong, a city tossed in endless political and cultural tides in the past 150 years, as our point of departure, we contemplated on the use of bacteria as a new narrative for the posthuman stories associated with places. Alongside the philosophical articulations, we also visualized this idea by fabricating an installation through the interdisciplinary use of 3D printing technology and microbiological procedures.",
+    "images": "01.jpg;02.jpg;03.jpg;04.jpg;05.jpg"
+  },
+  {
+    "id": "neuroknitting-beethoven",
+    "pc_id": "1047",
+    "title": "NeuroKnitting Beethoven: visualizing emotional state through the knitting process",
+    "authors": "A042;A043",
+    "type": "artwork",
+    "description": "NeuroKnitting Beethoven was developed to celebrate Ludwig van Beethoven’s 250th anniversary. It re-visits the composer’s classical compositions from an interdisciplinary viewpoint. The public could experience the musician's (in Seoul, it was a monk's) emotional state, which resulted in the movement of a circular knitting machine installation, visuals, and plotted pattern. The pianist’s affective response to music was captured every second and memorized in the knitted textile pattern, which was sprayed on the yarn before being knitted. High attention level resulted in a dense pattern, and the knitting machine’s speed followed the meditation level. All these processes were real-time and took place simultaneously. Furthermore, the sound-responsive AI-generated visuals were created and displayed alongside the data visualization to accompany brain data visualizations.\nThis artwork demonstrates how an interactive on-stage performance NeuroKnitting Beethoven became a telematic project due to travel restrictions. Thus, EEG data traveled over the distance from a concert hall to the artists’ studio, where was located the knitting machine (Circular Knitic). The knitting process was controlled by real-time biometrical data that was streamed over UDP. In return, the multiple viewpoints of the knitting process were streamed to the concert venue.\nNeuroKnitting Beethoven is an excellent example of how creative technology can save cultural programs and offer novel formats that were initially not planned. As a result, the telematic nature of artwork brings together multiple spaces in a creative and novel way letting the audience experience how brain data can affect physical matter and processes on distance.\nIn short, the artwork explores how a human affective state could influence the mechanical process of knitting and offer a different interpretation of classical music. We translate EEG data to the knitted pattern and the speed of the knitting machine in real-time.",
+    "images": "image_1.JPG;image_2_creditsNabiArtCenter.jpg;image_3_creditsNabiArtCenter.jpg;image_4.png;image_5.JPG",
+    "video": "NeuroKnittingBeethoven.mp4"
+  },
+  {
+    "id": "softvoss",
+    "pc_id": "1052",
+    "title": "SoftVoss",
+    "authors": "A044",
+    "type": "artwork",
+    "description": "Human skin exchanges real-time energy with its surrounding space, such as temperature, humidity, and pressure. What if our skin can listen? SoftVoss is a morphing artificial skin that changes its appearance by real-time sound.\n\nSoftVoss brings sound material into an architectural body space that perfectly represents the show’s theme--Mingling Spaces. In general, skin, as the outer layer of a body, protects our inner body from the environment. SoftVoss responds to the space through a new dimension of senses: aural. SoftVoss becomes a medium for visual communication with the soundscape as an artificial skin.\n\nSoftVoss used the information of sound morphology–the transformation of sound material–to change the appearance of a body. The realization of SoftVoss has three main components: sound materials, a control system, and a soft structure. Sound material, captured by microphones, is the input data to control the piece. The four channels of sound materials activate the four layers of feathers using real-time data input. The sounds captured from different source directions activate the specific layer of the feather. SoftVoss visualizes sound information through a 3D morphogenesis of wearable art.",
+    "images": "SoftVoss-1.png;SoftVoss-2.jpg;SoftVoss-3.jpg;SoftVoss-4.jpg;SoftVoss-5.jpg"
+  },
+  {
+    "id": "octoanemone",
+    "pc_id": "1053",
+    "title": "OctoAnemone",
+    "authors": "A044",
+    "type": "artwork",
+    "description": "OctoAnemone is an interactive sculpture that explores the morphologies of artificial anemones for the post-Anthropocene era. This project imagines the evolution of artificial life forms and their intelligence – a speculative design for a yet unknown species. A group of deep organisms open and close like sea anemones. How do humans communicate with artificial creatures like OctoAnemone? In this project, a pre-trained machine learning model of human hand gestures allows the audience to interact with deep organisms using their hand language captured by a camera.\n\nOctoAnemone resonates deeply with the show’s theme-Mingling Spaces. On the one hand, the design of each creature mimics deep-sea organisms. The sculpture creates a space like people diving in the ocean. On the other hand, the sculpture was physically displayed in human habitat space. Visitors could use hand gestures to interact with the sculpture. OctoAnemone suggests blending two spaces of deep sea and habitat with one of the human identity-hand gestures.\n\nOctoAnemone creates a novel way to present an artificial creature using a pneumatic control system to change its shape and color. When observing the performance of OctoAnemone, visitors experienced a diving-like ocean exploration. OctoAnemone physically realized biological life from the deep sea.",
+    "images": "OctoAnemone-1.png;OctoAnemone-2.jpg;OctoAnemone-3.jpg"
+  },
+  {
+    "id": "affective-hand-sculpted-glyph-forms",
+    "pc_id": "1072",
+    "title": "Affective, Hand-Sculpted Glyph Forms for Engaging and Expressive Scientific Visualization",
+    "authors": "A007;A008;A009",
+    "type": "paper",
+    "keywords": "Glyphs;affect;visualization;scientific visualization art",
+    "description": "As scientific data continues to grow in size, complexity, and density, the representation scope of three-dimensional spaces, data sampling methods, and transfer functions have improved in parallel, allowing visualization practitioners to produce richer multidimensional encodings. Glyphs, in particular, have become an essential encoding tool due to their versatile applications in co-located multivariate volumetric datasets. While prior work has been conducted investigating the perceptual attributes of computationally-generated three-dimensional glyph-forms for scientific visualization, their affective and expressive qualities have yet to be examined. Further, our prior work has demonstrated the benefits of artist hand-created glyph forms in contrast to commonly-used synthetic forms in increasing visual diversity, discrimination, and expressive association in complex environmental datasets. In order to begin to address this gap, we establish preliminary groundwork for an affective design space for hand-created glyph forms, produce a novel set of glyph-forms based on this design space, describe a non-verbal method for discovering affective classifications of glyph-forms adopted from current affect theory, and report the results of two studies that explore how these three-dimensional forms produce consistent affective responses across assorted study cohorts.",
+    "images": "WhiteGlyphs2 (1).png;AppliedABR (1).png;ColorCompare (1).png;Handmade5 (1).png;ResultsGlyphs3 (1).png;teaser3.png"
+  },
+  {
+    "id": "ray",
+    "pc_id": "1078",
+    "title": "RAY",
+    "authors": "A045",
+    "type": "artwork",
+    "description": "RAY provides a responsive art experience that re-interprets Rayograph (photogram) – a 20th Century cameraless image-making technique – in the perspective of Artificial Intelligent (AI) surveillance and the changing ontology of images. The system implements Image-to-Image Translation with Conditional Adversarial Networks and a computer vision system to translate human portraits into new images of Rayograph with semantic meanings, which are further developed algorithmically through visualizing in the aesthetics of light painting. RAY bridges intelligent visualization with cameraless photography Rayograph to engage audiences with an interactive poetic experience that conveys meanings.",
+    "images": "image001.png;image002.jpg;image003.png;image004.png;image005.JPG"
+  },
+  {
+    "id": "under-the-green",
+    "pc_id": "1079",
+    "title": "Under the Green: Visual data storytelling the process of urban CO2 neutralization by forests",
+    "authors": "A046;A047;A048;A049;A050",
+    "type": "artwork",
+    "description": "We express the conflict between industrialization and ecological civilization through Cyber Aesthetics and interactive web pages. We popularize the originally cryptic knowledge of Forest Ecology to the public through common visual metaphors and interactive effects. With this work spreading online, we hope to attract more people to join the construction of ecological civilization and pay tribute to Forest Ecological Scientists. There are already some scientific research results on forest carbon fixation, and a large amount of scientific data has been generated. However, these achievements and data are highly specialized, detached from daily life, and subsequently receive rare public attention. The physical space humans depend on is strongly interconnected, and forests and cities seem separate but mingling. The production and living of people produce lots of greenhouse gases, which need to be consumed by forest plants through photosynthesis, fixing CO2 in the form of organic carbon in the soil and biomass to ensure the carbon cycle. Industrialization has led to excessive CO2 emissions, causing severe disturbances to the carbon cycle process. At the same time, nature is constantly warning humanity, accompanied by frequent occurrences of extreme weather. Therefore, natural forest conservation and plantation forest management are crucial for future ecological civilization.\nAll data supporting our creation are from China Huitong National Forest Ecosystem Research Station (HTF).",
+    "images": "HomePage.png;Macro.png;Micro.png;Mingling.png",
+    "video": "Under the Green_Presentation.mp4"
+  },
+  {
+    "id": "presentation-of-self-in-machine-life",
+    "pc_id": "1082",
+    "title": "PRESENTATION OF SELF IN MACHINE LIFE",
+    "authors": "A051;A052",
+    "type": "artwork",
+    "description": "The world has been driven apart by recent events, making long distance performative mingling difficult to achieve, especially those employing in-person collaboration between humans and machines. How shall we reclaim a tangible exchange with other parts of the world that has presence and meaning, as opposed to impersonal virtual interactions? We created and choreographed an art technology performance that allows viewers in Oklahoma City to immerse themselves in a collaborative narrative space between a dancer in the US and a robot arm in City University of Hong Kong's Studio for Narrative Spaces. The performance is shown in either online or offline form to audiences, who witness the narrative of a dancer and a robot who communicate with each other through movement, sometimes leading one another, sometimes frustrating each other, as if each are present to the other across a 12 hour divide. The dancer invites the machine to dance with her, but the machine quickly realizes that while it is not human, it can do things even the human dancer cannot accomplish. However the dancer is eager to control the technology she has invited, and will stop at nothing to get it to do what she wants to do. Without viewing the machine directly, the dancer relies on limited perspectives and sounds to enable bi-directional communication. The outcome is a narratively driven art-technology-based performance that attempt to overcome the space and time separation between humans and their technology in order to establish a presentation of the extended self.",
+    "images": "proj_robotdance-01.jpg;proj_robotdance-04.jpg;proj_robotdance-07.jpg;proj_robotdance-19.jpg;proj_robotdance-50.jpg",
+    "video": "proj_robotdance-video.mp4"
+  },
+  {
+    "id": "sifting-strands",
+    "pc_id": "1085",
+    "title": "Sifting Strands",
+    "authors": "A053;A054;A055",
+    "type": "artwork",
+    "description": "Sifting Strands is an interdisciplinary art project which arose from a collaboration between astrophysicists and computational researchers at the University of California in Santa Cruz in the effort to develop a functional meta-model of the cosmic web. Its core technical component is the MCPM algorithm that builds on a computational model of Physarum polycephalum slime mold. Using this methodology, we built the first accurate density map of the cosmic web, detected the contributions of intergalactic medium to the signal from a fast radio burst, explored novel 3D printing designs, developed a physically realistic visualization of volumetric slime mold networks, and explored language embedding models.\n\nSifting Strands presents an interactive performance that transforms the MCPM algorithm to a more expressive formulation that is also music, video, and scene reactive. Our simulation responds to acoustic transients by spatial distortions of the simulation domain, and uses the video and scene geometry capture inputs as additional signaling modalities to steer the virtual agents. The resulting generative patterns have a mesmerizing organic, fractal nature.\n\nWe have performed different adaptations of this work within a series of collaborative art events in Santa Cruz, California titled Liminal Space. In one version, the simulation reacts to the live performed music as well as the video recording of the room and the resulting visuals are projected on the wall. In another, we projected the simulation onto a surfboard which the participants could draw on, creating a feedback loop dialogue between the people and the simulation. In another, we used Microsoft Kinect to detect the motion dynamics of the audience and used that to steer the simulation. For VISAP 2022 we will present an amalgam of these performances.\n\nSifting Strands explores how compter generated art and live audience collaborate in the creative act. People appreciate the opportunity to participate in the performances, whether is be through drawing, modulating and steering the generative system in real time, or simply having stimulating cross-disciplinary conversations. For us researchers this presents a unique opportunity to get feedback and spread knowledge of complex systems through the performances as an outreach activity.\n\nWe believe this work in its own way demonstrates that artistic exploration and scientific research can inform each other, and participatory artistic presentations can make scientific research more accessible and interesting to the general public, with the added benefit of strengthening local art communities.",
+    "images": "SiftingStrands-0.png;SiftingStrands-1.png;SiftingStrands-2.png;SiftingStrands-3.png",
+    "video": "SiftingStrands-Long.mp4"
+  },
+  {
+    "id": "molecular-planets",
+    "pc_id": "1089",
+    "title": "Molecular Planets",
+    "authors": "A013;A014;A015;A016",
+    "type": "artwork",
+    "description": "The molecular world is always in motion – molecules are never stationary, their atoms are constantly vibrating due to thermal energies and other external forces. This ongoing motion is the reason that our exhibit is in the form of a mobile – a form of art already used by Alexander Calder, who believed that the mathematical laws of the universe could not be expressed by static art. The idea of mysterious forces holding the universe in balance inspired his mobiles. Likewise, the ever-moving elements of the molecular space is not only invisible, but their shapes are of purely theoretical nature. Visualisation makes the elegance and beauty of the molecular world visible in virtual space by representing molecular models as molecular surfaces portraying the interface between a protein and its environment. Our exhibit not only makes such visualisations transcend into our three-dimensional, tangible space, but also mingles all intermediate mathematical spaces that the idea of molecular surfaces traverse to reach their visual representation into one object.",
+    "images": "molecular-planets0.png;molecular-planets1.png;molecular-planets2.png;molecular-planets4.png",
+    "video": "a-visap-1089_Müller_Preview.mp4"
+  }
+]
