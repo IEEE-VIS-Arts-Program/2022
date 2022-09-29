@@ -26,10 +26,16 @@ jobs:
 
       - name: Installing my packages
         run: npm ci
+        
+      - name: Clean original images 1
+        run: rm ./out/images/contributions-media/*/*.JPG & rm ./out/images/contributions-media/*/*.jpg & rm ./out/images/contributions-media/*/*.JPEG & rm ./out/images/contributions-media/*/*.jpeg & rm ./out/images/contributions-media/*/*.png & rm ./out/images/contributions-media/*/*.PNG
 
       - name: Build my App
         run: npm run build && npm run export && touch ./out/.nojekyll
 
+      - name: Clean original images 2
+        run: rm ./out/images/contributions-media/*/*.JPG & rm ./out/images/contributions-media/*/*.jpg & rm ./out/images/contributions-media/*/*.JPEG & rm ./out/images/contributions-media/*/*.jpeg & rm ./out/images/contributions-media/*/*.png & rm ./out/images/contributions-media/*/*.PNG
+      
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
