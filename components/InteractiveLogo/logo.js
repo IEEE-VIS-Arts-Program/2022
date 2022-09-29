@@ -1,10 +1,9 @@
 import * as d3 from "d3";
-import data from "./data.json";
 
 let _container, node, link, svg, width, height, r, l, dist, chargeStrenght;
 let simulation = d3.forceSimulation().on("tick", tick).stop();
 
-function initLogo(container) {
+function initLogo(container, data) {
 	_container = container;
 	d3.select(_container).selectAll("*").remove();
 	svg = d3.select(_container).append("svg");
@@ -58,7 +57,7 @@ function update(data) {
 		.merge(node)
 		.attr("href", (d) => {
 			const name = "letter" + d.index;
-			const path = "/lettering/" + name + ".png";
+			const path = data.basePath + "/lettering/" + name + ".png";
 			return path;
 		})
 		.attr("width", l / 10)

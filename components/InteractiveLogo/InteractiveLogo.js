@@ -1,14 +1,19 @@
 import styles from "./InteractiveLogo.module.scss";
-import logoDraft from "../../images/lettering.png";
+// import logoDraft from "../../images/lettering.png";
 import classNames from "classnames";
 import { useEffect, useRef } from "react";
 import { initLogo } from "./logo";
+import { useRouter } from "next/router";
+import data from "./data.json";
 
 export default function InteractiveLogo() {
+	const { basePath } = useRouter();
 	const box = useRef();
 
 	useEffect(() => {
-		initLogo(box.current)
+		data.basePath = basePath;
+		console.log(data);
+		initLogo(box.current, data);
 	}, []);
 
 	return (
@@ -17,4 +22,3 @@ export default function InteractiveLogo() {
 		</div>
 	);
 }
-
