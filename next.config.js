@@ -3,7 +3,7 @@ const debug = process.env.NODE_ENV !== 'production'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: "2022/",
+  basePath: "/2022",
   images: {
     loader: "custom",
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],

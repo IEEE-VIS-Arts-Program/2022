@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "open http://localhost:3000/ & next dev",
     "build": "next build",
-    "export": "next build && next export && next-image-export-optimizer && touch out/.nojekyll",
+    "export": "next build && next export",
+    "pre-deploy": "npm run export && next-image-export-optimizer && touch out/.nojekyll && npm run delete-original-copies",
     "start": "open http://localhost:3000/ & next start",
     "fetch-data": "node ./data/fetch-data.js",
-    "delete-original-media-from-export": "rm out/images/contributions-media/*/*.JPG & rm out/images/contributions-media/*/*.jpg & rm out/images/contributions-media/*/*.JPEG & rm out/images/contributions-media/*/*.jpeg & rm out/images/contributions-media/*/*.png & rm out/images/contributions-media/*/*.PNG",
+    "delete-original-copies": "node ./lib/delete-original-media-from-export.js",
     "lint": "next lint"
   },
   "dependencies": {
