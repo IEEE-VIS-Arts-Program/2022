@@ -14,7 +14,7 @@ import logoAutodesk from "../../images/logo-autodesk-white.svg";
 import logoUniVictoria from "../../images/logo_UNI_VICT_CS.jpeg";
 
 export default function Footer() {
-	const hostName = "https://ieee-vis-arts-program.github.io" || "https://visap.net";
+	const hostName = "https://visap.net" || "https://ieee-vis-arts-program.github.io";
 	previousEditions.map((d) => {
 		d.fullUrl = d.url.includes("https://") ? d.url : hostName + d.url;
 	});
