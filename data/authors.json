@@ -435,6 +435,7 @@
     "surname": "Wang",
     "affiliation": "School of Design, Hunan University, Changsha, Hunan, China",
     "bio": "UX designer, Master, School of Design in Hunan University\nHer research interests include Interactive Data Visualization, Information Design, and User Experience Design. She explores the paradigms of Visual Data Storytelling in artistic design. She is responsible for the overall design and data processing of the project.",
+    "images": "Wang_Linqi.jpeg",
     "contributions_ids": 1079
   },
   {
@@ -443,6 +444,7 @@
     "surname": "Liang",
     "affiliation": "School of Data and Computer Science, sun yat-sen university, Guangzhou, Guangdong, China",
     "bio": "Master, School of Computer Science and Engineering in Sun Yat-sen University\nHis research focuses on Visualization. He devotes to exploring better 3D rendering techniques. He is responsible for the Front-end development of the project.",
+    "images": "Liang_Fengzhou.jpeg",
     "contributions_ids": 1079
   },
   {
@@ -451,6 +453,7 @@
     "surname": "Liu",
     "affiliation": "School of Design, Hunan University, Hunan, China",
     "bio": "Ph.D., Professor and Doctoral Supervisor in Hunan University, Deputy Director of the Key Laboratory of the Ministry of Culture and Tourism for \"Intelligent Design Technology for Digital Culture and Creativity\", Member of the Professional Committee of Information Storage Technology. Her research interests include Cultural Big Data, Intelligent Interaction Design, Data Visualization, Visual Analytics, Edge Computing, and other areas. ",
+    "images": "Liu_Fang.jpeg",
     "contributions_ids": 1079
   },
   {
@@ -459,6 +462,7 @@
     "surname": "Yang",
     "affiliation": "School of Design, Hunan University, Changsha, China",
     "bio": "Software Engineer, Ph.D.candidate, School of Design in Hunan University\nHe has five years of development experience in Software Engineering, Big Data applications, distributed computing, etc. He is currently engaged in research on Intelligent Design, Big Data Visualization, etc. He is responsible for the Front-end development of the project.\n",
+    "images": "Yang_Boai.jpg",
     "contributions_ids": 1079
   },
   {
@@ -467,6 +471,7 @@
     "surname": "Lv",
     "affiliation": "School of Design, Hunan University, Changsha, China",
     "bio": "Postgraduate student, School of Design in Hunan University\nShe is good at video editing and post-production. She explores new forms of expression that combine Data Narrative and Interaction Design. She assisted with video editing in this project.\n",
+    "images": "Lv_Junyan.jpeg",
     "contributions_ids": 1079
   },
   {
