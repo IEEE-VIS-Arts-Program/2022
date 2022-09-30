@@ -6,7 +6,7 @@
     "dev": "open http://localhost:3000/2022 & next dev",
     "build": "next build",
     "export": "next build && next export",
-    "pre-deploy": "npm run export && next-image-export-optimizer && touch out/.nojekyll && npm run delete-original-copies",
+    "pre-deploy": "npm run fetch-data && npm run export && next-image-export-optimizer && touch out/.nojekyll && npm run delete-original-copies",
     "start": "open http://localhost:3000/ & next start",
     "fetch-data": "node ./data/fetch-data.js",
     "delete-original-copies": "node ./lib/delete-original-media-from-export.js",
