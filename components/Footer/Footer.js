@@ -14,6 +14,10 @@ import logoAutodesk from "../../images/logo-autodesk-white.svg";
 import logoUniVictoria from "../../images/logo_UNI_VICT_CS.jpeg";
 
 export default function Footer() {
+	const hostName = "https://ieee-vis-arts-program.github.io" || "https://visap.net";
+	previousEditions.map((d) => {
+		d.fullUrl = d.url.includes("https://") ? d.url : hostName + d.url;
+	});
 	return (
 		<Container className={classNames(styles.footer, "pt-4")} fluid>
 			<Container>
@@ -31,38 +35,27 @@ export default function Footer() {
 							</div>
 							<div className={classNames("mt-4")}>
 								<a href="http://ieeevis.org/year/2022/welcome">
-									<img
-										src={logoVis.src}
-										style={{ width: "2rem" }}
-										alt="IEEE VIS logo"
-										className={classNames("me-2")}
-									/>
+									<img src={logoVis.src} style={{ width: "2rem" }} alt="IEEE VIS logo" className={classNames("me-2")} />
 								</a>
 								<a href="https://twitter.com/visapnet">
-									<img
-										src={logoTwitter.src}
-										style={{ width: "2rem" }}
-										alt="Twitter logo"
-									/>
+									<img src={logoTwitter.src} style={{ width: "2rem" }} alt="Twitter logo" />
 								</a>
 							</div>
 						</div>
 					</Col>
 					<Col xs={6} md={4} lg={4} xl={6} className={classNames("mb-4")}>
 						<h6 className={classNames("mb-3", "text-gradient")}>Sponsors</h6>
-						<div style={{width: "100%", maxWidth: 300}}>
-								<ExportedImage src={logoAutodesk} alt="Autodesk Sponsorship" layout="responsive" />
-								<ExportedImage src={logoUniVictoria} alt="Autodesk Sponsorship" layout="responsive" />
-							</div>
+						<div style={{ width: "100%", maxWidth: 300 }}>
+							<ExportedImage src={logoAutodesk} alt="Autodesk Sponsorship" layout="responsive" />
+							<ExportedImage src={logoUniVictoria} alt="Autodesk Sponsorship" layout="responsive" />
+						</div>
 					</Col>
 					<Col xs={6} md={4} lg={3} xl={3} className={classNames("mb-4")}>
-						<h6 className={classNames("mb-3", "text-gradient")}>
-							Previous editions
-						</h6>
+						<h6 className={classNames("mb-3", "text-gradient")}>Previous editions</h6>
 						<p>
 							{previousEditions.map((d, i) => (
 								<span key={d.label}>
-									<a href={d.url} className={classNames("")}>
+									<a href={d.fullUrl} className={classNames("")}>
 										{d.label}
 									</a>
 									{i < previousEditions.length - 1 && <>, </>}
