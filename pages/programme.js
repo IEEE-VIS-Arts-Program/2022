@@ -7,7 +7,7 @@ import InteractiveLogo from "../components/InteractiveLogo";
 export default function Programme() {
 	return (
 		<PageTemplate metaTitle="Organizers">
-			<h1 className={classNames("text-gradient", "page-title")}>Programme</h1>
+			<h1 className={classNames("Xtext-gradient", "page-title")}>Programme</h1>
 			<h2>TBA</h2>
 			<InteractiveLogo />
 		</PageTemplate>

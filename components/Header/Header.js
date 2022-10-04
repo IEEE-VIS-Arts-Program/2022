@@ -1,25 +1,29 @@
 import styles from "./Header.module.scss";
 import classNames from "classnames";
 import Link from "next/link";
-import visapLogoLight from "../../images/logo-white.svg";
+// import visapLogoLight from "../../images/logo-white.svg";
+import visapLogo from "../../images/logo-visap.png";
 
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import DropdownItemLink from "../DropdownItemLink";
 
+import { useRouter } from "next/router";
+
 export default function Header() {
+	const { basePath } = useRouter();
 	return (
 		<>
 			<Navbar
-				bg="light"
+				bg="transparent"
 				expand="lg"
 				className={classNames(styles.headerBootstrap, "sticky-top")}
 				collapseOnSelect={true}
 			>
 				<Container>
-					<Navbar.Brand className="py-0" href="/">
+					<Navbar.Brand className="py-0" href={basePath + "/"}>
 						<img
 							className={classNames(styles.logo)}
-							src={visapLogoLight.src}
+							src={visapLogo.src}
 							alt="VISAP22 logo"
 						/>
 					</Navbar.Brand>
@@ -44,7 +48,7 @@ export default function Header() {
 									Organizers
 								</a>
 							</Link>
-							<Link href="/call-for-entries">
+							{/* <Link href="/call-for-entries">
 								<a className={classNames("nav-link", "reset-link")}>
 									Call for Entries
 								</a>
@@ -85,7 +89,7 @@ export default function Header() {
 								>
 									Submission Procedure
 								</NavDropdown.Item>
-							</NavDropdown>
+							</NavDropdown> */}
 						</Nav>
 					</Navbar.Collapse>
 				</Container>

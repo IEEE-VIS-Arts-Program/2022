@@ -21,13 +21,13 @@ export default function Submission() {
 	}, []);
 	return (
 		<PageTemplate metaTitle="Submission" submenu={sections}>
-			<h1 className={classNames("text-gradient", "page-title")}>Submission</h1>
-			<div id="important-dates" className={classNames(styles.stickyTitleSection)}>
-				<h3 className={classNames("sticky-top")}>Important Dates</h3>
+			<h1 className={classNames("Xtext-gradient", "page-title")}>Submission</h1>
+			<div id="important-dates" className={classNames(styles.XstickyTitleSection)}>
+				<h3 className={classNames("Xsticky-top")}>Important Dates</h3>
 				<Dates />
 			</div>
-			<div id="paper-submission" className={classNames(styles.stickyTitleSection)}>
-				<h3 className={classNames("sticky-top")}>
+			<div id="paper-submission" className={classNames(styles.XstickyTitleSection)}>
+				<h3 className={classNames("Xsticky-top")}>
 					Paper Submission
 				</h3>
 				<p>
@@ -123,8 +123,8 @@ export default function Submission() {
 					in IEEE Computer Graphics and Applications and Leonardo).
 				</p>
 			</div>
-			<div id="pictorial-submission" className={classNames(styles.stickyTitleSection)}>
-				<h3 className={classNames("sticky-top")}>
+			<div id="pictorial-submission" className={classNames(styles.XstickyTitleSection)}>
+				<h3 className={classNames("Xsticky-top")}>
 					Pictorial Submission
 				</h3>
 				<p>
@@ -256,8 +256,8 @@ export default function Submission() {
 					VISAP Papers sessions during the conference.
 				</p>
 			</div>
-			<div id="exhibition-submission" className={classNames(styles.stickyTitleSection)}>
-				<h3 className={classNames("sticky-top")}>
+			<div id="exhibition-submission" className={classNames(styles.XstickyTitleSection)}>
+				<h3 className={classNames("Xsticky-top")}>
 					Artwork Submission
 				</h3>
 				<p>
@@ -410,8 +410,8 @@ export default function Submission() {
 					VISAP’ 22 exhibition catalog, which will be available online.
 				</p>
 			</div>
-			<div id="submission-procedure" className={classNames(styles.stickyTitleSection)}>
-				<h3 className={classNames("sticky-top")}>
+			<div id="submission-procedure" className={classNames(styles.XstickyTitleSection)}>
+				<h3 className={classNames("Xsticky-top")}>
 					Submission Procedure (for all tracks)
 				</h3>
 				<p className={classNames("mb-2")}>

@@ -12,9 +12,8 @@ export default function InteractiveLogo() {
 
 	useEffect(() => {
 		data.basePath = basePath;
-		console.log(data);
 		initLogo(box.current, data);
-	}, []);
+	}, [basePath]);
 
 	return (
 		<div className={classNames(styles.container)} ref={box}>

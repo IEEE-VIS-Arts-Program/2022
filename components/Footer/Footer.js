@@ -10,11 +10,13 @@ import Link from "next/link";
 
 import ExportedImage from "next-image-export-optimizer";
 
-import logoAutodesk from "../../images/logo-autodesk-white.svg";
+import logoAutodesk from "../../images/logo-autodesk-white.png";
 import logoUniVictoria from "../../images/logo_UNI_VICT_CS.jpeg";
+import logoIEEE from "../../images/ieee-logo-white.png";
+import logoSchoolVisualArts from "../../images/School_Of_Visual_Arts_Linear_White_Web.png";
 
 export default function Footer() {
-	const hostName = "https://visap.net" || "https://ieee-vis-arts-program.github.io";
+	const hostName = "https://visap.net";
 	previousEditions.map((d) => {
 		d.fullUrl = d.url.includes("https://") ? d.url : hostName + d.url;
 	});
@@ -22,7 +24,7 @@ export default function Footer() {
 		<Container className={classNames(styles.footer, "pt-4")} fluid>
 			<Container>
 				<Row>
-					<Col xs={6} md={4} lg={3} xl={3} className={classNames("mb-4")}>
+					<Col xs={12} md={4} lg={3} xl={3} className={classNames("mb-5")}>
 						<div className={classNames("")}>
 							<img className={classNames(styles.logo)} src={logoVisap.src} alt="VISAP2022 logo" />
 							<div className={classNames(styles.navigation)}>
@@ -30,10 +32,11 @@ export default function Footer() {
 								<Link href="/contributions">Contributions</Link>
 								<Link href="/programme">Programme</Link>
 								<Link href="/organizers">Organizers</Link>
+								<p className={classNames("small", "m-0", "mt-5")}>Selection process</p>
 								<Link href="/call-for-entries">Call for Entries</Link>
-								<Link href="/submission">Submission</Link>
+								<Link href="/submission">Submission instructions</Link>
 							</div>
-							<div className={classNames("mt-4")}>
+							<div className={classNames("mt-5")}>
 								<a href="http://ieeevis.org/year/2022/welcome">
 									<img src={logoVis.src} style={{ width: "2rem" }} alt="IEEE VIS logo" className={classNames("me-2")} />
 								</a>
@@ -43,14 +46,54 @@ export default function Footer() {
 							</div>
 						</div>
 					</Col>
-					<Col xs={6} md={4} lg={4} xl={6} className={classNames("mb-4")}>
+					<Col xs={12} md={4} lg={4} xl={6} className={classNames("mb-5")}>
 						<h6 className={classNames("mb-3", "text-gradient")}>Sponsors</h6>
-						<div style={{ width: "100%", maxWidth: 300 }}>
-							<ExportedImage src={logoAutodesk} alt="Autodesk Sponsorship" layout="responsive" />
-							<ExportedImage src={logoUniVictoria} alt="Autodesk Sponsorship" layout="responsive" />
-						</div>
+						<div className="logos mb-3">
+								<div className="logo">
+									<ExportedImage
+										src={logoAutodesk}
+										alt="Autodesk Logo"
+										layout="fill"
+										objectFit="contain"
+										objectPosition="left center"
+									/>
+								</div>
+							</div>
+							<div className="logos mb-3">
+								<div className="logo">
+									<ExportedImage
+										src={logoUniVictoria}
+										alt="Logo of Department of computer science, University of Victoria"
+										layout="fill"
+										objectFit="contain"
+										objectPosition="left center"
+									/>
+								</div>
+							</div>
+							<div className="logos mb-3">
+								<div className="logo">
+									<ExportedImage
+										src={logoSchoolVisualArts}
+										alt="Logo of School of Visual Arts, University of Oklahoma"
+										layout="fill"
+										objectFit="contain"
+										objectPosition="left center"
+									/>
+								</div>
+							</div>
+							<div className="logos mb-3">
+								<div className="logo">
+									<ExportedImage
+										src={logoIEEE}
+										alt="Logo of IEEE"
+										layout="fill"
+										objectFit="contain"
+										objectPosition="left center"
+									/>
+								</div>
+							</div>
 					</Col>
-					<Col xs={6} md={4} lg={3} xl={3} className={classNames("mb-4")}>
+					<Col xs={12} md={4} lg={3} xl={3} className={classNames("mb-5")}>
 						<h6 className={classNames("mb-3", "text-gradient")}>Previous editions</h6>
 						<p>
 							{previousEditions.map((d, i) => (

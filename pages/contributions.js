@@ -12,6 +12,8 @@ import styles from "../styles/contributions.module.scss";
 import { useRouter } from "next/router";
 import ExportedImage from "next-image-export-optimizer";
 
+import MinglingCircles from "../components/MinglingCircles";
+
 export default function Contributions({ allContributionsData, metaContent }) {
 	const { basePath } = useRouter();
 	const masonryBreakpoints = {
@@ -20,10 +22,11 @@ export default function Contributions({ allContributionsData, metaContent }) {
 		1200: 3,
 		992: 2,
 		768: 2,
-		576: 1,
+		576: 2,
 	};
 	return (
 		<>
+			<MinglingCircles />
 			<Head>
 				<title>{"Visap'22 Contributions | VISAP'22"}</title>
 				<meta name="description" content={metaContent} />
@@ -40,7 +43,7 @@ export default function Contributions({ allContributionsData, metaContent }) {
 							xl={{ span: 8, offset: 2 }}
 							className={classNames(stylesPageTemplate.pageTitle, "mb-5")}
 						>
-							<h1 className={classNames("text-gradient", "page-title")}>Visap&apos;22 Contributions</h1>
+							<h1 className={classNames("Xtext-gradient", "page-title")}>Visap&apos;22 Contributions</h1>
 							<div id="contributions-list" className={classNames("XstickyTitleSection")}>
 								<h6 className={classNames("Xsticky-top")}>Artworks, Pictorials and Papers</h6>
 								{/* <p>

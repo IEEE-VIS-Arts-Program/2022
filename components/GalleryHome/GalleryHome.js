@@ -1,14 +1,17 @@
 import classNames from "classnames";
 import styles from "./GalleryHome.module.scss";
 import captions from "./captions.json";
+import { useRouter } from "next/router";
 
 export default function GalleryHome({ classNameProp }) {
+	const { basePath } = useRouter();
 	const images = [];
 
 	function importAll(r) {
 		r.keys().forEach((key) => {
 			images.push(r(key).default);
 		});
+		console.log(images)
 	}
 
 	importAll(
@@ -27,7 +30,7 @@ export default function GalleryHome({ classNameProp }) {
 						className={classNames(styles.image, "mb-3")}
 						style={{ backgroundImage: `url("${d.src}")` }}
 					/>
-					<p className={classNames("small")}>[{i+1}] {captions[d.src]}</p>
+					<p className={classNames("small")} datacaption={d.src.replace(basePath, "")}>[{i+1}] {captions[d.src.replace(basePath, "")]}</p>
 				</div>
 			))}
 		</div>

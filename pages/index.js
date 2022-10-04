@@ -11,8 +11,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ExportedImage from "next-image-export-optimizer";
 
-import logoAutodesk from "../images/logo-autodesk.svg";
+import MinglingCircles from "../components/MinglingCircles";
+
+import logoAutodesk from "../images/logo-autodesk.png";
 import logoUniVictoria from "../images/logo_UNI_VICT_CS.jpeg";
+import logoIEEE from "../images/ieee-logo-black.png";
+import logoSchoolVisualArts from "../images/School_Of_Visual_Arts_Linear_Black_Web.png";
 
 export default function Home() {
 	return (
@@ -26,6 +30,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Header />
+			<MinglingCircles />
 			<div className={classNames({ [styles.windowFrame]: false })}>
 				<Container fluid>
 					<Row>
@@ -79,11 +84,51 @@ export default function Home() {
 							{/* <h5 className={classNames("mt-4")}>Important Dates</h5> */}
 							{/* <Dates /> */}
 							<h5 className={classNames("mt-4")}>Sponsors</h5>
-							<div style={{width: "100%", maxWidth: 400}}>
-								<ExportedImage src={logoAutodesk} alt="Autodesk Sponsorship" layout="responsive" />
-								<ExportedImage src={logoUniVictoria} alt="Autodesk Sponsorship" layout="responsive" />
+							<div className="logos mb-3">
+								<div className="logo">
+									<ExportedImage
+										src={logoAutodesk}
+										alt="Autodesk Logo"
+										layout="fill"
+										objectFit="contain"
+										objectPosition="left center"
+									/>
+								</div>
 							</div>
-							
+							<div className="logos mb-3">
+								<div className="logo">
+									<ExportedImage
+										src={logoUniVictoria}
+										alt="Logo of Department of computer science, University of Victoria"
+										layout="fill"
+										objectFit="contain"
+										objectPosition="left center"
+									/>
+								</div>
+							</div>
+							<div className="logos mb-3">
+								<div className="logo">
+									<ExportedImage
+										src={logoSchoolVisualArts}
+										alt="Logo of School of Visual Arts, University of Oklahoma"
+										layout="fill"
+										objectFit="contain"
+										objectPosition="left center"
+									/>
+								</div>
+							</div>
+							<div className="logos mb-3">
+								<div className="logo">
+									<ExportedImage
+										src={logoIEEE}
+										alt="Logo of IEEE"
+										layout="fill"
+										objectFit="contain"
+										objectPosition="left center"
+									/>
+								</div>
+							</div>
+
 							<h5 className={classNames("mt-4")}>From VISAP&apos;21</h5>
 							<h6 className={classNames("mt-3")}>Exhibition</h6>
 							<GalleryHome classNameProp="mt-3" />

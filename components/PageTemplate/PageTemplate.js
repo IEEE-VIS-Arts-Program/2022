@@ -5,6 +5,7 @@ import styles from "./PageTemplate.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Colophon from "../Colophon";
 import classNames from "classnames";
+import MinglingCircles from "../MinglingCircles";
 
 export default function PageTemplate({
 	metaTitle,
@@ -20,6 +21,7 @@ export default function PageTemplate({
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Header />
+			<MinglingCircles />
 			<div className={classNames({ [styles.windowFrame]: false })}>
 				<Container>
 					<Row>

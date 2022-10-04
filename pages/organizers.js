@@ -13,7 +13,7 @@ export default function Organizers() {
 	}, []);
 	return (
 		<PageTemplate metaTitle="Organizers">
-			<h1 className={classNames("text-gradient", "page-title")}>Organizers</h1>
+			<h1 className={classNames("Xtext-gradient", "page-title")}>Organizers</h1>
 			{people.map((role, i) => (
 				<div key={i} className={classNames("mb-5")}>
 					<h5>{role[0]}</h5>

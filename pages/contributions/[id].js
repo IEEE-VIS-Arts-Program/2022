@@ -89,12 +89,12 @@ export default function Contribution({ data }) {
 						<Col sm={7}>
 							<p className={classNames("mt-0", "mb-0", "fw-semibold")}>
 								{!author.website && (
-									<a>
+									<a className={classNames(styles.authorLink)}>
 										{author.name} {author.surname}
 									</a>
 								)}
 								{author.website && (
-									<a href={author.website}>
+									<a className={classNames(styles.authorLink)} href={author.website}>
 										{author.name} {author.surname}
 									</a>
 								)}
