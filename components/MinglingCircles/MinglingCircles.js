@@ -8,12 +8,12 @@ const Sketch = dynamic(() => import("react-p5").then((mod) => mod.default), {
 let d1,
 	d2,
 	k = 3,
-	inc = 0.002,
-	color1 = "#fba0bf",
+	inc = 0.001,
+	color1 = "#fba0bf99",
 	zoff1 = 0,
 	offset1X = 0,
 	offset1Y = 2000,
-	color2 = "#00adef",
+	color2 = "#00adef99",
 	zoff2 = 1000,
 	offset2X = 3000,
 	offset2Y = 4000;
@@ -22,13 +22,12 @@ export default function MinglingCircles() {
 	const setup = (p5, canvasParentRef) => {
 		p5.createCanvas(p5.windowWidth, p5.windowHeight).parent(canvasParentRef);
 		d1 = d2 = p5.windowWidth / k;
-		p5.blendMode(p5.MULTIPLY);
+		// p5.blendMode(p5.MULTIPLY);
 	};
 
 	const draw = (p5) => {
 		p5.clear();
 		p5.noStroke();
-		p5.blendMode(p5.MULTIPLY);
 		p5.noStroke();
 		// 1st blob
 		p5.push();
@@ -55,7 +54,6 @@ export default function MinglingCircles() {
 
 		// 2nd blob
 		p5.push();
-		p5.blendMode(p5.MULTIPLY);
 		p5.fill(color2);
 		const x2 = p5.noise(offset2X) * p5.width;
 		const y2 = p5.noise(offset2Y) * p5.height * 0.65;

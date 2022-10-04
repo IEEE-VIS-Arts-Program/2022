@@ -11,7 +11,7 @@ export default function GalleryHome({ classNameProp }) {
 		r.keys().forEach((key) => {
 			images.push(r(key).default);
 		});
-		console.log(images)
+		// console.log(images)
 	}
 
 	importAll(

@@ -17,6 +17,7 @@ import logoAutodesk from "../images/logo-autodesk.png";
 import logoUniVictoria from "../images/logo_UNI_VICT_CS.jpeg";
 import logoIEEE from "../images/ieee-logo-black.png";
 import logoSchoolVisualArts from "../images/School_Of_Visual_Arts_Linear_Black_Web.png";
+import logoCreativeInformatics from "../images/logo_CI_black.png";
 
 export default function Home() {
 	return (
@@ -83,8 +84,8 @@ export default function Home() {
 							</p>
 							{/* <h5 className={classNames("mt-4")}>Important Dates</h5> */}
 							{/* <Dates /> */}
-							<h5 className={classNames("mt-4")}>Sponsors</h5>
-							<div className="logos mb-3">
+							<h5 className={classNames("mt-4")} id="supporters">Supporters</h5>
+							<div className="logos mb-5">
 								<div className="logo">
 									<ExportedImage
 										src={logoAutodesk}
@@ -95,7 +96,7 @@ export default function Home() {
 									/>
 								</div>
 							</div>
-							<div className="logos mb-3">
+							<div className="logos mb-5">
 								<div className="logo">
 									<ExportedImage
 										src={logoUniVictoria}
@@ -106,7 +107,7 @@ export default function Home() {
 									/>
 								</div>
 							</div>
-							<div className="logos mb-3">
+							<div className="logos mb-5">
 								<div className="logo">
 									<ExportedImage
 										src={logoSchoolVisualArts}
@@ -117,10 +118,21 @@ export default function Home() {
 									/>
 								</div>
 							</div>
-							<div className="logos mb-3">
+							<div className="logos mb-5">
 								<div className="logo">
 									<ExportedImage
 										src={logoIEEE}
+										alt="Logo of IEEE"
+										layout="fill"
+										objectFit="contain"
+										objectPosition="left center"
+									/>
+								</div>
+							</div>
+							<div className="logos mb-5">
+								<div className="logo">
+									<ExportedImage
+										src={logoCreativeInformatics}
 										alt="Logo of IEEE"
 										layout="fill"
 										objectFit="contain"

@@ -38,22 +38,27 @@ export default function Header() {
 									Contributions
 								</a>
 							</Link>
+							<Link href="/#supporters">
+								<a className={classNames("nav-link", "reset-link")}>
+									Supporters
+								</a>
+							</Link>
 							<Link href="/programme">
 								<a className={classNames("nav-link", "reset-link")}>
 									Programme
 								</a>
-							</Link>
+							</Link>			
 							<Link href="/organizers">
 								<a className={classNames("nav-link", "reset-link")}>
 									Organizers
 								</a>
 							</Link>
-							{/* <Link href="/call-for-entries">
+							<Link href="/call-for-entries">
 								<a className={classNames("nav-link", "reset-link")}>
 									Call for Entries
 								</a>
 							</Link>
-							<NavDropdown title="Submission" id="collasible-nav-dropdown">
+							{/* <NavDropdown title="Submission" id="collasible-nav-dropdown">
 								<NavDropdown.Item
 									href="/submission#important-dates"
 									as={DropdownItemLink}

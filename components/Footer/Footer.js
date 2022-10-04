@@ -14,6 +14,7 @@ import logoAutodesk from "../../images/logo-autodesk-white.png";
 import logoUniVictoria from "../../images/logo_UNI_VICT_CS.jpeg";
 import logoIEEE from "../../images/ieee-logo-white.png";
 import logoSchoolVisualArts from "../../images/School_Of_Visual_Arts_Linear_White_Web.png";
+import logoCreativeInformatics from "../../images/logo_CI_white.png";
 
 export default function Footer() {
 	const hostName = "https://visap.net";
@@ -32,7 +33,7 @@ export default function Footer() {
 								<Link href="/contributions">Contributions</Link>
 								<Link href="/programme">Programme</Link>
 								<Link href="/organizers">Organizers</Link>
-								<p className={classNames("small", "m-0", "mt-5")}>Selection process</p>
+								{/* <p className={classNames("small", "m-0", "mt-5")}>Selection process</p> */}
 								<Link href="/call-for-entries">Call for Entries</Link>
 								<Link href="/submission">Submission instructions</Link>
 							</div>
@@ -47,7 +48,7 @@ export default function Footer() {
 						</div>
 					</Col>
 					<Col xs={12} md={4} lg={4} xl={6} className={classNames("mb-5")}>
-						<h6 className={classNames("mb-3", "text-gradient")}>Sponsors</h6>
+						<h6 className={classNames("mb-3", "text-gradient")}>Supporters</h6>
 						<div className="logos mb-3">
 								<div className="logo">
 									<ExportedImage
@@ -92,6 +93,19 @@ export default function Footer() {
 									/>
 								</div>
 							</div>
+							<div className="logos mb-3">
+								<div className="logo">
+									<ExportedImage
+										src={logoCreativeInformatics}
+										alt="Logo of Creative Informatics"
+										layout="fill"
+										objectFit="contain"
+										objectPosition="left center"
+									/>
+								</div>
+							</div>
+
+							
 					</Col>
 					<Col xs={12} md={4} lg={3} xl={3} className={classNames("mb-5")}>
 						<h6 className={classNames("mb-3", "text-gradient")}>Previous editions</h6>
