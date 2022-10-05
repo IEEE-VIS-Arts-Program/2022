@@ -49,6 +49,7 @@ export default function Home() {
 							xl={{ span: 8, offset: 2 }}
 							className={classNames(styles.pageTitle, "mb-5")}
 						>
+							<h6 className={classNames("mb-3")}>Oklahoma City, USA (Hybrid), 16-21 October 2022</h6>
 							<p>
 								The VIS Arts Program (VISAP) is a mini-conference and exhibition where visualization researchers, designers, and artists come together to
 								showcase and discuss works at the intersection of data visualization, art and design. It is the biggest associated event in the{" "}

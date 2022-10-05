@@ -1,218 +1,279 @@
 [
   {
-    "date": "Date(2022,9,18)",
-    "time_start": "Date(1899,11,30,14,0,0)",
-    "time_end": "Date(1899,11,30,15,15,0)",
-    "session": "Opening Reception"
+    "session_name": "VISAP Opening Reception",
+    "session_date": "2022-10-18",
+    "session_time": "18:00-20:00",
+    "group": "group1",
+    "session_hosts": "Rebecca Ruige Xu;Uta Hinrichs",
+    "time": "18:30-18:35",
+    "title": "Welcome remarks"
   },
   {
-    "date": "Date(2022,9,18)",
-    "time_start": "Date(1899,11,30,14,0,0)",
-    "time_end": "Date(1899,11,30,15,15,0)",
-    "session": "Opening Reception"
+    "session_name": "VISAP Opening Reception",
+    "session_date": "2022-10-18",
+    "session_time": "18:00-20:00",
+    "group": "group1",
+    "session_hosts": "Rebecca Ruige Xu;Uta Hinrichs",
+    "time": "18:35-18:40",
+    "title": "VISAP Fast Forward"
   },
   {
-    "date": "Date(2022,9,18)",
-    "time_start": "Date(1899,11,30,14,0,0)",
-    "time_end": "Date(1899,11,30,15,15,0)",
-    "session": "Opening Reception"
+    "session_name": "VISAP Opening Reception",
+    "session_date": "2022-10-18",
+    "session_time": "18:00-20:00",
+    "group": "group1",
+    "session_hosts": "Rebecca Ruige Xu;Uta Hinrichs",
+    "time": "18:40-18:50",
+    "title": "Neuroknitting Beethoven",
+    "speaker": "Varvara Guljajeva",
+    "pc_id": "1047"
   },
   {
-    "date": "Date(2022,9,18)",
-    "time_start": "Date(1899,11,30,14,0,0)",
-    "time_end": "Date(1899,11,30,15,15,0)",
-    "session": "Opening Reception"
+    "session_name": "VISAP Opening Reception",
+    "session_date": "2022-10-18",
+    "session_time": "18:00-20:00",
+    "group": "group1",
+    "session_hosts": "Rebecca Ruige Xu;Uta Hinrichs",
+    "time": "18:50-18:55",
+    "title": "At the Pump",
+    "speaker": "Joseph Insley",
+    "pc_id": "1031"
   },
   {
-    "date": "Date(2022,9,18)",
-    "time_start": "Date(1899,11,30,14,0,0)",
-    "time_end": "Date(1899,11,30,15,15,0)",
-    "session": "Opening Reception"
+    "session_name": "VISAP Opening Reception",
+    "session_date": "2022-10-18",
+    "session_time": "18:00-20:00",
+    "group": "group1",
+    "session_hosts": "Rebecca Ruige Xu;Uta Hinrichs",
+    "time": "18:55-19:00",
+    "title": "Ray",
+    "speaker": "Weidi Zhang",
+    "pc_id": "1078"
   },
   {
-    "date": "Date(2022,9,18)",
-    "time_start": "Date(1899,11,30,14,0,0)",
-    "time_end": "Date(1899,11,30,15,15,0)",
-    "session": "Opening Reception"
+    "session_name": "VISAP Opening Reception",
+    "session_date": "2022-10-18",
+    "session_time": "18:00-20:00",
+    "group": "group1",
+    "session_hosts": "Rebecca Ruige Xu;Uta Hinrichs",
+    "time": "19:00-19:10",
+    "title": "Sifting Strands",
+    "speaker": "Oskar Elek",
+    "pc_id": "1085"
   },
   {
-    "date": "Date(2022,9,18)",
-    "time_start": "Date(1899,11,30,14,0,0)",
-    "time_end": "Date(1899,11,30,15,15,0)",
-    "session": "Opening Reception"
+    "session_name": "VISAP Opening Reception",
+    "session_date": "2022-10-18",
+    "session_time": "18:00-20:00",
+    "group": "group1",
+    "session_hosts": "Rebecca Ruige Xu;Uta Hinrichs",
+    "time": "19:10-19:35",
+    "title": "Presentation of Self in the Machine",
+    "speaker": "Ray LC",
+    "pc_id": "1082"
   },
   {
-    "date": "Date(2022,9,18)",
-    "time_start": "Date(1899,11,30,14,0,0)",
-    "time_end": "Date(1899,11,30,15,15,0)",
-    "session": "Opening Reception"
+    "session_name": "VISAP Papers (session 1)",
+    "session_date": "2022-10-19",
+    "session_time": "09:00-10:15",
+    "group": "group2",
+    "session_hosts": "Uta Hinrichs;Charles Perin",
+    "time": "09:00-09:09",
+    "title": "Shifting winds: Gendered structures of academic mentorship",
+    "speaker": "Jiabao Li",
+    "pc_id": "1021"
   },
   {
-    "date": "Date(2022,9,18)",
-    "time_start": "Date(1899,11,30,14,0,0)",
-    "time_end": "Date(1899,11,30,15,15,0)",
-    "session": "Opening Reception"
+    "session_name": "VISAP Papers (session 1)",
+    "session_date": "2022-10-19",
+    "session_time": "09:00-10:15",
+    "group": "group2",
+    "session_hosts": "Uta Hinrichs;Charles Perin",
+    "time": "09:09-09:14",
+    "title": "Diversity traces: an interactive lens on multi-racial families in America",
+    "speaker": "Predro Cruz",
+    "pc_id": "1030"
   },
   {
-    "date": "Date(2022,9,18)",
-    "time_start": "Date(1899,11,30,14,0,0)",
-    "time_end": "Date(1899,11,30,15,15,0)",
-    "session": "Opening Reception"
+    "session_name": "VISAP Papers (session 1)",
+    "session_date": "2022-10-19",
+    "session_time": "09:00-10:15",
+    "group": "group2",
+    "session_hosts": "Uta Hinrichs;Charles Perin",
+    "time": "09:14-09:19",
+    "title": "#MeToo Anti-Network",
+    "speaker": "Kim Albrecht",
+    "pc_id": "1024+1029"
   },
   {
-    "date": "Date(2022,9,18)",
-    "time_start": "Date(1899,11,30,14,0,0)",
-    "time_end": "Date(1899,11,30,15,15,0)",
-    "session": "Opening Reception"
+    "session_name": "VISAP Papers (session 1)",
+    "session_date": "2022-10-19",
+    "session_time": "09:00-10:15",
+    "group": "group2",
+    "session_hosts": "Uta Hinrichs;Charles Perin",
+    "time": "09:19-09:30",
+    "title": "Discussion Panel: Mingling Perspectives"
   },
   {
-    "date": "Date(2022,9,18)",
-    "time_start": "Date(1899,11,30,14,0,0)",
-    "time_end": "Date(1899,11,30,15,15,0)",
-    "session": "Opening Reception"
+    "session_name": "VISAP Papers (session 1)",
+    "session_date": "2022-10-19",
+    "session_time": "09:00-10:15",
+    "group": "group3",
+    "session_hosts": "Uta Hinrichs;Charles Perin",
+    "time": "09:30-09:39",
+    "title": "Quaran.tiles. Archiving expressive digital places from instagram during the COVID-19 pandemic",
+    "speaker": "Andrea Benedetti",
+    "pc_id": "1041+1042"
   },
   {
-    "date": "Date(2022,9,19)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 1"
+    "session_name": "VISAP Papers (session 1)",
+    "session_date": "2022-10-19",
+    "session_time": "09:00-10:15",
+    "group": "group3",
+    "session_hosts": "Uta Hinrichs;Charles Perin",
+    "time": "09:39-09:48",
+    "title": "The memory of street - Hong Kong: history, culture, memory and post-humanism",
+    "speaker": "Wai Lam Noah Luk",
+    "pc_id": "1043"
   },
   {
-    "date": "Date(2022,9,19)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 1"
+    "session_name": "VISAP Papers (session 1)",
+    "session_date": "2022-10-19",
+    "session_time": "09:00-10:15",
+    "group": "group3",
+    "session_hosts": "Uta Hinrichs;Charles Perin",
+    "time": "09:48-09:53",
+    "title": "Tangled Tracks",
+    "speaker": "Luiz Ludwig",
+    "pc_id": "1019"
   },
   {
-    "date": "Date(2022,9,19)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 1"
+    "session_name": "VISAP Papers (session 1)",
+    "session_date": "2022-10-19",
+    "session_time": "09:00-10:15",
+    "group": "group3",
+    "session_hosts": "Uta Hinrichs;Charles Perin",
+    "time": "09:53-09:02",
+    "title": "ESSYS* Sharing #UC: An Emotion-driven Audiovisual Installation",
+    "speaker": "Sergio M. Rebelo",
+    "pc_id": "1027"
   },
   {
-    "date": "Date(2022,9,19)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 1"
+    "session_name": "VISAP Papers (session 1)",
+    "session_date": "2022-10-19",
+    "session_time": "09:00-10:15",
+    "group": "group3",
+    "session_hosts": "Uta Hinrichs;Charles Perin",
+    "time": "09:02-10:15",
+    "title": "Discussion Panel: Mingling between the Physical & the Virtual",
+    "speaker": "Andrea Benedetti, Wai Lam Noah Luk, Luiz Ludwig, Sergio M. Rebelo"
   },
   {
-    "date": "Date(2022,9,19)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 1"
+    "session_name": "VISAP Papers (session 2)",
+    "session_date": "2022-10-20",
+    "session_time": "09:00-10:15",
+    "group": "group4",
+    "session_hosts": "Uta Hinrichs (place holder to change)",
+    "time": "09:00-09:10",
+    "title": "Wind from Bamboo: A Chinese Handwriting Interactive Installation based on Human-AI Collaborative Font Design",
+    "speaker": "Zhen Zeng",
+    "pc_id": "1032"
   },
   {
-    "date": "Date(2022,9,19)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 1"
+    "session_name": "VISAP Papers (session 2)",
+    "session_date": "2022-10-20",
+    "session_time": "09:00-10:15",
+    "group": "group4",
+    "session_hosts": "Uta Hinrichs (place holder to change)",
+    "time": "09:10-09:15",
+    "title": "Under the Green: Visual data storytelling the process of urban CO2 neutralization by forests",
+    "speaker": "Wang Linqi",
+    "pc_id": "1079"
   },
   {
-    "date": "Date(2022,9,19)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 1"
+    "session_name": "VISAP Papers (session 2)",
+    "session_date": "2022-10-20",
+    "session_time": "09:00-10:15",
+    "group": "group4",
+    "session_hosts": "Uta Hinrichs (place holder to change)",
+    "time": "09:15-09:24",
+    "title": "Supersynthesis: A Communal Synthesis",
+    "speaker": "Amay Kataria",
+    "pc_id": "1018"
   },
   {
-    "date": "Date(2022,9,19)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 1"
+    "session_name": "VISAP Papers (session 2)",
+    "session_date": "2022-10-20",
+    "session_time": "09:00-10:15",
+    "group": "group4",
+    "session_hosts": "Uta Hinrichs (place holder to change)",
+    "time": "09:24-09:33",
+    "title": "SkyGlyphs: Reflections on the Design of a Delightful Visualization",
+    "speaker": "Bon Adriel Aseniero",
+    "pc_id": "1013"
   },
   {
-    "date": "Date(2022,9,19)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 1"
+    "session_name": "VISAP Papers (session 2)",
+    "session_date": "2022-10-20",
+    "session_time": "09:00-10:15",
+    "group": "group4",
+    "session_hosts": "Uta Hinrichs (place holder to change)",
+    "time": "09:33-09:43",
+    "title": "Discussion Panel: Mingling Interfaces",
+    "speaker": "Zhen Zeng, Wang Linqi, Amay Kataria"
   },
   {
-    "date": "Date(2022,9,19)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 1"
+    "session_name": "VISAP Papers (session 2)",
+    "session_date": "2022-10-20",
+    "session_time": "09:00-10:15",
+    "group": "group5",
+    "session_hosts": "Uta Hinrichs (place holder to change)",
+    "time": "09:43-09:48",
+    "title": "Molecular Planets",
+    "speaker": "Christoph Muller",
+    "pc_id": "1089"
   },
   {
-    "date": "Date(2022,9,19)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 1"
+    "session_name": "VISAP Papers (session 2)",
+    "session_date": "2022-10-20",
+    "session_time": "09:00-10:15",
+    "group": "group5",
+    "session_hosts": "Uta Hinrichs (place holder to change)",
+    "time": "09:48-09:53",
+    "title": "SoftVoss & OctoAnemone",
+    "speaker": "Yin Yu",
+    "pc_id": "1052"
   },
   {
-    "date": "Date(2022,9,19)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 1"
+    "session_name": "VISAP Papers (session 2)",
+    "session_date": "2022-10-20",
+    "session_time": "09:00-10:15",
+    "group": "group5",
+    "session_hosts": "Uta Hinrichs (place holder to change)",
+    "time": "09:53-09:58",
+    "title": "Beyond Human Perception",
+    "speaker": "MarÃ­a Castellanos Vicente",
+    "pc_id": "1038"
   },
   {
-    "date": "Date(2022,9,20)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 2"
+    "session_name": "VISAP Papers (session 2)",
+    "session_date": "2022-10-20",
+    "session_time": "09:00-10:15",
+    "group": "group5",
+    "session_hosts": "Uta Hinrichs (place holder to change)",
+    "time": "09:58-10:06",
+    "title": "Affective, Hand-Sculpted Glyph Forms for Engaging and Expressive Scientific Visualization",
+    "speaker": "Stephanie Zeller",
+    "pc_id": "1072"
   },
   {
-    "date": "Date(2022,9,20)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 2"
-  },
-  {
-    "date": "Date(2022,9,20)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 2"
-  },
-  {
-    "date": "Date(2022,9,20)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 2"
-  },
-  {
-    "date": "Date(2022,9,20)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 2"
-  },
-  {
-    "date": "Date(2022,9,20)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 2"
-  },
-  {
-    "date": "Date(2022,9,20)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 2"
-  },
-  {
-    "date": "Date(2022,9,20)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 2"
-  },
-  {
-    "date": "Date(2022,9,20)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 2"
-  },
-  {
-    "date": "Date(2022,9,20)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 2"
-  },
-  {
-    "date": "Date(2022,9,20)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 2"
-  },
-  {
-    "date": "Date(2022,9,20)",
-    "time_start": "Date(1899,11,30,9,0,0)",
-    "time_end": "Date(1899,11,30,10,15,0)",
-    "session": "Session 2"
+    "session_name": "VISAP Papers (session 2)",
+    "session_date": "2022-10-20",
+    "session_time": "09:00-10:15",
+    "group": "group5",
+    "session_hosts": "Uta Hinrichs (place holder to change)",
+    "time": "10:06-10:15",
+    "title": "Discussion Panel: Mingling Art & Science",
+    "speaker": "Christoph Muller, Yin Yu, Maria Castellanos Vincente, Stephanie Zeller"
   }
 ]
