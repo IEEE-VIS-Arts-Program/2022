@@ -6,10 +6,32 @@ import { useState, useEffect } from "react";
 import { groups as d3Groups } from "d3";
 import styles from "../styles/Programme.module.scss";
 import Link from "next/link";
+import { Row, Col } from "react-bootstrap";
+import { BsArrowRightCircle as LinkIcon } from "react-icons/bs";
+import { FaMapMarkerAlt as LocalIcon } from "react-icons/fa";
+import { BiWorld as RemoteIcon } from "react-icons/bi";
+import { DateTime } from "luxon";
+// import { getTimeZones, rawTimeZones, timeZonesNames, abbreviations } from "@vvo/tzdb";
+import { timeZonesNames } from "@vvo/tzdb";
 
 export default function Programme({ programmeData }) {
 	const [programme, setProgramme] = useState([]);
+	// default zone
+	const defaultZone = "America/Chicago";
+	// temp remote zone
+	const dt = DateTime.now();
+	const tempRemoteZone = dt.zoneName;
+	// list of zones
+	const timezonesList = timeZonesNames.map((d) => ({ name: d, selected: d === tempRemoteZone }));
+	// console.log(timezonesList)
+	// remote zone
+	const [remoteZone, setRemoteZone] = useState(timezonesList.find((d) => d.selected).name);
+
 	useEffect(() => {
+		programmeData.forEach((d) => {
+			d.session_date_obj = DateTime.fromISO(d.session_date, { zone: defaultZone });
+			d.session_time_obj = d.session_time.split("-").map((dd) => DateTime.fromISO(d.session_date + "T" + dd + ":00", { zone: defaultZone }));
+		});
 		const nestedData = d3Groups(
 			programmeData,
 			(d) => d.session_name,
@@ -20,33 +42,73 @@ export default function Programme({ programmeData }) {
 	return (
 		<PageTemplate metaTitle="Organizers">
 			<h1 className={classNames("Xtext-gradient", "page-title")}>Programme</h1>
-			<div className={classNames(styles.grid)}>
+			<Row className={classNames("mb-3")}>
+				<Col>
+					<p>
+						VISAP taks place in Oklahoma City, USA.
+						<br />
+						If you follow from remote, you can convert the schedule to your local time.
+					</p>
+					<h6 className={classNames("m-0", "mb-2", styles.info)}>
+						<LocalIcon /> <span className={classNames()}>Conference timezone is</span> <span className="fw-bold">Oklahoma City ({defaultZone})</span>
+					</h6>
+					{/* <h6 className={classNames("m-0", styles.info)}>
+						<RemoteIcon /> <span>Your timezone:</span> <span className="fw-bold">{remoteZone}</span>
+					</h6> */}
+					<h6 className={classNames("m-0", "d-inline", styles.info)}>
+						<RemoteIcon /> <span>Set your timezone: </span>
+					</h6>
+					<select defaultValue={remoteZone} onChange={(event) => setRemoteZone(event.target.value)}>
+						{timezonesList.map((zone) => (
+							<option key={zone.name} value={zone.name}>
+								{zone.name}
+							</option>
+						))}
+					</select>
+				</Col>
+			</Row>
+			<Row className={classNames(styles.grid)}>
 				{programme.map((session, i) => (
-					<div key={"session" + i} className={classNames(styles.session)}>
-						<h5>{session[0]}</h5>
-						<p>
-							{session[1][0][1][0].session_date} {session[1][0][1][0].session_time}
-						</p>
-						<p>{session[1][0][1][0].session_hosts.split(";").join(", ")}</p>
+					<Col md="12" key={"session" + i} className={classNames(styles.session, "mb-4")}>
+						<h3 className={classNames("m-0")}>{session[0]}</h3>
+						<p className={classNames("m-0", styles.hostedBy)}>Hosted by {session[1][0][1][0].session_hosts.split(";").join(" and ")}</p>
+						<h6 className={classNames("m-0", styles.info)}>
+							<LocalIcon /> {session[1][0][1][0].session_date_obj.toLocaleString(DateTime.DATE_MED_WITH_WEEKDAY)} from{" "}
+							{session[1][0][1][0].session_time_obj[0].toLocaleString(DateTime.TIME_SIMPLE)} to{" "}
+							{session[1][0][1][0].session_time_obj[1].toLocaleString(DateTime.TIME_SIMPLE)}
+						</h6>
+						<h6 className={classNames("m-0", "mb-3", styles.info)}>
+							<RemoteIcon /> {session[1][0][1][0].session_date_obj.setZone(remoteZone).toLocaleString(DateTime.DATE_MED_WITH_WEEKDAY)} from{" "}
+							{session[1][0][1][0].session_time_obj[0].setZone(remoteZone).toLocaleString(DateTime.TIME_SIMPLE)} to{" "}
+							{session[1][0][1][0].session_time_obj[1].setZone(remoteZone).toLocaleString(DateTime.TIME_SIMPLE)}
+						</h6>
 						{session[1].map((group, ii) => (
-							<div key={"group" + ii} dataname={group[0]} className={classNames(styles.group)}>
+							<div key={"group" + ii} dataname={group[0]} className={classNames(styles.group, { [styles.separated]: ii !== session[1].length - 1 })}>
 								{group[1].map((talk, iii) => (
-									<div key={"talk" + iii}>
-										<p>{talk.time}</p>
-										<h6>{talk.title}</h6>
-										<p>{talk.speaker}</p>
+									<div key={"talk" + iii} className={classNames(styles.talk)}>
+										<p className={classNames("m-0")}></p>
 										{talk.contribution_id && (
-											<p>
-												<Link href={"/contributions/" + talk.contribution_id}>Read more</Link>
-											</p>
+											<>
+												<h5 className={classNames("m-0", "d-inline", "fw-bolder", styles.title)}>
+													{talk.title}
+													<Link href={"/contributions/" + talk.contribution_id}>
+														<a>
+															{" "}
+															<LinkIcon />
+														</a>
+													</Link>
+												</h5>
+											</>
 										)}
+										{!talk.contribution_id && <h5 className={classNames("m-0", "fw-bolder", styles.title)}>{talk.title}</h5>}
+										<p className={classNames("m-0", styles.authors)}>{talk.speaker}</p>
 									</div>
 								))}
 							</div>
 						))}
-					</div>
+					</Col>
 				))}
-			</div>
+			</Row>
 		</PageTemplate>
 	);
 }
