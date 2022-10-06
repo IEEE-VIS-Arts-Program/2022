@@ -15,17 +15,23 @@ import { DateTime } from "luxon";
 import { timeZonesNames } from "@vvo/tzdb";
 
 export default function Programme({ programmeData }) {
-	const [programme, setProgramme] = useState([]);
-	// default zone
 	const defaultZone = "America/Chicago";
-	// temp remote zone
-	const dt = DateTime.now();
-	const tempRemoteZone = dt.zoneName;
+	let tempRemoteZone = defaultZone;
+
+	// get remote zone
+	try {
+		const dt = DateTime.now();
+		tempRemoteZone = dt.zoneName;
+	} catch (err) {
+		console.warn("Can't get remote timezone");
+		console.error(err);
+	}
+	
 	// list of zones
 	const timezonesList = timeZonesNames.map((d) => ({ name: d, selected: d === tempRemoteZone }));
-	// console.log(timezonesList)
-	// remote zone
-	const [remoteZone, setRemoteZone] = useState(timezonesList.find((d) => d.selected).name);
+
+	const [programme, setProgramme] = useState([]);
+	const [remoteZone, setRemoteZone] = useState(tempRemoteZone);
 
 	useEffect(() => {
 		programmeData.forEach((d) => {
