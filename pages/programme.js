@@ -46,7 +46,7 @@ export default function Programme({ programmeData }) {
 		setProgramme(nestedData);
 	}, [programmeData]);
 	return (
-		<PageTemplate metaTitle="Organizers">
+		<PageTemplate metaTitle="Programme">
 			<h1 className={classNames("Xtext-gradient", "page-title")}>Programme</h1>
 			<Row className={classNames("mb-4")}>
 				<Col>
