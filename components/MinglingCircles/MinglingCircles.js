@@ -7,7 +7,7 @@ const Sketch = dynamic(() => import("react-p5").then((mod) => mod.default), {
 
 let d1,
 	d2,
-	k = 3,
+	k = 2.5,
 	inc = 0.001,
 	color1 = "#fba0bf",
 	zoff1 = 0,
