@@ -26,7 +26,7 @@ export default function Programme({ programmeData }) {
 		console.warn("Can't get remote timezone");
 		console.error(err);
 	}
-	
+
 	// list of zones
 	const timezonesList = timeZonesNames.map((d) => ({ name: d, selected: d === tempRemoteZone }));
 
@@ -48,10 +48,10 @@ export default function Programme({ programmeData }) {
 	return (
 		<PageTemplate metaTitle="Organizers">
 			<h1 className={classNames("Xtext-gradient", "page-title")}>Programme</h1>
-			<Row className={classNames("mb-3")}>
+			<Row className={classNames("mb-4")}>
 				<Col>
 					<p>
-						VISAP taks place in Oklahoma City, USA.
+						VISAP 2022 takes place in Oklahoma City, USA.
 						<br />
 						If you follow from remote, you can convert the schedule to your local time.
 					</p>
@@ -62,7 +62,7 @@ export default function Programme({ programmeData }) {
 						<RemoteIcon /> <span>Your timezone:</span> <span className="fw-bold">{remoteZone}</span>
 					</h6> */}
 					<h6 className={classNames("m-0", "d-inline", styles.info)}>
-						<RemoteIcon /> <span>Set your timezone: </span>
+						<RemoteIcon /> <span>Your timezone is </span>
 					</h6>
 					<select defaultValue={remoteZone} onChange={(event) => setRemoteZone(event.target.value)}>
 						{timezonesList.map((zone) => (
