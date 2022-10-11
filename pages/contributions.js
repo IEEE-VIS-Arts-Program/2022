@@ -18,7 +18,7 @@ export default function Contributions({ allContributionsData, metaContent }) {
 	const { basePath } = useRouter();
 	const masonryBreakpoints = {
 		default: 4,
-		1400: 3,
+		1400: 4,
 		1200: 3,
 		992: 2,
 		768: 2,
@@ -46,11 +46,6 @@ export default function Contributions({ allContributionsData, metaContent }) {
 							<h1 className={classNames("Xtext-gradient", "page-title")}>Visap&apos;22 Contributions</h1>
 							<div id="contributions-list" className={classNames("XstickyTitleSection")}>
 								<h6 className={classNames("Xsticky-top")}>Artworks, Pictorials and Papers</h6>
-								{/* <p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p> */}
 							</div>
 						</Col>
 						<Col
