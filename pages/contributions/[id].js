@@ -59,6 +59,13 @@ export default function Contribution({ data }) {
 				<p className={classNames("mb-5")} style={{ whiteSpace: "pre-line" }}>
 					{data.description.split("\n").join("\n")}
 				</p>
+				{data.website && (
+					<p className={classNames("mb-5")}>
+						<a className={classNames(styles.projectLink)} href={data.website}>
+							{data.website.replace("https://", "").replace("http://", "").replace("www.", "")}
+						</a>
+					</p>
+				)}
 			</Col>
 			{/* {data.video && (
 				<Col sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: 1 }} className={classNames("mb-5")}>
@@ -73,18 +80,19 @@ export default function Contribution({ data }) {
 				<Col key={"auth" + i} sm={{ span: 12, offset: 0 }} md={{ span: 10, offset: (i % 3) + 1 }}>
 					<Row className={classNames("d-flex", "align-items-center", "mb-5")}>
 						<Col sm={2}>
-							{author.images && author.images.map((authImage,i) => (
-								<div className={classNames({"mt-3":i>0})} key={"img-author-" + authImage} style={{ maxWidth: "30vw" }}>
-									<ExportedImage
-										src={basePath + "/images/contributions-media/" + data.pc_id + "/" + authImage.src}
-										alt={"Image of " + data.title}
-										layout="responsive"
-										width={authImage.width}
-										height={authImage.height}
-										placeholder="blur"
-									/>
-								</div>
-							))}
+							{author.images &&
+								author.images.map((authImage, i) => (
+									<div className={classNames({ "mt-3": i > 0 })} key={"img-author-" + authImage} style={{ maxWidth: "30vw" }}>
+										<ExportedImage
+											src={basePath + "/images/contributions-media/" + data.pc_id + "/" + authImage.src}
+											alt={"Image of " + data.title}
+											layout="responsive"
+											width={authImage.width}
+											height={authImage.height}
+											placeholder="blur"
+										/>
+									</div>
+								))}
 						</Col>
 						<Col sm={7}>
 							<p className={classNames("mt-0", "mb-0", "fw-semibold")}>
