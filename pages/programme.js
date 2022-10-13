@@ -77,14 +77,14 @@ export default function Programme({ programmeData }) {
 				{programme.map((session, i) => (
 					<Col md="12" key={"session" + i} className={classNames(styles.session, "mb-4")}>
 						<h3 className={classNames("m-0")}>{session[0]}</h3>
-						<p className={classNames("m-0", styles.hostedBy)}>Hosted by {session[1][0][1][0].session_hosts.split(";").join(" and ")}</p>
+						<p className={classNames("m-0", styles.hostedBy)}>Hosted by {session[1][0][1][0].session_hosts.split(";").join(", ")}</p>
 						<h6 className={classNames("m-0", styles.info)}>
-							<LocalIcon /> {session[1][0][1][0].session_date_obj.toLocaleString(DateTime.DATE_MED_WITH_WEEKDAY)} from{" "}
+							<LocalIcon /> {session[1][0][1][0].session_time_obj[0].toLocaleString(DateTime.DATE_MED_WITH_WEEKDAY)} from{" "}
 							{session[1][0][1][0].session_time_obj[0].toLocaleString(DateTime.TIME_SIMPLE)} to{" "}
 							{session[1][0][1][0].session_time_obj[1].toLocaleString(DateTime.TIME_SIMPLE)}
 						</h6>
 						<h6 className={classNames("m-0", "mb-3", styles.info)}>
-							<RemoteIcon /> {session[1][0][1][0].session_date_obj.setZone(remoteZone).toLocaleString(DateTime.DATE_MED_WITH_WEEKDAY)} from{" "}
+							<RemoteIcon /> {session[1][0][1][0].session_time_obj[0].setZone(remoteZone).toLocaleString(DateTime.DATE_MED_WITH_WEEKDAY)} from{" "}
 							{session[1][0][1][0].session_time_obj[0].setZone(remoteZone).toLocaleString(DateTime.TIME_SIMPLE)} to{" "}
 							{session[1][0][1][0].session_time_obj[1].setZone(remoteZone).toLocaleString(DateTime.TIME_SIMPLE)}
 						</h6>
