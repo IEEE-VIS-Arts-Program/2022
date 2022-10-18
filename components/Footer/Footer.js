@@ -38,11 +38,17 @@ export default function Footer() {
 								<Link href="/submission">Submission instructions</Link>
 							</div>
 							<div className={classNames("mt-5")}>
-								<a href="http://ieeevis.org/year/2022/welcome" target="_blank" rel="noreferrer">
-									<img src={logoVis.src} style={{ width: "2rem" }} alt="IEEE VIS logo" className={classNames("me-2")} />
+								<a
+									href="http://ieeevis.org/year/2022/welcome"
+									target="_blank"
+									rel="noreferrer"
+									style={{ display: "inline-block", width: "2rem" }}
+									className={classNames("me-2")}
+								>
+									<ExportedImage src={logoVis.src} layout="responsive" width={logoVis.width} height={logoVis.height} alt="IEEE VIS logo" />
 								</a>
-								<a href="https://twitter.com/visapnet" target="_blank" rel="noreferrer">
-									<img src={logoTwitter.src} style={{ width: "2rem" }} alt="Twitter logo" />
+								<a href="https://twitter.com/visapnet" target="_blank" rel="noreferrer" style={{ display: "inline-block", width: "2rem" }}>
+									<ExportedImage src={logoTwitter.src} width={logoTwitter.width} height={logoTwitter.height} layout="responsive" alt="Twitter logo" />
 								</a>
 							</div>
 						</div>
@@ -50,62 +56,48 @@ export default function Footer() {
 					<Col xs={12} md={4} lg={4} xl={6} className={classNames("mb-5")}>
 						<h6 className={classNames("mb-3", "text-gradient")}>Supporters</h6>
 						<div className="logos mb-3">
-								<a className="logo" href="https://www.autodesk.com/" target="_blank" rel="noreferrer">
-									<ExportedImage
-										src={logoAutodesk}
-										alt="Autodesk Logo"
-										layout="fill"
-										objectFit="contain"
-										objectPosition="left center"
-									/>
-								</a>
-							</div>
-							<div className="logos mb-3">
-								<a className="logo" href="https://www.uvic.ca/ecs/computerscience" target="_blank" rel="noreferrer">
-									<ExportedImage
-										src={logoUniVictoria}
-										alt="Logo of Department of computer science, University of Victoria"
-										layout="fill"
-										objectFit="contain"
-										objectPosition="left center"
-									/>
-								</a>
-							</div>
-							<div className="logos mb-3">
-								<a className="logo" href="https://www.ou.edu/finearts/visual-arts" target="_blank" rel="noreferrer">
-									<ExportedImage
-										src={logoSchoolVisualArts}
-										alt="Logo of School of Visual Arts, University of Oklahoma"
-										layout="fill"
-										objectFit="contain"
-										objectPosition="left center"
-									/>
-								</a>
-							</div>
-							<div className="logos mb-3">
-								<a className="logo" href="http://ieeevis.org/year/2022/welcome" target="_blank" rel="noreferrer">
-									<ExportedImage
-										src={logoIEEE}
-										alt="Logo of IEEE"
-										layout="fill"
-										objectFit="contain"
-										objectPosition="left center"
-									/>
-								</a>
-							</div>
-							<div className="logos mb-3">
-								<a className="logo" href="https://creativeinformatics.org/" target="_blank" rel="noreferrer">
-									<ExportedImage
-										src={logoCreativeInformatics}
-										alt="Logo of Creative Informatics"
-										layout="fill"
-										objectFit="contain"
-										objectPosition="left center"
-									/>
-								</a>
-							</div>
-
-							
+							<a className="logo" href="https://www.autodesk.com/" target="_blank" rel="noreferrer">
+								<ExportedImage src={logoAutodesk} alt="Autodesk Logo" layout="fill" objectFit="contain" objectPosition="left center" />
+							</a>
+						</div>
+						<div className="logos mb-3">
+							<a className="logo" href="https://www.uvic.ca/ecs/computerscience" target="_blank" rel="noreferrer">
+								<ExportedImage
+									src={logoUniVictoria}
+									alt="Logo of Department of computer science, University of Victoria"
+									layout="fill"
+									objectFit="contain"
+									objectPosition="left center"
+								/>
+							</a>
+						</div>
+						<div className="logos mb-3">
+							<a className="logo" href="https://www.ou.edu/finearts/visual-arts" target="_blank" rel="noreferrer">
+								<ExportedImage
+									src={logoSchoolVisualArts}
+									alt="Logo of School of Visual Arts, University of Oklahoma"
+									layout="fill"
+									objectFit="contain"
+									objectPosition="left center"
+								/>
+							</a>
+						</div>
+						<div className="logos mb-3">
+							<a className="logo" href="http://ieeevis.org/year/2022/welcome" target="_blank" rel="noreferrer">
+								<ExportedImage src={logoIEEE} alt="Logo of IEEE" layout="fill" objectFit="contain" objectPosition="left center" />
+							</a>
+						</div>
+						<div className="logos mb-3">
+							<a className="logo" href="https://creativeinformatics.org/" target="_blank" rel="noreferrer">
+								<ExportedImage
+									src={logoCreativeInformatics}
+									alt="Logo of Creative Informatics"
+									layout="fill"
+									objectFit="contain"
+									objectPosition="left center"
+								/>
+							</a>
+						</div>
 					</Col>
 					<Col xs={12} md={4} lg={3} xl={3} className={classNames("mb-5")}>
 						<h6 className={classNames("mb-3", "text-gradient")}>Previous editions</h6>

@@ -46,7 +46,7 @@ export default function Contributions({ allContributionsData, metaContent }) {
 							<h1 className={classNames("page-title")}>Visap&apos;22 Contributions</h1>
 							<h6 className={classNames()}>Artworks, Pictorials and Papers</h6>
 							<p className={classNames()}>
-								Browse the online exhibit or download the <a href={basePath + "/VISAP22_catalogue_v6.pdf"} target="_blank" rel="noreferrer">VISAP'22 catalogue</a>.
+								Browse the online exhibit or download the <a href={basePath + "/VISAP22_catalogue_v6.pdf"} target="_blank" rel="noreferrer">VISAP&apos;22 catalogue</a>.
 							</p>
 						</Col>
 						<Col
