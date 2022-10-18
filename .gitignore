@@ -41,8 +41,3 @@ yarn-error.log*
 # data/people.json
 # data/programme.json
 
-public/images/nextImageExportOptimizer/
-public/images/contributions-media/*/nextImageExportOptimizer
-public/images/home-gallery/nextImageExportOptimizer/
-public/images/next-image-export-optimizer-hashes.json
-
