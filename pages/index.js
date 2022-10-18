@@ -82,12 +82,10 @@ export default function Home() {
 							<p>
 								Read more about the theme in the <Link href="/call-for-entries">Call for Entries</Link> page.
 							</p>
-							{/* <h5 className={classNames("mt-4")}>Important Dates</h5> */}
-							{/* <Dates /> */}
 							<h5 className={classNames("mt-4")} id="supporters">
 								Supporters
 							</h5>
-							<p>VISAP'22 is possible thanks to the support of:</p>
+							<p>VISAP&apos;22 is possible thanks to the support of:</p>
 							<div className="logos my-5">
 								<a className="logo" href="https://www.autodesk.com/" target="_blank" rel="noreferrer">
 									<ExportedImage src={logoAutodesk} alt="Autodesk Logo" layout="fill" objectFit="contain" objectPosition="left center" />
