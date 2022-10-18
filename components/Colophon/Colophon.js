@@ -1,7 +1,7 @@
 import styles from "./Colophon.module.scss";
 import classNames from "classnames";
-import visapLogo from "../../images/logo-visap.png";
-import visapLogoLight from "../../images/logo-white.svg";
+import visapLogo from "./public/images/logo-visap.png";
+import visapLogoLight from "./public/images/logo-white.svg";
 import Link from "next/link";
 
 export default function Colophon({lightVariant}) {

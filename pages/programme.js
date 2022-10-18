@@ -48,7 +48,7 @@ export default function Programme({ programmeData }) {
 	return (
 		<PageTemplate metaTitle="Programme">
 			<h1 className={classNames("Xtext-gradient", "page-title")}>Programme</h1>
-			<Row className={classNames("mb-4")}>
+			<Row className={classNames("mb-0")}>
 				<Col>
 					<p>
 						VISAP 2022 takes place in Oklahoma City, USA.
@@ -58,9 +58,6 @@ export default function Programme({ programmeData }) {
 					<h6 className={classNames("m-0", "mb-2", styles.info)}>
 						<LocalIcon /> <span className={classNames()}>Conference timezone is</span> <span className="fw-bold">Oklahoma City ({defaultZone})</span>
 					</h6>
-					{/* <h6 className={classNames("m-0", styles.info)}>
-						<RemoteIcon /> <span>Your timezone:</span> <span className="fw-bold">{remoteZone}</span>
-					</h6> */}
 					<h6 className={classNames("m-0", "d-inline", styles.info)}>
 						<RemoteIcon /> <span>Your timezone is </span>
 					</h6>
@@ -71,6 +68,7 @@ export default function Programme({ programmeData }) {
 							</option>
 						))}
 					</select>
+					<p className="my-4">Presenters* are identified by an asterisk.</p>
 				</Col>
 			</Row>
 			<Row className={classNames(styles.grid)}>

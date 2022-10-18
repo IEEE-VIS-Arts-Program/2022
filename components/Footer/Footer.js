@@ -1,20 +1,20 @@
 import styles from "./Footer.module.scss";
 import { Container, Col, Row } from "react-bootstrap";
 import previousEditions from "./previous-editions.json";
-import logoVisap from "../../images/logo-white.svg";
-import logoVis from "../../images/logo-vis.svg";
-import logoTwitter from "../../images/logo-twitter.png";
+import logoVisap from "../../public/images/logo-white.svg";
+import logoVis from "../../public/images/logo-vis.svg";
+import logoTwitter from "../../public/images/logo-twitter.png";
 
 import classNames from "classnames";
 import Link from "next/link";
 
 import ExportedImage from "next-image-export-optimizer";
 
-import logoAutodesk from "../../images/logo-autodesk-white.png";
-import logoUniVictoria from "../../images/logo_UNI_VICT_CS.jpeg";
-import logoIEEE from "../../images/ieee-logo-white.png";
-import logoSchoolVisualArts from "../../images/School_Of_Visual_Arts_Linear_White_Web.png";
-import logoCreativeInformatics from "../../images/logo_CI_white.png";
+import logoAutodesk from "../../public/images/logo-autodesk-white.png";
+import logoUniVictoria from "../../public/images/logo_UNI_VICT_CS-white.png";
+import logoIEEE from "../../public/images/ieee-logo-white.png";
+import logoSchoolVisualArts from "../../public/images/School_Of_Visual_Arts_Linear_White_Web.png";
+import logoCreativeInformatics from "../../public/images/logo_CI_white.png";
 
 export default function Footer() {
 	const hostName = "https://visap.net";
@@ -38,10 +38,10 @@ export default function Footer() {
 								<Link href="/submission">Submission instructions</Link>
 							</div>
 							<div className={classNames("mt-5")}>
-								<a href="http://ieeevis.org/year/2022/welcome">
+								<a href="http://ieeevis.org/year/2022/welcome" target="_blank" rel="noreferrer">
 									<img src={logoVis.src} style={{ width: "2rem" }} alt="IEEE VIS logo" className={classNames("me-2")} />
 								</a>
-								<a href="https://twitter.com/visapnet">
+								<a href="https://twitter.com/visapnet" target="_blank" rel="noreferrer">
 									<img src={logoTwitter.src} style={{ width: "2rem" }} alt="Twitter logo" />
 								</a>
 							</div>
@@ -50,7 +50,7 @@ export default function Footer() {
 					<Col xs={12} md={4} lg={4} xl={6} className={classNames("mb-5")}>
 						<h6 className={classNames("mb-3", "text-gradient")}>Supporters</h6>
 						<div className="logos mb-3">
-								<div className="logo">
+								<a className="logo" href="https://www.autodesk.com/" target="_blank" rel="noreferrer">
 									<ExportedImage
 										src={logoAutodesk}
 										alt="Autodesk Logo"
@@ -58,10 +58,10 @@ export default function Footer() {
 										objectFit="contain"
 										objectPosition="left center"
 									/>
-								</div>
+								</a>
 							</div>
 							<div className="logos mb-3">
-								<div className="logo">
+								<a className="logo" href="https://www.uvic.ca/ecs/computerscience" target="_blank" rel="noreferrer">
 									<ExportedImage
 										src={logoUniVictoria}
 										alt="Logo of Department of computer science, University of Victoria"
@@ -69,10 +69,10 @@ export default function Footer() {
 										objectFit="contain"
 										objectPosition="left center"
 									/>
-								</div>
+								</a>
 							</div>
 							<div className="logos mb-3">
-								<div className="logo">
+								<a className="logo" href="https://www.ou.edu/finearts/visual-arts" target="_blank" rel="noreferrer">
 									<ExportedImage
 										src={logoSchoolVisualArts}
 										alt="Logo of School of Visual Arts, University of Oklahoma"
@@ -80,10 +80,10 @@ export default function Footer() {
 										objectFit="contain"
 										objectPosition="left center"
 									/>
-								</div>
+								</a>
 							</div>
 							<div className="logos mb-3">
-								<div className="logo">
+								<a className="logo" href="http://ieeevis.org/year/2022/welcome" target="_blank" rel="noreferrer">
 									<ExportedImage
 										src={logoIEEE}
 										alt="Logo of IEEE"
@@ -91,10 +91,10 @@ export default function Footer() {
 										objectFit="contain"
 										objectPosition="left center"
 									/>
-								</div>
+								</a>
 							</div>
 							<div className="logos mb-3">
-								<div className="logo">
+								<a className="logo" href="https://creativeinformatics.org/" target="_blank" rel="noreferrer">
 									<ExportedImage
 										src={logoCreativeInformatics}
 										alt="Logo of Creative Informatics"
@@ -102,7 +102,7 @@ export default function Footer() {
 										objectFit="contain"
 										objectPosition="left center"
 									/>
-								</div>
+								</a>
 							</div>
 
 							

@@ -2,7 +2,7 @@ import styles from "./Header.module.scss";
 import classNames from "classnames";
 import Link from "next/link";
 // import visapLogoLight from "../../images/logo-white.svg";
-import visapLogo from "../../images/logo-visap.png";
+import visapLogo from "../../public/images/logo-visap.png";
 
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import DropdownItemLink from "../DropdownItemLink";

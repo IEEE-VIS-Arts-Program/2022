@@ -16,7 +16,7 @@ export default function GalleryHome({ classNameProp }) {
 
 	importAll(
 		require.context(
-			"../../images/home-gallery",
+			"../../public/images/home-gallery",
 			true,
 			/\.(png|gif|ico|jpg|jpeg)$/
 		)

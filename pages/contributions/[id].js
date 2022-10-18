@@ -28,7 +28,7 @@ export default function Contribution({ data }) {
 				xl={{ span: 8, offset: 2 }}
 				className={classNames(styles.pageTitle, "mb-5")}
 			>
-				<h6 className={classNames(styles.category, "mt-5", "mb-2")}>{data.type + " " + data.pc_id}</h6>
+				<h6 className={classNames(styles.category, "mt-5", "mb-2")}>{data.type}</h6>
 				<h1 className={classNames("mt-0", "mb-2")}>{data.title}</h1>
 				<p className={classNames("mt-0", "mb-0")}>{data.authors.map((d) => `${d.name} ${d.surname}`).join(", ")}</p>
 				{/* {data.keywords && <p>{data.keywords.split(";").join(", ")}</p>} */}

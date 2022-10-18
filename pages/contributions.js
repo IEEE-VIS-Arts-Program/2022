@@ -41,12 +41,13 @@ export default function Contributions({ allContributionsData, metaContent }) {
 							md={{ span: 10, offset: 1 }}
 							lg={{ span: 8, offset: 2 }}
 							xl={{ span: 8, offset: 2 }}
-							className={classNames(stylesPageTemplate.pageTitle, "mb-5")}
+							className={classNames(stylesPageTemplate.pageTitle, "mb-3")}
 						>
-							<h1 className={classNames("Xtext-gradient", "page-title")}>Visap&apos;22 Contributions</h1>
-							<div id="contributions-list" className={classNames("XstickyTitleSection")}>
-								<h6 className={classNames("Xsticky-top")}>Artworks, Pictorials and Papers</h6>
-							</div>
+							<h1 className={classNames("page-title")}>Visap&apos;22 Contributions</h1>
+							<h6 className={classNames()}>Artworks, Pictorials and Papers</h6>
+							<p className={classNames()}>
+								Browse the online exhibit or download the <a href={basePath + "/VISAP22_catalogue_v6.pdf"} target="_blank" rel="noreferrer">VISAP'22 catalogue</a>.
+							</p>
 						</Col>
 						<Col
 							sm={{ span: 12, offset: 0 }}

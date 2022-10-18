@@ -10,14 +10,13 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ExportedImage from "next-image-export-optimizer";
-
 import MinglingCircles from "../components/MinglingCircles";
 
-import logoAutodesk from "../images/logo-autodesk.png";
-import logoUniVictoria from "../images/logo_UNI_VICT_CS.jpeg";
-import logoIEEE from "../images/ieee-logo-black.png";
-import logoSchoolVisualArts from "../images/School_Of_Visual_Arts_Linear_Black_Web.png";
-import logoCreativeInformatics from "../images/logo_CI_black.png";
+import logoUniVictoria from "../public/images/logo_UNI_VICT_CS.jpeg";
+import logoIEEE from "../public/images/ieee-logo-black.png";
+import logoSchoolVisualArts from "../public/images/School_Of_Visual_Arts_Linear_Black_Web.png";
+import logoCreativeInformatics from "../public/images/logo_CI_black.png";
+import logoAutodesk from "../public/images/logo-autodesk.png";
 
 export default function Home() {
 	return (
@@ -85,20 +84,17 @@ export default function Home() {
 							</p>
 							{/* <h5 className={classNames("mt-4")}>Important Dates</h5> */}
 							{/* <Dates /> */}
-							<h5 className={classNames("mt-4")} id="supporters">Supporters</h5>
-							<div className="logos mb-5">
-								<div className="logo">
-									<ExportedImage
-										src={logoAutodesk}
-										alt="Autodesk Logo"
-										layout="fill"
-										objectFit="contain"
-										objectPosition="left center"
-									/>
-								</div>
+							<h5 className={classNames("mt-4")} id="supporters">
+								Supporters
+							</h5>
+							<p>VISAP'22 is possible thanks to the support of:</p>
+							<div className="logos my-5">
+								<a className="logo" href="https://www.autodesk.com/" target="_blank" rel="noreferrer">
+									<ExportedImage src={logoAutodesk} alt="Autodesk Logo" layout="fill" objectFit="contain" objectPosition="left center" />
+								</a>
 							</div>
 							<div className="logos mb-5">
-								<div className="logo">
+								<a className="logo" href="https://www.uvic.ca/ecs/computerscience" target="_blank" rel="noreferrer">
 									<ExportedImage
 										src={logoUniVictoria}
 										alt="Logo of Department of computer science, University of Victoria"
@@ -106,10 +102,10 @@ export default function Home() {
 										objectFit="contain"
 										objectPosition="left center"
 									/>
-								</div>
+								</a>
 							</div>
 							<div className="logos mb-5">
-								<div className="logo">
+								<a className="logo" href="https://www.ou.edu/finearts/visual-arts" target="_blank" rel="noreferrer">
 									<ExportedImage
 										src={logoSchoolVisualArts}
 										alt="Logo of School of Visual Arts, University of Oklahoma"
@@ -117,39 +113,27 @@ export default function Home() {
 										objectFit="contain"
 										objectPosition="left center"
 									/>
-								</div>
+								</a>
 							</div>
 							<div className="logos mb-5">
-								<div className="logo">
-									<ExportedImage
-										src={logoIEEE}
-										alt="Logo of IEEE"
-										layout="fill"
-										objectFit="contain"
-										objectPosition="left center"
-									/>
-								</div>
+								<a className="logo" href="http://ieeevis.org/year/2022/welcome" target="_blank" rel="noreferrer">
+									<ExportedImage src={logoIEEE} alt="Logo of IEEE" layout="fill" objectFit="contain" objectPosition="left center" />
+								</a>
 							</div>
 							<div className="logos mb-5">
-								<div className="logo">
-									<ExportedImage
-										src={logoCreativeInformatics}
-										alt="Logo of IEEE"
-										layout="fill"
-										objectFit="contain"
-										objectPosition="left center"
-									/>
-								</div>
+								<a className="logo" href="https://creativeinformatics.org/" target="_blank" rel="noreferrer">
+									<ExportedImage src={logoCreativeInformatics} alt="Logo of IEEE" layout="fill" objectFit="contain" objectPosition="left center" />
+								</a>
 							</div>
 
-							<h5 className={classNames("mt-4")}>From VISAP&apos;21</h5>
+							{/* <h5 className={classNames("mt-4")}>From VISAP&apos;21</h5>
 							<h6 className={classNames("mt-3")}>Exhibition</h6>
 							<GalleryHome classNameProp="mt-3" />
 							<h6 className={classNames("mt-3")}>Fast Forwards</h6>
 							<ResponsiveVideo classNameProp="mt-3" url="https://www.youtube.com/watch?v=Tv1Anrwf8z4" />
 							<p className={classNames("mt-3")}>
 								Discover more in the website of <Link href="https://visap.net/2021/">Visap21</Link>
-							</p>
+							</p> */}
 						</Col>
 					</Row>
 				</Container>
