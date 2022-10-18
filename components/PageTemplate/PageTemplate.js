@@ -3,7 +3,6 @@ import Header from "../Header";
 import Footer from "../Footer";
 import styles from "./PageTemplate.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
-import Colophon from "../Colophon";
 import classNames from "classnames";
 import MinglingCircles from "../MinglingCircles";
 
