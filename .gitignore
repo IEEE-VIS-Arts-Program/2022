@@ -41,4 +41,5 @@ yarn-error.log*
 # data/people.json
 # data/programme.json
 
-/public/images/nextImageExportOptimizer
+public/images/nextImageExportOptimizer/
+/public/images/nextImageExportOptimizer/
